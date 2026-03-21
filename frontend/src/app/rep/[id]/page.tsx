@@ -73,16 +73,6 @@ export default function RepPage() {
   const topicData = getTopicBreakdown(rep.bills);
   const progressRate = getBillProgressRate(rep.bills);
 
-  // Use Gemini score if available, else compute locally
-  const activityScore = scores?.activity_score ?? (() => {
-    const actualBills = rep.bills.filter(
-      (b) => !b.classification.includes("resolution") && !b.classification.includes("memorial")
-    );
-    return Math.min(100, Math.round(
-      (actualBills.length / 20) * 40 + (progressRate / 100) * 35 + (Math.min(topicData.length, 6) / 6) * 25
-    ));
-  })();
-
   const impactColor = scores?.impact_rating === "High Impact" ? "#22c55e" : scores?.impact_rating === "Moderate Impact" ? "#f59e0b" : "#94a3b8";
 
   return (
@@ -230,15 +220,38 @@ export default function RepPage() {
                 <Scale className="w-4 h-4" />
                 Say vs. Do Score
               </h3>
-              <ScoreGauge score={activityScore} label="Say vs. Do" />
-              {scores?.topic_focus && (
-                <p className="text-xs text-slate-400 mt-3 italic">
-                  {scores.topic_focus}
-                </p>
-              )}
-              <p className="text-xs text-slate-500 mt-2 px-2">
-                Measures how well this rep&apos;s legislative actions align with their stated priorities. Higher = more follow-through.
+
+              {/* Show real score if statements exist, otherwise show awaiting */}
+              <div className="relative">
+                <ScoreGauge score={0} label="Say vs. Do" />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="bg-slate-900/90 rounded-xl px-4 py-3 text-center">
+                    <p className="text-sm font-medium text-amber-400 mb-1">Coming Soon</p>
+                    <p className="text-xs text-slate-400">Awaiting public statements data</p>
+                  </div>
+                </div>
+              </div>
+
+              <p className="text-xs text-slate-500 mt-3 px-2">
+                The Say vs. Do score compares what reps <strong className="text-slate-300">say</strong> they&apos;ll work on against what they <strong className="text-slate-300">actually</strong> legislate. Once public statements are collected, this score will show their follow-through.
               </p>
+
+              {/* Bill stats preview */}
+              <div className="mt-4 pt-4 border-t border-slate-700/50 space-y-2 text-left">
+                <p className="text-xs text-slate-500 font-medium mb-2">Legislative Activity (Do side ready):</p>
+                <div className="flex justify-between text-xs">
+                  <span className="text-slate-400">Bills Sponsored</span>
+                  <span className="text-white font-medium">{rep.bills.length}</span>
+                </div>
+                <div className="flex justify-between text-xs">
+                  <span className="text-slate-400">Bills Advanced</span>
+                  <span className="text-white font-medium">{scores?.bill_progress_rate ?? progressRate}%</span>
+                </div>
+                <div className="flex justify-between text-xs">
+                  <span className="text-slate-400">Topics Covered</span>
+                  <span className="text-white font-medium">{topicData.length}</span>
+                </div>
+              </div>
             </motion.div>
 
             {/* Key Issues */}
@@ -366,10 +379,6 @@ export default function RepPage() {
               transition={{ delay: 0.1 }}
               className="glass-card rounded-xl p-6"
             >
-              <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
-                <FileText className="w-5 h-5 text-blue-400" />
-                All Sponsored Bills ({rep.bills.length})
-              </h3>
               <BillList bills={rep.bills} />
             </motion.div>
 

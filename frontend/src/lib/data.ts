@@ -29,6 +29,18 @@ export interface NotableBill {
   why_notable: string;
 }
 
+export interface ScoreBreakdownItem {
+  value: number;
+  weight: number;
+}
+
+export interface ScoreBreakdown {
+  bill_progress: ScoreBreakdownItem;
+  substantive_ratio: ScoreBreakdownItem;
+  topic_diversity: ScoreBreakdownItem;
+  bill_volume: ScoreBreakdownItem;
+}
+
 export interface RepScores {
   activity_score: number | null;
   bill_progress_rate: number | null;
@@ -42,6 +54,8 @@ export interface RepScores {
   constituent_relevance: string;
   strengths: string;
   gaps: string;
+  score_breakdown?: ScoreBreakdown;
+  formula_breakdown?: string;
 }
 
 export interface ScoredRep {

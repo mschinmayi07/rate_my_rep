@@ -60,15 +60,7 @@ export default function RepCard({ rep, index }: RepCardProps) {
                   </div>
                 )}
               </div>
-              {/* Score badge */}
-              {score != null && (
-                <div
-                  className="absolute -bottom-1 -right-1 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold text-white border-2 border-slate-900"
-                  style={{ backgroundColor: getScoreColor(score) }}
-                >
-                  {score}
-                </div>
-              )}
+              {/* Score badge - will show Say vs Do score once statements arrive */}
             </div>
 
             {/* Info */}
