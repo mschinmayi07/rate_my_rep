@@ -388,6 +388,8 @@ export default function RepPage() {
                 repName={rep.name}
                 repEmail={rep.email}
                 district={rep.district}
+                bills={rep.bills}
+                sayVsDoScore={scores?.activity_score}
               />
             </motion.div>
           </div>
