@@ -1,0 +1,521 @@
+🗳️ RateMyRep — Complete Team Brief & Build Plan
+What We're Building
+A web app where any Arizona resident enters their zip code and instantly sees whether their state representative actually does what they promise. The hero feature is a Say vs. Do Score — an AI-computed alignment index between a rep's public statements and their actual voting record.
+One line pitch:
+
+"Enter your Arizona zip code. Find out if your rep keeps their promises."
+
+
+The Problem We're Solving
+Most people have no idea how their local representative actually votes. Civic transparency tools exist for federal politicians but almost nobody covers state-level reps. Arizona state legislators make decisions that directly affect ASU students — education funding, housing, healthcare — yet most residents couldn't name their rep let alone track their votes.
+
+Target User
+Arizona residents — especially first-generation voters, college students, and local activists — who want to hold their rep accountable but don't have time to research voting records themselves.
+
+Hackathon Context
+
+Event: HackASU — Claude Builder Club Hackathon
+Dates: March 20–22, 2026. Deadline Sunday 2pm HARD
+Track: Governance & Collaboration (Track 4)
+Judging: Impact 25pts + Technical 30pts + Ethics 25pts + Presentation 20pts = 100pts
+Requirement: Use Claude or any capable AI model meaningfully
+Submission: YouTube video + public GitHub repo + deployed link
+
+
+Tech Stack
+LayerToolWhyVoting dataOpenStates API (free)Official AZ voting recordsWeb scrapingTinyFish API (500 free steps)Scrapes Ballotpedia + campaign sitesDatabase + backendInsForge (promo: INSFORGEXASU, $10 credits)Free Postgres DB + backendAI modelGemini 2.0 Flash (free) via Google AI StudioPrimary free modelAI model backupClaude Haiku via OpenRouterIf free credits availableEmbeddingssentence-transformers (all-MiniLM-L6-v2)Say vs. Do similarity scoringFrontendNext.jsClean UI, easy Vercel deployHostingVercelFree, instant deploy
+
+Team Roles
+PersonRoleDS Person 1OpenStates data pipeline, voting records, Say vs. Do scoreDS Person 2Embeddings, topic clustering, radar chart, confidence scoringAI/Agents PersonInsForge setup, AI integration, TinyFish scraping, frontend
+
+Data Sources
+DataSourceNotesAZ legislatorsOpenStates APIRegister at openstates.org/api/registerVoting recordsOpenStates APIAll votes this sessionBill detailsOpenStates APIBill titles + descriptionsPublic statementsTinyFish → Ballotpedia~3 steps per repCampaign quotesTinyFish → rep websites~3 steps per repZip → district mapOpenStates APIBuilt inPopulation dataCensus (hardcode)Just need 4–5 city populations
+
+Core Features (Must Have)
+1. Zip code lookup
+User enters AZ zip → app finds their state rep → shows profile
+2. Rep profile page
+
+Name, party, district
+Say vs. Do Score (1–100) with confidence indicator
+Topic radar chart (what they actually vote on)
+Recent votes in plain English
+3 specific statement vs. vote contradiction examples
+
+3. Contact your rep
+User types their issue → AI drafts personalized email/call script
+
+The Say vs. Do Score — How It Works
+This is the hero feature. Here's the exact methodology:
+Step 1 — Embed all public statements using sentence-transformers
+Step 2 — Create vote stance descriptions:
+"Voted YES on HB2853 Teacher Pay Raise Act (education)"
+"Voted NO on SB1234 Medicaid Expansion (healthcare)"
+Step 3 — Send potential contradictions to AI for reasoning:
+Statement: "I strongly support public education funding"
+Vote: "Voted NO on teacher pay raise bill"
+→ AI rates contradiction 1–5 and explains why
+Step 4 — Aggregate into final score (1–100)
+Higher = more aligned. Lower = more contradictions found.
+Step 5 — Always show confidence level based on data volume:
+
+Fewer than 5 votes = "insufficient data"
+5–15 votes = "low confidence"
+15+ votes = "moderate confidence"
+
+
+Ethics Layer (Worth 25 Points — Don't Skip)
+Every rep profile must have:
+
+Source link on every single stat
+Confidence indicator on the Say vs. Do score
+Disclaimer: "Data sourced from OpenStates and public records. This tool does not endorse or oppose any candidate."
+
+In your presentation say:
+
+"We thought carefully about misuse. Someone could weaponize this to attack a politician unfairly. Our mitigations are: source transparency on every claim, confidence scores that reflect data quality, and direct links to official records so users can verify everything themselves."
+
+
+Scope — Stick To This
+
+✅ Arizona state reps only
+✅ Current session only
+✅ 30 reps (one per district) — covers 100% of AZ zip codes
+❌ No federal reps
+❌ No historical sessions
+❌ No other states
+
+
+⏱️ Hour by Hour Build Plan
+
+TONIGHT — Hours 0–3: Setup (All 3 in parallel)
+DS Person 1
+
+Register OpenStates API: openstates.org/api/register
+Run first test call — pull all AZ legislators:
+
+pythonimport requests
+response = requests.get(
+    "https://v3.openstates.org/people",
+    params={
+        "jurisdiction": "az",
+        "org_classification": "lower",
+        "apikey": YOUR_KEY
+    }
+)
+print(response.json())
+
+Confirm you get rep names, districts, party
+Pull voting records for 2–3 reps to verify data quality
+Save ALL raw data as local JSON immediately — never hit the API twice
+
+DS Person 2
+
+Set up Python environment
+Install dependencies:
+
+bashpip install sentence-transformers pandas numpy scikit-learn
+
+Test one embedding to confirm working:
+
+pythonfrom sentence_transformers import SentenceTransformer
+model = SentenceTransformer('all-MiniLM-L6-v2')
+emb = model.encode("I support education funding")
+print(emb.shape)  # should be (384,)
+
+Sketch the data schema you expect from DS Person 1
+
+AI/Agents Person
+
+Sign up InsForge at insforge.dev, use promo code INSFORGEXASU
+Get your INSFORGE_BASE_URL and INSFORGE_ANON_KEY from dashboard
+Sign up Google AI Studio: aistudio.google.com — get free Gemini API key
+Test one Gemini call:
+
+pythonimport google.generativeai as genai
+genai.configure(api_key=YOUR_KEY)
+model = genai.GenerativeModel('gemini-2.0-flash')
+response = model.generate_content("Tag this bill topic in one word: Teacher Pay Raise Act")
+print(response.text)
+
+Test one TinyFish call:
+
+pythonimport requests
+response = requests.post(
+    "https://agent.tinyfish.ai/v1/automation/run-sse",
+    headers={"X-API-Key": YOUR_TINYFISH_KEY},
+    json={
+        "url": "https://ballotpedia.org/Russell_Bowers",
+        "goal": """Extract all public political quotes and 
+                   statements. Return JSON array: 
+                   [{date, statement, topic_hint}]"""
+    },
+    stream=True
+)
+# parse SSE stream for COMPLETE event
+
+Set up InsForge Postgres tables:
+
+sql-- reps table
+CREATE TABLE reps (
+  id TEXT PRIMARY KEY,
+  name TEXT,
+  party TEXT,
+  district TEXT,
+  ballotpedia_url TEXT,
+  say_vs_do_score INTEGER,
+  confidence TEXT
+);
+
+-- votes table  
+CREATE TABLE votes (
+  id TEXT PRIMARY KEY,
+  rep_id TEXT,
+  bill_title TEXT,
+  vote TEXT,
+  topic TEXT,
+  plain_english TEXT,
+  date DATE
+);
+
+-- statements table
+CREATE TABLE statements (
+  id TEXT PRIMARY KEY,
+  rep_id TEXT,
+  statement TEXT,
+  date TEXT,
+  source TEXT
+);
+Checkpoint Hour 3:
+
+✅ OpenStates returning AZ rep data
+✅ Gemini API responding
+✅ TinyFish returning statements from Ballotpedia
+✅ InsForge tables created
+
+
+TONIGHT — Hours 3–10: Data Pipeline
+DS Person 1 — Voting Pipeline
+Pull and clean all data for 30 reps:
+pythonimport requests
+import json
+
+def get_az_reps(api_key):
+    reps = []
+    # Get House reps
+    response = requests.get(
+        "https://v3.openstates.org/people",
+        params={
+            "jurisdiction": "az",
+            "org_classification": "lower",
+            "per_page": 50,
+            "apikey": api_key
+        }
+    )
+    reps.extend(response.json()['results'])
+    return reps[:30]  # top 30 most active
+
+def get_rep_votes(rep_id, api_key):
+    response = requests.get(
+        "https://v3.openstates.org/votes",
+        params={
+            "jurisdiction": "az",
+            "voter": rep_id,
+            "per_page": 50,
+            "apikey": api_key
+        }
+    )
+    return response.json()['results']
+
+# Pull everything and save locally
+reps = get_az_reps(API_KEY)
+all_data = {}
+for rep in reps:
+    votes = get_rep_votes(rep['id'], API_KEY)
+    all_data[rep['id']] = {
+        "rep": rep,
+        "votes": votes
+    }
+
+# SAVE LOCALLY IMMEDIATELY
+with open('az_data.json', 'w') as f:
+    json.dump(all_data, f)
+print("Saved. Never hitting API again.")
+DS Person 2 — Statement Scraping via TinyFish
+Run this as a batch — remember only 2 concurrent TinyFish agents:
+pythonimport time
+
+reps_to_scrape = [
+    {"name": "Russell Bowers", 
+     "url": "https://ballotpedia.org/Russell_Bowers"},
+    # ... all 30 reps
+]
+
+statements_data = {}
+for i in range(0, len(reps_to_scrape), 2):
+    batch = reps_to_scrape[i:i+2]
+    # run 2 at a time
+    for rep in batch:
+        result = scrape_with_tinyfish(rep['url'])
+        statements_data[rep['name']] = result
+    time.sleep(5)  # be respectful
+
+with open('statements.json', 'w') as f:
+    json.dump(statements_data, f)
+AI/Agents Person — Topic Tagging
+Tag every bill by topic using Gemini:
+pythonimport google.generativeai as genai
+
+TOPICS = ["healthcare", "education", "economy", 
+          "environment", "public safety", 
+          "infrastructure", "taxes", "social policy"]
+
+def tag_bill_topic(bill_title, bill_description=""):
+    prompt = f"""Tag this Arizona bill with ONE topic from: 
+    {', '.join(TOPICS)}
+    
+    Bill: {bill_title}
+    Description: {bill_description}
+    
+    Return only the topic word, nothing else."""
+    
+    response = model.generate_content(prompt)
+    return response.text.strip().lower()
+
+# Tag all bills and store in InsForge
+Checkpoint Hour 10:
+
+✅ 30 reps in InsForge with votes tagged by topic
+✅ Statements scraped for at least 20 reps
+✅ All raw data saved as local JSON backup
+
+
+DAY 2 — Hours 10–18: Core Metrics
+DS Person 1 — Voting Consistency Score
+pythonimport pandas as pd
+
+def compute_voting_stats(rep_data):
+    votes = rep_data['votes']
+    df = pd.DataFrame(votes)
+    
+    stats = {
+        "total_votes": len(df),
+        "party_line_pct": calculate_party_alignment(df),
+        "topic_breakdown": df.groupby('topic').size().to_dict(),
+        "attendance_rate": len(df) / total_possible_votes
+    }
+    return stats
+DS Person 2 — Say vs. Do Score
+This is the most important DS task:
+pythonfrom sentence_transformers import SentenceTransformer, util
+import numpy as np
+
+model = SentenceTransformer('all-MiniLM-L6-v2')
+
+def compute_say_vs_do(statements, votes):
+    if len(statements) < 2 or len(votes) < 5:
+        return {"score": None, "confidence": "insufficient data"}
+    
+    # Create vote descriptions
+    vote_descriptions = [
+        f"Voted {'YES' if v['vote']=='yes' else 'NO'} on {v['bill_title']} ({v['topic']})"
+        for v in votes
+    ]
+    
+    # Embed everything
+    stmt_embeddings = model.encode(statements)
+    vote_embeddings = model.encode(vote_descriptions)
+    
+    # Find low similarity pairs = potential contradictions
+    contradictions = []
+    for i, stmt in enumerate(statements):
+        for j, vote_desc in enumerate(vote_descriptions):
+            similarity = util.cos_sim(
+                stmt_embeddings[i], 
+                vote_embeddings[j]
+            ).item()
+            
+            # Only flag potential contradictions
+            if similarity < 0.2:
+                contradictions.append({
+                    "statement": stmt,
+                    "vote": vote_desc,
+                    "similarity": similarity
+                })
+    
+    # Send top contradictions to AI for reasoning
+    contradiction_scores = []
+    for c in contradictions[:10]:  # limit AI calls
+        score = ai_reason_contradiction(c['statement'], c['vote'])
+        contradiction_scores.append(score)
+    
+    # Final score
+    if not contradiction_scores:
+        final_score = 85  # no contradictions found = high alignment
+    else:
+        avg_contradiction = np.mean(contradiction_scores)
+        final_score = int(avg_contradiction * 20)
+    
+    confidence = (
+        "insufficient data" if len(votes) < 5
+        else "low confidence" if len(votes) < 15
+        else "moderate confidence"
+    )
+    
+    return {"score": final_score, "confidence": confidence}
+AI/Agents Person — AI Contradiction Reasoning
+pythondef ai_reason_contradiction(statement, vote_description):
+    prompt = f"""A politician made this statement: "{statement}"
+    
+They then: "{vote_description}"
+
+Does this vote contradict the statement?
+Rate 1-5 where:
+1 = clear contradiction
+3 = unrelated
+5 = clearly consistent
+
+Return ONLY valid JSON:
+{{"score": X, "reason": "one sentence explanation"}}"""
+
+    response = model.generate_content(prompt)
+    result = json.loads(response.text)
+    return result['score']
+
+def generate_plain_english_vote(bill_title, vote):
+    prompt = f"""Translate this Arizona legislative vote into 
+    one plain English sentence for a non-political person.
+    Neutral and factual. Under 20 words.
+    
+    Bill: {bill_title}
+    Vote: {vote}"""
+    
+    return model.generate_content(prompt).text.strip()
+
+def generate_rep_summary(rep_name, votes, statements, score):
+    prompt = f"""Write a 3-sentence neutral summary of what 
+    {rep_name} actually stands for based on their voting record.
+    
+    Their top voting topics: {votes}
+    Their Say vs. Do score: {score}/100
+    
+    Be factual. No judgment. Cite specific votes."""
+    
+    return model.generate_content(prompt).text.strip()
+Checkpoint Hour 18:
+
+✅ Say vs. Do scores computed for 15+ reps
+✅ Plain English vote summaries generated
+✅ All scores stored in InsForge
+
+
+DAY 2 — Hours 18–28: Frontend
+AI/Agents Person leads — Next.js app
+Page 1 — Home (index.js)
+jsx// Simple zip code input
+// → calls OpenStates geo API to find district
+// → redirects to /rep/[id]
+```
+
+**Page 2 — Rep Profile (/rep/[id])**
+
+Layout:
+```
+┌─────────────────────────────────┐
+│  [Name] [Party Badge] [District]│
+│  State Representative           │
+├─────────────────────────────────┤
+│  SAY VS. DO SCORE               │
+│  [  67  ] Moderate alignment    │
+│  Based on 23 votes • low conf.  │
+├──────────────┬──────────────────┤
+│ Radar Chart  │ Recent Votes     │
+│ (topics)     │ ✓ Teacher pay    │
+│              │ ✗ Medicaid exp.  │
+├─────────────────────────────────┤
+│ STATEMENT vs VOTE EXAMPLES      │
+│ Said: "I support education"     │
+│ Did: Voted NO on HB2853         │
+│ [View source] [Low alignment]   │
+├─────────────────────────────────┤
+│ CONTACT YOUR REP                │
+│ I care about [          ]       │
+│ [Generate email draft]          │
+└─────────────────────────────────┘
+DS Person 2 — Radar Chart (Chart.js)
+javascriptnew Chart(ctx, {
+  type: 'radar',
+  data: {
+    labels: ['Healthcare','Education','Economy',
+             'Environment','Public Safety','Taxes'],
+    datasets: [{
+      label: 'Voting focus',
+      data: [25, 40, 20, 5, 8, 2],
+      backgroundColor: 'rgba(29, 158, 117, 0.2)',
+      borderColor: '#1D9E75'
+    }]
+  },
+  options: {
+    scales: { r: { min: 0, max: 50 } }
+  }
+})
+Checkpoint Hour 28:
+
+✅ Home page with zip code input works
+✅ Rep profile page renders end to end
+✅ Radar chart visible
+✅ Contact feature drafts an email
+
+
+DAY 2 — Hours 28–36: Polish + Ethics Layer
+Everyone
+Ethics checklist — every rep profile must have:
+
+ Source link on every stat
+ Confidence label on Say vs. Do score
+ Disclaimer on every page
+ "View raw data" button showing actual votes used
+ Error state if rep has insufficient data
+
+Polish checklist:
+
+ Test all 30 rep profiles
+ Graceful error if zip code not found
+ Mobile responsive — judges may use phones
+ Loading states so demo doesn't look broken
+
+Prepare 3 demo moments in advance:
+
+Enter zip code 85281 (Tempe/ASU area) → show their rep
+Find rep with lowest Say vs. Do score → show contradiction example
+Type "I care about student housing costs" → show generated email
+
+Practice these 3 flows until they work 5 times in a row without breaking.
+
+DAY 3 — Hours 36–42: Deploy + Buffer
+
+Deploy to Vercel
+Push to public GitHub — make sure no API keys in code, use .env
+Give Vercel permissions to organizers
+Run full demo flow on deployed URL (not localhost)
+Fix anything that breaks on deployment
+
+
+DAY 3 — Hours 42–48: Video + Submission
+YouTube video structure (2–3 mins):
+
+0:00–0:20 — Problem: "Do you know if your rep keeps their promises?"
+0:20–0:45 — Enter zip code, show rep profile instantly
+0:45–1:15 — Walk through Say vs. Do score with real contradiction
+1:15–1:35 — Show contact feature working
+1:35–1:55 — Ethics: "Here's how we handle bias"
+1:55–2:15 — "What we'd build next"
+
+Submit before 2pm Sunday. Don't cut this close.
+
+⚠️ Risk Register
+RiskMitigationOpenStates thin on AZ dataTest hour 1. If thin, hand-pick 10 well-documented repsTinyFish steps run outOnly test with 1 rep. Run full batch once confidentAI gives wrong contradiction scoreShow raw data alongside. Frame as "AI-estimated"Say vs. Do looks unreliableAdd "low confidence" label. Don't hide limitationsScope creepFederal reps, other states, historical data — cut all of itDemo breaks livePre-load 3 specific reps. Never live-search during demo
+
+🏆 Your Winning Pitch
+
+"RateMyRep lets any Arizona resident enter their zip code and instantly see whether their state representative actually does what they promise. We built a Say vs. Do alignment index that uses AI to reason about contradictions between a rep's public statements and their actual voting record. We thought carefully about bias — every score shows its confidence level, links to the original source data, and the AI explains its reasoning rather than just producing a number. The goal isn't to attack politicians — it's to give citizens the information they need to participate meaningfully in democracy."
