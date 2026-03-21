@@ -94,9 +94,6 @@ export default function RepCard({ rep, index }: RepCardProps) {
                   </div>
                 )}
               </div>
-              {scores?.topic_focus && (
-                <p className="text-xs text-slate-500 mt-1.5 line-clamp-1">{scores.topic_focus}</p>
-              )}
             </div>
 
             {/* Arrow */}
