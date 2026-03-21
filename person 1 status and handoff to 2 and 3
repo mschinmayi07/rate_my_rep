@@ -1,0 +1,557 @@
+What Changed
+Before (planned)After (actual)Voting records per repBills sponsored per rep"How did they vote on bills""What bills did they introduce/sponsor"Say vs. Do: statement vs. voteSay vs. Do: statement vs. bills they work onOpenStates votes endpointOpenStates bills endpoint ✅
+The story is actually stronger now:
+
+"This rep claims to care about education but has never sponsored a single education bill in this session."
+
+
+Person 1 (You) — Status
+TaskStatus30 reps fetched✅ Done580 bills fetched✅ DoneTag topics⏳ Run tag_keywords.pyCompute topic breakdown✅ Inside tag_keywords.pyPush az_reps_final.json to GitHub⏳ After tagging
+You're almost done. Run tag_keywords.py, push the file, then help Person 3 with frontend data wiring.
+
+Person 2 — Updated Tasks
+Your job is statements pipeline using TinyFish. Nothing about votes changed for you — you're still scraping public statements. Here's the updated full task:
+
+Step 1 — Get TinyFish API Key (5 mins)
+
+Go to agent.tinyfish.ai
+Sign up with the hackathon link for free credits
+Get your API key, add to .env:
+
+TINYFISH_API_KEY=your_key_here
+Install:
+bashpip install requests python-dotenv
+
+Step 2 — Wait for Person 1's az_reps_final.json
+You need this file first. Once you have it, run:
+
+Step 3 — Scrape Statements (scrape_statements.py)
+pythonimport requests
+import json
+import os
+import time
+from dotenv import load_dotenv
+
+load_dotenv()
+
+TINYFISH_KEY = os.getenv("TINYFISH_API_KEY")
+
+with open("az_reps_final.json") as f:
+    reps = json.load(f)
+
+def scrape_ballotpedia(rep_name):
+    """Scrape public statements from Ballotpedia"""
+    
+    # Format name for Ballotpedia URL
+    url_name = rep_name.replace(" ", "_")
+    url = f"https://ballotpedia.org/{url_name}"
+    
+    response = requests.post(
+        "https://agent.tinyfish.ai/v1/automation/run-sse",
+        headers={
+            "X-API-Key": TINYFISH_KEY,
+            "Content-Type": "application/json"
+        },
+        json={
+            "url": url,
+            "goal": """Extract all political quotes, public statements, 
+                      and positions stated by this politician.
+                      Return as JSON array: 
+                      [{"statement": "...", "topic_hint": "..."}]
+                      If page not found or no statements, return empty array: []"""
+        },
+        stream=True
+    )
+    
+    # Parse SSE stream
+    for line in response.iter_lines():
+        if line:
+            line_str = line.decode("utf-8")
+            if line_str.startswith("data: "):
+                try:
+                    event = json.loads(line_str[6:])
+                    if event.get("type") == "COMPLETE" and \
+                       event.get("status") == "COMPLETED":
+                        result = event.get("resultJson", [])
+                        if isinstance(result, list):
+                            return result
+                        return []
+                except:
+                    continue
+    return []
+
+# Process reps in batches of 2 (TinyFish free = 2 concurrent)
+# But run sequentially to be safe with 500 steps
+results = []
+
+for i, rep in enumerate(reps):
+    rep_name = rep["name"]
+    print(f"[{i+1}/30] Scraping {rep_name}...")
+    
+    statements = scrape_ballotpedia(rep_name)
+    rep["statements"] = statements
+    
+    print(f"  Got {len(statements)} statements")
+    
+    # Save after every rep — don't lose progress
+    with open("az_reps_with_statements.json", "w") as f:
+        json.dump(reps, f, indent=2)
+    
+    time.sleep(3)  # Respect TinyFish rate limits
+
+print("\nDone! Statements scraped.")
+
+# Summary
+total_statements = sum(len(r["statements"]) for r in reps)
+reps_with_statements = sum(1 for r in reps if len(r["statements"]) > 0)
+print(f"Reps with statements: {reps_with_statements}/30")
+print(f"Total statements: {total_statements}")
+Run it:
+bashpython scrape_statements.py
+
+Step 4 — Handle Reps With No Ballotpedia Page
+Some reps won't have Ballotpedia pages. For those, add fallback scraping of their official AZ legislature page:
+pythondef scrape_azleg(rep_name, district, chamber):
+    """Fallback: scrape AZ legislature member page"""
+    
+    chamber_path = "house" if chamber == "lower" else "senate"
+    url = f"https://www.azleg.gov/memberroster/"
+    
+    response = requests.post(
+        "https://agent.tinyfish.ai/v1/automation/run-sse",
+        headers={
+            "X-API-Key": TINYFISH_KEY,
+            "Content-Type": "application/json"
+        },
+        json={
+            "url": url,
+            "goal": f"""Find {rep_name} and extract their bio, 
+                       priorities, or any stated positions.
+                       Return as JSON array:
+                       [{{"statement": "...", "topic_hint": "..."}}]
+                       If nothing found return: []"""
+        },
+        stream=True
+    )
+    # same SSE parsing as above
+    ...
+
+Step 5 — Push az_reps_with_statements.json to GitHub
+Once done, immediately push and tell Person 3.
+
+Step 6 — Your Step count check
+TaskTinyFish stepsCountBallotpedia scrape per rep~3 steps30 × 3 = 90 stepsFallback scrapes~3 steps~10 × 3 = 30 stepsDev/testingbuffer~50 stepsTotal~170 steps
+Well within your 500 step budget.
+
+Person 3 — Updated Tasks
+Your job is Gemini/AI integration + frontend. This is the biggest job now.
+
+Step 1 — Fix Gemini (Priority 1)
+Try each of these model names in order until one works:
+pythonfrom google import genai
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+
+# Try each until one works:
+models_to_try = [
+    "gemini-2.0-flash",
+    "gemini-2.0-flash-001", 
+    "gemini-2.0-flash-lite-001",
+    "gemini-2.5-flash",
+    "gemini-flash-latest"
+]
+
+for model_name in models_to_try:
+    try:
+        response = client.models.generate_content(
+            model=model_name,
+            contents="Reply with just the word: working"
+        )
+        print(f"✅ {model_name} works: {response.text}")
+        break
+    except Exception as e:
+        print(f"❌ {model_name}: {str(e)[:80]}")
+Once you find a working model, that's your model for everything.
+
+Step 2 — Say vs. Do Score (compute_say_vs_do.py)
+Wait for Person 2's az_reps_with_statements.json then run this:
+pythonimport json
+import os
+import time
+from google import genai
+from dotenv import load_dotenv
+
+load_dotenv()
+
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+WORKING_MODEL = "gemini-2.0-flash"  # update with whatever worked
+
+with open("az_reps_with_statements.json") as f:
+    reps = json.load(f)
+
+def compute_say_vs_do(rep):
+    name = rep["name"]
+    party = rep["party"]
+    statements = rep.get("statements", [])
+    bills = rep.get("bills", [])
+    topic_breakdown = rep.get("topic_breakdown", {})
+    
+    # If no statements, skip
+    if not statements:
+        return {
+            "score": None,
+            "confidence": "insufficient data",
+            "summary": f"No public statements found for {name}",
+            "highlights": []
+        }
+    
+    # Build context for Gemini
+    statements_text = "\n".join([
+        f"- {s.get('statement', '')}" 
+        for s in statements[:10]  # Top 10 statements
+    ])
+    
+    bills_text = "\n".join([
+        f"- {b['title']} (topic: {b.get('topic', 'unknown')})"
+        for b in bills[:15]
+    ])
+    
+    top_topics = list(topic_breakdown.keys())[:3]
+    
+    prompt = f"""You are analyzing an Arizona state legislator.
+
+Politician: {name} ({party})
+
+Their PUBLIC STATEMENTS:
+{statements_text}
+
+Their SPONSORED BILLS this session:
+{bills_text}
+
+Their top legislative focus areas based on bills: {", ".join(top_topics)}
+
+Task: Analyze whether this politician's public statements align with 
+their actual legislative work (bills they sponsor).
+
+Return a JSON object with exactly these fields:
+{{
+  "score": <number 1-100 where 100 = perfect alignment>,
+  "confidence": <"high", "medium", or "low">,
+  "summary": <one plain English sentence about their alignment>,
+  "highlights": [
+    {{
+      "statement": <quote from their statements>,
+      "reality": <what their bills show>,
+      "aligned": <true or false>
+    }}
+  ]
+}}
+
+Be fair and factual. Return ONLY the JSON, no other text."""
+
+    try:
+        response = client.models.generate_content(
+            model=WORKING_MODEL,
+            contents=prompt
+        )
+        
+        # Parse JSON from response
+        text = response.text.strip()
+        # Remove markdown code blocks if present
+        text = text.replace("```json", "").replace("```", "").strip()
+        return json.loads(text)
+        
+    except Exception as e:
+        print(f"  Error for {name}: {e}")
+        return {
+            "score": None,
+            "confidence": "error",
+            "summary": "Could not compute score",
+            "highlights": []
+        }
+
+# Compute for all reps
+print("Computing Say vs. Do scores...")
+
+for i, rep in enumerate(reps):
+    print(f"[{i+1}/30] {rep['name']}...")
+    
+    result = compute_say_vs_do(rep)
+    rep["say_vs_do"] = result
+    
+    if result["score"]:
+        print(f"  Score: {result['score']}/100 "
+              f"({result['confidence']} confidence)")
+    else:
+        print(f"  Score: N/A ({result['confidence']})")
+    
+    # Save after each rep
+    with open("az_reps_scored.json", "w") as f:
+        json.dump(reps, f, indent=2)
+    
+    time.sleep(2)
+
+print("\nDone! Scores computed.")
+
+# Summary
+scored = [r for r in reps if r.get("say_vs_do", {}).get("score")]
+print(f"Reps with scores: {len(scored)}/30")
+if scored:
+    avg = sum(r["say_vs_do"]["score"] for r in scored) / len(scored)
+    print(f"Average score: {avg:.1f}/100")
+    
+    # Find most interesting ones for demo
+    print("\n=== BEST DEMO CANDIDATES ===")
+    sorted_reps = sorted(
+        scored, 
+        key=lambda r: r["say_vs_do"]["score"]
+    )
+    print("Lowest alignment (most interesting):")
+    for r in sorted_reps[:3]:
+        print(f"  {r['name']}: {r['say_vs_do']['score']}/100")
+    print("Highest alignment:")
+    for r in sorted_reps[-3:]:
+        print(f"  {r['name']}: {r['say_vs_do']['score']}/100")
+
+Step 3 — Zip Code Lookup (zip_lookup.py)
+pythonimport requests
+import json
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+API_KEY = os.getenv("OPENSTATES_API_KEY")
+BASE_URL = "https://v3.openstates.org"
+headers = {"X-API-KEY": API_KEY}
+
+def get_rep_by_zip(zipcode):
+    """Returns rep names for a given AZ zip code"""
+    response = requests.get(
+        f"{BASE_URL}/people/geo",
+        headers=headers,
+        params={"address": f"{zipcode}, Arizona, USA"}
+    )
+    
+    if response.status_code != 200:
+        return []
+    
+    data = response.json()
+    return [
+        {
+            "name": p["name"],
+            "id": p["id"],
+            "district": p.get("current_role", {}).get("district"),
+            "chamber": p.get("current_role", {}).get("org_classification")
+        }
+        for p in data.get("results", [])
+    ]
+
+# Test with Tempe zip
+test = get_rep_by_zip("85281")
+print("Tempe (85281) reps:")
+for rep in test:
+    print(f"  {rep['name']} - District {rep['district']} ({rep['chamber']})")
+
+Step 4 — Build the Frontend
+Use Streamlit — fastest for a hackathon demo.
+bashpip install streamlit plotly
+Create app.py:
+pythonimport streamlit as st
+import json
+import plotly.graph_objects as go
+
+# Load data
+@st.cache_data
+def load_data():
+    with open("az_reps_scored.json") as f:
+        return json.load(f)
+
+reps = load_data()
+rep_lookup = {r["name"]: r for r in reps}
+
+# Page config
+st.set_page_config(
+    page_title="RateMyRep AZ",
+    page_icon="🏛️",
+    layout="wide"
+)
+
+# Header
+st.title("🏛️ RateMyRep Arizona")
+st.subheader("Do your representatives do what they promise?")
+
+# Zip code search
+col1, col2 = st.columns([3, 1])
+with col1:
+    zipcode = st.text_input(
+        "Enter your Arizona zip code", 
+        placeholder="e.g. 85281"
+    )
+with col2:
+    search = st.button("Find My Rep", type="primary")
+
+st.divider()
+
+# Rep selector (fallback if zip lookup not working)
+selected_name = st.selectbox(
+    "Or browse all representatives:",
+    options=[r["name"] for r in reps]
+)
+
+rep = rep_lookup[selected_name]
+
+# Rep profile
+col1, col2 = st.columns([1, 2])
+
+with col1:
+    if rep.get("image"):
+        st.image(rep["image"], width=150)
+    
+    st.markdown(f"### {rep['name']}")
+    
+    party_color = "🔵" if rep["party"] == "Democratic" else "🔴"
+    st.markdown(f"{party_color} **{rep['party']}**")
+    st.markdown(f"📍 District {rep['district']}")
+    chamber = "State Senate" if rep["chamber"] == "upper" else "State House"
+    st.markdown(f"🏛️ {chamber}")
+    
+    if rep.get("email"):
+        st.markdown(f"📧 {rep['email']}")
+
+with col2:
+    # Say vs Do Score
+    say_vs_do = rep.get("say_vs_do", {})
+    score = say_vs_do.get("score")
+    
+    if score:
+        confidence = say_vs_do.get("confidence", "unknown")
+        
+        # Color based on score
+        if score >= 70:
+            color = "green"
+            label = "High Alignment"
+        elif score >= 40:
+            color = "orange" 
+            label = "Moderate Alignment"
+        else:
+            color = "red"
+            label = "Low Alignment"
+        
+        st.metric(
+            "Say vs. Do Score",
+            f"{score}/100",
+            help="How closely their bills match their public statements"
+        )
+        st.caption(f"{label} — {confidence} confidence")
+        st.info(say_vs_do.get("summary", ""))
+        
+        # Highlights
+        highlights = say_vs_do.get("highlights", [])
+        if highlights:
+            st.markdown("**Key findings:**")
+            for h in highlights[:3]:
+                aligned = "✅" if h.get("aligned") else "❌"
+                st.markdown(
+                    f"{aligned} *\"{h.get('statement', '')}\"*  \n"
+                    f"→ {h.get('reality', '')}"
+                )
+    else:
+        st.warning("Insufficient data to compute Say vs. Do score")
+
+st.divider()
+
+# Topic radar chart
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown("### Legislative Focus Areas")
+    breakdown = rep.get("topic_breakdown", {})
+    
+    if breakdown:
+        topics = list(breakdown.keys())
+        values = list(breakdown.values())
+        
+        fig = go.Figure(data=go.Scatterpolar(
+            r=values,
+            theta=topics,
+            fill="toself",
+            line_color="blue" if rep["party"] == "Democratic" else "red"
+        ))
+        fig.update_layout(
+            polar=dict(radialaxis=dict(visible=True, range=[0, 100])),
+            showlegend=False,
+            height=350,
+            margin=dict(l=40, r=40, t=40, b=40)
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+with col2:
+    st.markdown("### Recent Bills Sponsored")
+    bills = rep.get("bills", [])[:8]
+    
+    for bill in bills:
+        topic = bill.get("topic", "unknown")
+        plain = bill.get("plain_english", bill["title"])
+        
+        topic_colors = {
+            "healthcare": "🏥",
+            "education": "📚", 
+            "economy": "💼",
+            "environment": "🌿",
+            "public safety": "🛡️",
+            "infrastructure": "🏗️",
+            "taxes": "💰",
+            "social policy": "👥",
+            "government operations": "⚙️"
+        }
+        
+        icon = topic_colors.get(topic, "📋")
+        st.markdown(f"{icon} {plain}")
+
+st.divider()
+
+# Contact section
+st.markdown("### Contact Your Representative")
+issue = st.text_input(
+    "What issue do you care about?",
+    placeholder="e.g. I care about water conservation in Arizona"
+)
+
+if st.button("Generate Contact Message") and issue:
+    st.markdown("**Draft message:**")
+    # This is where Gemini generates the contact email
+    # For now show template
+    st.text_area(
+        "Copy and send:",
+        value=f"""Dear {rep['name']},
+
+I am a constituent in your district writing to express my concern about {issue}.
+
+As my representative, I urge you to consider this issue in your legislative work.
+
+Thank you for your service.
+
+A constituent from District {rep['district']}""",
+        height=200
+    )
+Run it:
+bashstreamlit run app.py
+```
+
+---
+
+## Updated Team Handoff Order
+```
+Person 1 (You)          Person 2               Person 3
+─────────────────       ────────────────       ─────────────────
+Run tag_keywords.py  →  scrape_statements.py → compute_say_vs_do.py
+Push az_reps_final      Push with_statements   Push az_reps_scored
+                                            →  Build app.py
+                                            →  Deploy to Streamlit
+
+Files Everyone Needs to Know About
+FileCreated byUsed byaz_reps_raw.jsonPerson 1Person 1 onlyaz_reps_with_bills.jsonPerson 1Person 1 onlyaz_reps_final.jsonPerson 1Person 2az_reps_with_statements.jsonPerson 2Person 3az_reps_scored.jsonPerson 3Frontend
