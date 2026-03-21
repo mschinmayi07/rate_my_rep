@@ -23,12 +23,40 @@ export interface Rep {
   bills: Bill[];
 }
 
+export interface NotableBill {
+  identifier: string;
+  title: string;
+  why_notable: string;
+}
+
+export interface RepScores {
+  activity_score: number | null;
+  bill_progress_rate: number | null;
+  topic_focus: string;
+  notable_bills: NotableBill[];
+  legislative_style: string;
+  summary: string;
+  bipartisan_potential: number | null;
+  key_issues: string[];
+  impact_rating: string;
+  constituent_relevance: string;
+  strengths: string;
+  gaps: string;
+}
+
+export interface ScoredRep {
+  id: string;
+  name: string;
+  scores: RepScores;
+}
+
 export interface ZipToReps {
   [zip: string]: string[];
 }
 
 let repsCache: Rep[] | null = null;
 let zipCache: ZipToReps | null = null;
+let scoresCache: ScoredRep[] | null = null;
 
 export async function getAllReps(): Promise<Rep[]> {
   if (repsCache) return repsCache;
@@ -42,6 +70,24 @@ export async function getZipMap(): Promise<ZipToReps> {
   const res = await fetch("/data/zip_to_reps.json");
   zipCache = await res.json();
   return zipCache!;
+}
+
+export async function getScores(): Promise<ScoredRep[]> {
+  if (scoresCache) return scoresCache;
+  try {
+    const res = await fetch("/data/az_reps_scored.json");
+    if (!res.ok) return [];
+    scoresCache = await res.json();
+    return scoresCache!;
+  } catch {
+    return [];
+  }
+}
+
+export async function getScoreForRep(repId: string): Promise<RepScores | null> {
+  const scores = await getScores();
+  const found = scores.find((s) => s.id === repId);
+  return found?.scores || null;
 }
 
 export async function getRepsByZip(zip: string): Promise<Rep[]> {
