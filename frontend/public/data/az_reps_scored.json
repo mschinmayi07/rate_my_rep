@@ -5,545 +5,529 @@
     "scores": {
       "activity_score": 92,
       "bill_progress_rate": 95,
-      "topic_focus": "This legislator primarily focuses on enhancing public safety, criminal justice reform, and social welfare, with particular attention to veterans' issues, gun control, and protections for vulnerable populations.",
+      "topic_focus": "Legislator Marquez consistently introduces a broad range of legislation reflecting core Democratic priorities, with a high percentage of these bills successfully advancing through the initial stages of the legislative process.",
       "notable_bills": [
-        {
-          "identifier": "HR 2007",
-          "title": "death resolution; Sheila Mattox",
-          "why_notable": "This resolution is notable for being the only sponsored item to have fully passed and been transmitted to the Secretary of State."
-        },
         {
           "identifier": "HB 2421",
           "title": "assault weapons; magazines; prohibition; registration",
-          "why_notable": "This bill addresses a highly contentious and significant public safety issue with broad societal impact regarding gun control."
-        },
-        {
-          "identifier": "HB 4095",
-          "title": "income tax; additional rate; education",
-          "why_notable": "This bill proposes a significant change to state tax policy with direct implications for education funding and the state budget."
+          "why_notable": "This bill directly aligns with a key Democratic priority for stricter gun control, demonstrating a commitment to public safety through legislative action."
         },
         {
           "identifier": "SB 1355",
           "title": "antidiscrimination; employment; housing; public accommodations.",
-          "why_notable": "This bill aims to provide comprehensive protections against discrimination across multiple facets of daily life, affecting many Arizonans."
+          "why_notable": "This bill strongly matches the Democratic platform's emphasis on social justice and equity, seeking to protect vulnerable groups from discrimination."
+        },
+        {
+          "identifier": "HB 4095",
+          "title": "income tax; additional rate; education",
+          "why_notable": "This bill reflects the Democratic priority of progressive tax reform to fund vital public services like education, aiming for equitable resource allocation."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Representative Marquez is a very active legislator, sponsoring a wide range of bills across public safety, social policy, and economic sectors. His legislative agenda demonstrates a strong commitment to issues like veteran support, criminal justice reform, worker protections, and education funding. A high percentage of his sponsored bills have advanced successfully through initial stages, with several progressing to the opposing chamber.",
-      "bipartisan_potential": 60,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Aaron Marquez demonstrates a strong commitment to core Democratic priorities, actively sponsoring legislation across social justice, public safety, and economic equity. A high percentage of his bills have advanced significantly through the legislative process, indicating effective follow-through on his stated legislative agenda.",
+      "bipartisan_potential": 45,
       "key_issues": [
+        "Social Justice & Equity",
         "Public Safety",
-        "Social Justice",
-        "Veterans Affairs"
+        "Healthcare & Mental Health"
       ],
       "impact_rating": "High Impact",
-      "constituent_relevance": "Representative Marquez's legislative work directly addresses daily concerns of constituents through bills on housing, worker safety, education, public safety, and support for veterans and vulnerable populations.",
-      "strengths": "This legislator demonstrates a strong capacity for advancing a high volume of diverse legislation through the initial stages of the legislative process.",
-      "gaps": "Areas less addressed include specific legislation on water resource management, broader economic development strategies, or explicit electoral reforms."
+      "constituent_relevance": "Marquez's work directly impacts District 5 constituents through bills addressing tenant rights, public safety, education funding, mental health access, and protections against discrimination.",
+      "strengths": "Marquez consistently sponsors a diverse array of bills aligned with Democratic platform priorities, showcasing strong initiative and a high success rate in advancing his legislative proposals through committee stages.",
+      "gaps": "While the legislator introduces a wide range of relevant bills, one bill concerning law enforcement accountability shows no progress, suggesting some priorities may face greater hurdles or require further legislative push."
     }
   },
   {
     "id": "ocd-person/45ff1caf-0d6b-4915-9e34-5f4694907a07",
     "name": "Adrian Fontes",
     "scores": {
-      "activity_score": 0,
+      "activity_score": 90,
       "bill_progress_rate": 0,
-      "topic_focus": "As no bills were sponsored, no specific legislative topic focus can be identified for this session.",
+      "topic_focus": "Adrian Fontes, as an executive official, consistently states his commitment to fair, secure, and accessible elections, and his actions as Secretary of State directly reflect this focus through election administration and voter outreach.",
       "notable_bills": [],
-      "legislative_style": "Low Activity",
-      "summary": "Adrian Fontes, serving in an executive capacity, has no record of sponsoring bills this session. Consequently, their legislative impact through sponsored legislation cannot be assessed.",
-      "bipartisan_potential": 0,
-      "key_issues": [],
-      "impact_rating": "Low Impact",
-      "constituent_relevance": "Without sponsored legislation, there is no direct impact on constituents through this legislative avenue.",
-      "strengths": "This legislator's role is in the executive branch, where direct legislative sponsorship is not a primary function.",
-      "gaps": "The lack of sponsored bills means no specific legislative areas were addressed through this mechanism."
+      "legislative_style": "Strong Follow-Through",
+      "summary": "As an executive official, Adrian Fontes does not sponsor legislation, rendering bill-specific metrics inapplicable. His 'Say vs. Do' analysis is based on how his executive actions and public advocacy as Secretary of State align with Democratic priorities for election administration. He consistently champions voter access and election integrity, and his office's activities reflect a strong commitment to these stated goals.",
+      "bipartisan_potential": 60,
+      "key_issues": [
+        "Elections",
+        "Voter Rights",
+        "Government Transparency"
+      ],
+      "impact_rating": "High Impact",
+      "constituent_relevance": "His work directly impacts all Arizonans through the administration of statewide elections, voter registration processes, and access to public records.",
+      "strengths": "Fontes consistently follows through on his promises regarding election administration, actively working to ensure secure and accessible elections in alignment with his party's platform for his role.",
+      "gaps": "While he does not sponsor legislation due to his executive role, any potential 'gaps' would lie in areas of his office's lesser-prioritized functions outside of elections, which receive less public focus despite being within his purview."
     }
   },
   {
     "id": "ocd-person/102ffcb1-3028-401f-b74f-6f45db25e05e",
     "name": "Alexander Kolodin",
     "scores": {
-      "activity_score": 88,
-      "bill_progress_rate": 70,
-      "topic_focus": "This legislator primarily focuses on social policy, including election integrity and constitutional matters, alongside significant efforts in public safety and governmental operations.",
+      "activity_score": 72,
+      "bill_progress_rate": 55,
+      "topic_focus": "Kolodin consistently SAYS he cares about election integrity, individual liberty, and public safety, and his legislative DOING reflects this through bills on voter identification, constitutional rights, and combating trafficking offenses.",
       "notable_bills": [
         {
           "identifier": "HCR 2001",
           "title": "citizenship; identification; contributions; early voting",
-          "why_notable": "This concurrent resolution addresses broad changes to citizenship, identification requirements, campaign contributions, and early voting, signifying a significant shift in election policy."
+          "why_notable": "This resolution directly addresses a key Republican priority of election integrity, focusing on voter identification and early voting restrictions."
         },
         {
-          "identifier": "HB 2908",
-          "title": "constitutional convention; faithless delegates",
-          "why_notable": "This bill concerns the process for a constitutional convention and how delegates would be bound, touching upon fundamental aspects of state and federal governance."
+          "identifier": "HB 2676",
+          "title": "juvenile restoration; rights; firearms; civil",
+          "why_notable": "This bill aligns strongly with the Republican platform's emphasis on individual liberty and Second Amendment rights by addressing firearms for juvenile restoration."
         },
         {
-          "identifier": "HB 4070",
-          "title": "nonprofits; facilitation; trafficking offenses; penalties",
-          "why_notable": "This bill addresses serious public safety concerns by increasing penalties related to trafficking offenses, particularly involving nonprofits."
+          "identifier": "HCR 2044",
+          "title": "preferential treatment; discrimination; prohibited acts",
+          "why_notable": "This resolution matches a common conservative policy stance against certain forms of preferential treatment or discrimination, often targeting DEI initiatives."
         },
         {
-          "identifier": "SB 1010",
-          "title": "Charlie Kirk highway",
-          "why_notable": "This bill proposes naming a highway after a prominent conservative figure, which is a politically notable act in infrastructure."
+          "identifier": "HB 2555",
+          "title": "businesses; requirement to accept cash",
+          "why_notable": "This bill reflects the Republican value of individual liberty and economic freedom by pushing back against a cashless economy."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Representative Kolodin is a very active legislator, sponsoring a wide array of bills, many of which address high-profile social policy issues like election integrity, constitutional conventions, and anti-discrimination. He also actively pursues public safety reforms and a number of government operational adjustments, with a significant portion of his sponsored legislation advancing through committee or to the opposite chamber.",
+      "legislative_style": "Mostly Aligned",
+      "summary": "Legislator Alexander Kolodin strongly aligns with the Republican party platform, consistently introducing bills focused on election integrity, individual liberties, and public safety. While many of his substantive policy bills have progressed significantly through the legislative process, a portion of his sponsored legislation consists of technical corrections and ceremonial resolutions, and some policy-aligned bills have stalled.",
       "bipartisan_potential": 35,
       "key_issues": [
-        "Elections",
-        "Public Safety",
-        "Constitutional Issues"
+        "Election Integrity",
+        "Individual Rights",
+        "Public Safety"
       ],
       "impact_rating": "Moderate Impact",
-      "constituent_relevance": "Many of this legislator's bills directly affect constituents through changes to voting procedures, public safety measures, business regulations, and the potential naming of local infrastructure.",
-      "strengths": "This legislator demonstrates a strong commitment to their agenda, sponsoring a large volume of bills across several key policy areas and achieving a commendable rate of advancement for their legislation.",
-      "gaps": "Areas such as healthcare, environmental protection, and broader economic development initiatives beyond specific business regulations do not appear to be primary legislative focuses."
+      "constituent_relevance": "His work directly impacts constituents through proposed changes to voting procedures, personal freedoms such as firearm rights and cash transactions, and efforts to enhance community safety and reduce trafficking offenses.",
+      "strengths": "He consistently introduces legislation on core Republican priorities like election integrity, individual liberties, and public safety, and a good portion of these substantive bills advance through the legislative process.",
+      "gaps": "While many bills align with stated priorities, a notable portion of his legislative output consists of technical corrections and ceremonial resolutions, and some policy-aligned bills have stalled without significant progress."
     }
   },
   {
     "id": "ocd-person/6dba6afa-b274-4273-b8c6-270d27214eee",
     "name": "Alma Hernández",
     "scores": {
-      "activity_score": 85,
-      "bill_progress_rate": 79,
-      "topic_focus": "This legislator primarily focuses on public safety and criminal justice, alongside interests in social policy, healthcare, and economic matters.",
+      "activity_score": 82,
+      "bill_progress_rate": 75,
+      "topic_focus": "The legislator consistently aligns her legislative actions with Democratic platform priorities, particularly demonstrating a strong emphasis on public safety, worker protections, and various social welfare initiatives.",
       "notable_bills": [
-        {
-          "identifier": "HB 4109",
-          "title": "safety; school procedures; criminal classification",
-          "why_notable": "This bill addresses critical issues related to school safety, aiming to establish procedures and potentially new criminal classifications, and has advanced significantly to Senate Second Reading."
-        },
         {
           "identifier": "HB 2673",
           "title": "mental illness; prisoners; diagnosis; treatment.",
-          "why_notable": "This legislation seeks to improve the diagnosis and treatment of mental illness among prisoners, addressing a key public health and justice concern, and has received a 'Do Pass Amended' recommendation."
+          "why_notable": "This bill strongly matches Democratic priorities for healthcare access and criminal justice reform, showing substantive action on a key social issue affecting vulnerable populations."
         },
         {
-          "identifier": "HB 2680",
-          "title": "worker's compensation; notice; fraud; commission",
-          "why_notable": "This bill targets integrity within the worker's compensation system, aiming to prevent fraud and ensure proper notice, and has received a 'Do Pass Amended' recommendation."
+          "identifier": "HB 4109",
+          "title": "safety; school procedures; criminal classification",
+          "why_notable": "A substantive bill addressing the widespread public concern of school safety, this initiative has seen significant progress by successfully reaching the Senate."
+        },
+        {
+          "identifier": "HB 2682",
+          "title": "rental assistance program; appropriation",
+          "why_notable": "This bill directly aligns with Democratic platform positions on affordable housing and social safety nets, demonstrating a commitment to addressing economic hardship for constituents."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Representative Hernández maintains a very active legislative agenda, primarily focusing on public safety and criminal justice reform. She has sponsored a wide range of bills addressing issues from school safety and law enforcement training to mental health in prisons and worker's compensation fraud, with many advancing through initial legislative hurdles.",
-      "bipartisan_potential": 70,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Representative Hernández demonstrates strong alignment between her party's stated priorities and her legislative actions, particularly in areas of public safety, worker protections, and social welfare. A significant portion of her sponsored bills have progressed through the legislative process, indicating effective engagement in policy-making and delivering on her commitments.",
+      "bipartisan_potential": 65,
       "key_issues": [
         "Public Safety",
-        "Criminal Justice Reform",
-        "Community Welfare"
+        "Worker Protections",
+        "Social Welfare"
       ],
-      "impact_rating": "High Impact",
-      "constituent_relevance": "Her legislative work directly addresses fundamental constituent concerns such as public safety, access to affordable housing, child care, and the fairness of the criminal justice and worker's compensation systems.",
-      "strengths": "This legislator demonstrates a strong commitment to public safety and criminal justice issues, actively sponsoring a diverse range of bills and successfully advancing many of them through legislative stages.",
-      "gaps": "Areas less frequently addressed include environmental protection, comprehensive education reform, and specific economic development initiatives beyond employment and wage contracts."
+      "impact_rating": "Moderate Impact",
+      "constituent_relevance": "Her legislative work directly impacts district constituents through initiatives concerning school safety, worker's rights, access to mental healthcare for vulnerable populations, and support for affordable housing.",
+      "strengths": "The legislator consistently follows through on promises related to enhancing public safety, advocating for worker protections, and addressing crucial social welfare needs through a variety of bills.",
+      "gaps": "While effective within her chosen focus areas, there is less legislative activity on some other common Democratic priorities such as broader environmental protection or comprehensive voting rights expansion."
     }
   },
   {
     "id": "ocd-person/87e6206a-c16e-4038-a86f-0d5c88b993e3",
     "name": "Analise Ortiz",
     "scores": {
-      "activity_score": 90,
+      "activity_score": 85,
       "bill_progress_rate": 90,
-      "topic_focus": "The legislator primarily focuses on public safety, social policy issues related to vulnerable populations and civil rights, and improvements to healthcare and educational systems.",
+      "topic_focus": "Legislator Ortiz consistently prioritizes issues like healthcare access, reproductive rights, public education funding, and worker safety, and her legislative actions strongly reflect these stated concerns, with a high rate of bills advancing through the process.",
       "notable_bills": [
-        {
-          "identifier": "SB 1461",
-          "title": "allied health care workforce; appropriation",
-          "why_notable": "This bill addresses a critical statewide need by appropriating funds for the allied health care workforce and has advanced significantly by transmitting to the House."
-        },
-        {
-          "identifier": "HB 2720",
-          "title": "prostitution; assessment; anti-human trafficking fund",
-          "why_notable": "This bill tackles a serious social issue by creating an anti-human trafficking fund and has progressed to a Senate Second Reading."
-        },
-        {
-          "identifier": "SB 1377",
-          "title": "working conditions; heat illness; prevention.",
-          "why_notable": "This bill directly impacts worker safety, especially relevant in Arizona's climate, and has advanced well to a Senate Second Reading."
-        },
         {
           "identifier": "SB 1395",
           "title": "abortion reporting requirements; repeal.",
-          "why_notable": "This bill represents a significant social policy stance by repealing abortion reporting requirements and has advanced to a Senate Second Reading."
+          "why_notable": "This bill directly aligns with Democratic priorities to protect reproductive rights and expand healthcare access by repealing restrictions."
+        },
+        {
+          "identifier": "SB 1461",
+          "title": "allied health care workforce; appropriation",
+          "why_notable": "This bill strongly matches the Democratic platform's emphasis on strengthening healthcare infrastructure and access, and it shows good progress by transmitting to the House."
+        },
+        {
+          "identifier": "SCR 1042",
+          "title": "expenditure limitation; school districts; repeal",
+          "why_notable": "This resolution directly addresses the core Democratic priority of increasing funding and flexibility for public education."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Legislator Ortiz has demonstrated a highly active legislative session, sponsoring 20 bills across diverse topics including public safety, healthcare, social policy, and tax reform. With 18 of her bills advancing past initial committee stages, she has shown significant effectiveness in moving her legislative agenda forward on issues ranging from human trafficking to worker safety and educational funding.",
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Analise Ortiz demonstrates strong alignment between her party's stated Democratic priorities and her legislative actions. She actively sponsors a diverse range of bills focused on healthcare access, reproductive rights, public education funding, and worker safety, with a high percentage of these bills successfully advancing through the initial legislative stages.",
       "bipartisan_potential": 65,
       "key_issues": [
-        "Public Safety",
         "Healthcare Access",
-        "Social Justice"
+        "Public Education Funding",
+        "Public & Worker Safety"
       ],
       "impact_rating": "High Impact",
-      "constituent_relevance": "The legislator's work directly affects constituents through efforts to enhance public safety, improve healthcare access, address housing and working conditions, and shape educational and social policy within the district.",
-      "strengths": "Analise Ortiz demonstrates a strong commitment to addressing critical social issues, public safety, and public health, effectively navigating a diverse legislative agenda with a high success rate for bill advancement.",
-      "gaps": "While her legislative agenda is broad, there is less emphasis on specific economic development initiatives (beyond an appropriation for a complex in Tuba City) or comprehensive regulatory reform for specific industries."
+      "constituent_relevance": "Her work directly affects District 24 constituents by aiming to improve healthcare access, protect reproductive freedoms, ensure safer working conditions, support public education, and address housing and public safety concerns within their communities.",
+      "strengths": "She consistently introduces legislation on core Democratic platform issues, particularly regarding healthcare, reproductive rights, education funding, and worker protections, and a significant portion of these bills advance in the legislative process.",
+      "gaps": "While her legislative topics align well, a few bills show stalled progress or were withdrawn, indicating some challenges in moving all her priorities forward, though this is a minor gap compared to overall strong performance."
     }
   },
   {
     "id": "ocd-person/2e9c0206-d392-48a3-a599-7f6d226527b7",
     "name": "Anna Abeytia",
     "scores": {
-      "activity_score": 82,
-      "bill_progress_rate": 95,
-      "topic_focus": "This legislator primarily focuses on social policy issues, particularly those related to civil rights, electoral processes, and education, while also addressing economic and public safety concerns.",
+      "activity_score": 45,
+      "bill_progress_rate": 5,
+      "topic_focus": "Legislator Abeytia SAYS they care about a broad range of progressive issues including education reform, social justice, affordable housing, and healthcare, and their sponsored bills reflect these priorities across numerous topics, but very few have advanced past initial readings.",
       "notable_bills": [
-        {
-          "identifier": "HB 2574",
-          "title": "traffic penalties; appeal; stay",
-          "why_notable": "This bill is notable for advancing the furthest, reaching the Senate Second Reading, indicating higher legislative traction."
-        },
         {
           "identifier": "HB 4095",
           "title": "income tax; additional rate; education",
-          "why_notable": "This bill proposes an additional income tax rate to fund education, a potentially significant fiscal policy with broad impact and frequent legislative debate."
+          "why_notable": "This bill directly aligns with Democratic priorities to increase public education funding through progressive taxation, though it stalled early."
         },
         {
           "identifier": "HB 2652",
           "title": "abortion; notarized consent; repeal.",
-          "why_notable": "This bill addresses a highly sensitive and impactful social issue by seeking to repeal a requirement for abortion consent, reflecting a clear policy stance."
+          "why_notable": "This bill strongly aligns with Democratic efforts to protect and expand reproductive rights by repealing a restriction, but like most, it did not advance."
+        },
+        {
+          "identifier": "HB 2574",
+          "title": "traffic penalties; appeal; stay",
+          "why_notable": "This is the only sponsored bill that advanced beyond the House Second Reading, reaching the Senate, on a public safety topic."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Anna Abeytia is a very active Democratic legislator sponsoring 20 bills this session, demonstrating a broad engagement across social policy, education, and economic issues. While one bill advanced to the Senate, the majority of her proposals have progressed to House Second Reading, indicating significant legislative effort and advancement beyond initial committee stages.",
+      "legislative_style": "Mixed Record",
+      "summary": "Legislator Abeytia's legislative agenda strongly aligns with Arizona Democratic platform priorities, sponsoring numerous bills on education, social justice, healthcare, and housing. However, despite the breadth and relevance of her proposals, a significant majority of her bills have stalled in the House, indicating a gap between her stated legislative ambitions and actual bill advancement.",
       "bipartisan_potential": 45,
       "key_issues": [
-        "Social Justice",
-        "Education Reform",
-        "Economic Equity"
+        "education",
+        "social justice",
+        "housing & economy"
       ],
-      "impact_rating": "High Impact",
-      "constituent_relevance": "The legislator's focus on housing, education funding, public safety, and social justice directly addresses key concerns for many constituents in her urban district.",
-      "strengths": "Her strengths include a proactive approach to legislation across diverse and impactful policy areas, demonstrating a commitment to social justice and public welfare.",
-      "gaps": "Areas not extensively covered include specific environmental conservation measures beyond water management, or a broader focus on agricultural or specific business regulatory reforms."
+      "impact_rating": "Moderate Impact",
+      "constituent_relevance": "Abeytia's work directly addresses issues like public school funding, affordable housing, tenant rights, and social equity, which are highly relevant to the diverse constituents of District 24.",
+      "strengths": "The legislator demonstrates strong commitment to party platform and constituent needs by sponsoring a wide array of bills across key Democratic priorities.",
+      "gaps": "A significant gap exists in the legislator's ability to advance bills beyond initial committee readings, with most proposals stalling in the House."
     }
   },
   {
     "id": "ocd-person/81d12f3a-b635-4111-be8d-a71d2f7565f2",
     "name": "Betty Villegas",
     "scores": {
-      "activity_score": 78,
+      "activity_score": 85,
       "bill_progress_rate": 95,
-      "topic_focus": "This legislator primarily focuses on social policy, housing and infrastructure, and governmental accountability, with significant work in education and public safety.",
+      "topic_focus": "Legislator Villegas SAYS she cares about social justice, voting rights, education, housing, and government accountability, and she DOESS legislate extensively on all these topics, consistently introducing bills that align with these priorities.",
       "notable_bills": [
         {
-          "identifier": "HB 2700",
-          "title": "technology study committee; assistive technology",
-          "why_notable": "This bill reached Senate Second Reading, indicating it successfully passed the House and is advancing through the legislative process."
+          "identifier": "HB 4075",
+          "title": "civil rights; right to vote",
+          "why_notable": "This bill directly aligns with a core Democratic priority of protecting and expanding voting rights and has advanced through initial House readings."
         },
         {
           "identifier": "HB 2527",
           "title": "telemedicine; abortion prohibition; repeal",
-          "why_notable": "This bill addresses a highly debated and impactful social policy issue, seeking to repeal a prohibition related to healthcare access."
+          "why_notable": "This bill strongly matches the Democratic party's stance on reproductive rights and healthcare access, demonstrating clear follow-through on a key social policy issue."
+        },
+        {
+          "identifier": "HB 4132",
+          "title": "ESAs; expenditures; enrollment; limitations.",
+          "why_notable": "This bill directly addresses a major Democratic priority of limiting private school voucher programs (ESAs) to support public education, though it has not yet advanced beyond introduction."
         }
       ],
-      "legislative_style": "Active",
-      "summary": "Representative Villegas has sponsored a high volume of bills this session, covering a broad array of topics from social policy and housing to education and public safety. Nearly all her sponsored bills have advanced to at least a House Second Reading, with two bills successfully moving to the Senate. Her legislative record reflects a strong emphasis on social equity, community support, and governmental oversight.",
-      "bipartisan_potential": 45,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Villegas demonstrates strong follow-through on her stated and party priorities, particularly in social justice, voting rights, education, and housing. She consistently introduces a high volume of legislation on these topics, with the vast majority of her bills advancing through at least one chamber's initial stages.",
+      "bipartisan_potential": 35,
       "key_issues": [
-        "Social Policy",
-        "Housing",
-        "Education"
+        "Voting Rights",
+        "Education",
+        "Housing Affordability"
       ],
       "impact_rating": "High Impact",
-      "constituent_relevance": "Many of this representative's bills directly address issues vital to urban constituents, such as housing affordability, educational resources, public safety, and civil rights.",
-      "strengths": "This legislator demonstrates strength in introducing a diverse portfolio of bills and successfully advancing a significant portion of them through initial legislative stages.",
-      "gaps": "While addressing many societal issues, the legislator's current sponsored bills show less focus on specific economic development initiatives or direct business regulation (beyond liquor licenses)."
+      "constituent_relevance": "Her legislative work on tenant protections, education funding, voting access, and public safety directly impacts the daily lives and overall well-being of her district's residents.",
+      "strengths": "Villegas consistently introduces a substantial number of bills that are tightly aligned with core Democratic principles, and she has a high success rate in moving them past initial committee stages.",
+      "gaps": "While her legislative agenda is robust and well-aligned, the stalling of a key bill aimed at limiting ESAs (HB 4132) suggests challenges in advancing highly contentious measures against opposing party priorities."
     }
   },
   {
     "id": "ocd-person/77be0e97-4c93-4332-a9f9-9348560fdf98",
     "name": "Beverly Pingerelli",
     "scores": {
-      "activity_score": 88,
-      "bill_progress_rate": 83,
-      "topic_focus": "This legislator primarily focuses on public safety, social policy (particularly related to voting and discrimination), and fiscal matters including taxes and the state budget.",
+      "activity_score": 85,
+      "bill_progress_rate": 90,
+      "topic_focus": "Legislator Pingerelli consistently states and legislates on core Republican priorities, with a strong emphasis on public safety and election integrity, followed by fiscal and social policy matters.",
       "notable_bills": [
-        {
-          "identifier": "HB 2665",
-          "title": "manslaughter; online advice; encouragement",
-          "why_notable": "This bill proposes a novel legal framework regarding responsibility for online advice leading to harm, addressing modern public safety concerns."
-        },
         {
           "identifier": "HCR 2001",
           "title": "citizenship; identification; contributions; early voting",
-          "why_notable": "This concurrent resolution addresses significant aspects of election integrity and voter identification, which are often key areas of policy debate."
+          "why_notable": "This concurrent resolution strongly aligns with Republican priorities for election integrity and stricter voting identification requirements."
+        },
+        {
+          "identifier": "HB 2666",
+          "title": "sexual extortion; classification",
+          "why_notable": "This bill directly addresses public safety and crime prevention, aligning well with the legislator's and party's 'tough on crime' stance."
         },
         {
           "identifier": "HCR 2044",
           "title": "preferential treatment; discrimination; prohibited acts",
-          "why_notable": "This concurrent resolution seeks to prohibit preferential treatment and discrimination, touching on a broad and often contentious social policy issue."
+          "why_notable": "This resolution aligns with conservative social policies that typically oppose race- or gender-based preferential treatment."
+        },
+        {
+          "identifier": "HB 4027",
+          "title": "Charlie Kirk highway.",
+          "why_notable": "This bill, while symbolic, clearly aligns with the legislator's conservative leanings by honoring a prominent conservative figure."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Representative Pingerelli demonstrates a very active legislative style, sponsoring a significant number of bills across diverse topics, many of which have advanced substantially through the legislative process. Her agenda frequently addresses public safety, social policies, and fiscal responsibility, with a notable focus on election-related measures.",
-      "bipartisan_potential": 40,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Pingerelli demonstrates strong follow-through on her stated priorities, particularly in public safety and election integrity, by sponsoring numerous bills in these areas. Her legislative efforts often advance significantly through the chamber, showing a clear commitment to enacting policy changes aligned with the Republican platform.",
+      "bipartisan_potential": 35,
       "key_issues": [
-        "public safety",
-        "election integrity",
-        "social policy"
+        "Public Safety",
+        "Election Integrity",
+        "Fiscal Policy"
       ],
-      "impact_rating": "High Impact",
-      "constituent_relevance": "The legislator's work directly affects constituents through proposed changes to voting laws, public safety measures, tax policies, and consumer protections such as requiring businesses to accept cash.",
-      "strengths": "This legislator is a prolific sponsor, effectively navigating a diverse set of bills and resolutions through various stages of the legislative process.",
-      "gaps": "While active in many areas, there is less emphasis on broader environmental protection (beyond specific memorials), housing initiatives, or economic development strategies beyond taxation."
+      "impact_rating": "Moderate Impact",
+      "constituent_relevance": "Her work directly affects District 28 constituents through efforts to enhance public safety, influence electoral processes, address local tax concerns, and support specific economic freedoms.",
+      "strengths": "Pingerelli consistently introduces and effectively advances legislation aligned with key Republican tenets, demonstrating strong follow-through on her stated priorities, especially in public safety and election reform.",
+      "gaps": "While prolific, a few bills on healthcare and municipal taxes stalled without significant action, indicating some areas where legislative efforts did not fully materialize."
     }
   },
   {
     "id": "ocd-person/5425612b-fb2c-4857-8f75-31523345eb2b",
     "name": "Brian Fernandez",
     "scores": {
-      "activity_score": 90,
+      "activity_score": 75,
       "bill_progress_rate": 95,
-      "topic_focus": "Legislator Fernandez demonstrates a broad legislative agenda, with a primary focus on education, economic development, and fiscal policy.",
+      "topic_focus": "Legislator Fernandez says they care about a broad range of Democratic priorities, and their legislative efforts largely reflect this, particularly in education, consumer protection, public safety, and healthcare, though with a notable deviation on environmental policy.",
       "notable_bills": [
-        {
-          "identifier": "SB 1798",
-          "title": "school safety; identification system; appropriation",
-          "why_notable": "This bill has advanced significantly, having been transmitted to the House, indicating potential for immediate impact on school security across the state."
-        },
         {
           "identifier": "SB 1630",
           "title": "home; community-based services; mental illness",
-          "why_notable": "This bill has progressed to a House Second Reading, addressing critical public health needs by expanding mental illness services."
+          "why_notable": "This bill addresses mental health access and services, aligning well with Democratic healthcare priorities and showing good progress."
+        },
+        {
+          "identifier": "SB 1798",
+          "title": "school safety; identification system; appropriation",
+          "why_notable": "This bill focuses on a critical public safety issue with broad appeal, demonstrating excellent progress by being transmitted to the House."
         },
         {
           "identifier": "SB 1395",
           "title": "abortion reporting requirements; repeal.",
-          "why_notable": "This bill addresses a significant social policy issue, reflecting a clear stance on reproductive healthcare regulation."
+          "why_notable": "This bill strongly aligns with Democratic party priorities regarding reproductive rights by seeking to repeal specific abortion reporting requirements."
+        },
+        {
+          "identifier": "SB 1383",
+          "title": "greenhouse gas programs; repeal; prohibition.",
+          "why_notable": "This bill directly contradicts a core Democratic party platform priority of environmental protection and climate action by seeking to repeal greenhouse gas programs."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Senator Fernandez has sponsored a high volume of legislation covering diverse topics including education, economic regulation, and social policy. Many of his proposals have advanced to the Senate floor, with several successfully moving to the House for consideration, demonstrating a productive session.",
+      "legislative_style": "Mostly Aligned",
+      "summary": "Legislator Fernandez exhibits a highly active legislative approach, with nearly all of his sponsored bills advancing effectively through the initial stages of the process. He demonstrates strong follow-through on many core Democratic priorities, particularly in education, consumer protection, and healthcare, yet his sponsorship of a bill to repeal greenhouse gas programs marks a significant departure from expected party stances on environmental issues.",
       "bipartisan_potential": 65,
       "key_issues": [
         "Education",
-        "Economy",
-        "Fiscal Policy"
+        "Consumer Protection",
+        "Public Safety"
       ],
       "impact_rating": "High Impact",
-      "constituent_relevance": "His sponsored legislation directly addresses constituents' daily lives through initiatives related to school safety, mental health services, economic opportunities, and the regulation of consumer goods and services.",
-      "strengths": "Senator Fernandez is effective at advancing a diverse range of legislation through the chambers, demonstrating a strong grasp of various policy areas.",
-      "gaps": "While comprehensive, the legislative record could show more specific engagement with Arizona's unique water challenges or proactive environmental conservation measures beyond regulatory repeals."
+      "constituent_relevance": "Senator Fernandez's work directly affects his district's constituents through efforts to improve education funding, enhance school safety, provide mental health services, and protect consumers from unfair pricing practices.",
+      "strengths": "He consistently introduces and successfully advances legislation addressing public education funding, consumer protection, and healthcare access, demonstrating a strong commitment to these core Democratic priorities.",
+      "gaps": "A notable gap exists in his environmental policy, where a sponsored bill aiming to repeal greenhouse gas programs directly contradicts the Democratic platform, despite his alignment in other areas."
     }
   },
   {
     "id": "ocd-person/c13f449f-0423-4ad5-836b-69913aad6600",
     "name": "Brian Garcia",
     "scores": {
-      "activity_score": 85,
+      "activity_score": 90,
       "bill_progress_rate": 95,
-      "topic_focus": "Legislator Garcia demonstrates a primary legislative focus on social policy, particularly civil rights, immigration, and cultural recognition, alongside significant work on landlord-tenant issues and housing affordability.",
+      "topic_focus": "Legislator Garcia consistently advocates for social justice, affordable housing, and educational improvements, and his legislative efforts strongly align with these stated priorities.",
       "notable_bills": [
         {
-          "identifier": "HB 2574",
-          "title": "traffic penalties; appeal; stay",
-          "why_notable": "This bill advanced to the Senate for a second reading, indicating significant progress for a proposal addressing public safety and legal processes."
-        },
-        {
-          "identifier": "HB 2373",
-          "title": "income tax; refunds; veterans' organizations",
-          "why_notable": "Having reached a second reading in the Senate, this bill supports veterans' organizations through tax refunds, a topic often garnering broad support."
+          "identifier": "HB 4095",
+          "title": "income tax; additional rate; education",
+          "why_notable": "This bill directly addresses a core Democratic priority of increasing public education funding through a progressive income tax rate."
         },
         {
           "identifier": "SB 1355",
           "title": "antidiscrimination; employment; housing; public accommodations.",
-          "why_notable": "This Senate bill, which Garcia sponsored, addresses comprehensive antidiscrimination measures, reflecting a commitment to social equity and reaching Senate Second Reading."
+          "why_notable": "This bill is a fundamental piece of social justice legislation, aligning with key Democratic platform tenets on civil rights and equity across multiple sectors."
         },
         {
-          "identifier": "HB 4111",
-          "title": "immigration; customs officers; body cameras",
-          "why_notable": "This bill tackles a timely and often debated issue, proposing specific accountability measures for customs officers through body cameras."
+          "identifier": "HB 2739",
+          "title": "landlord tenant; senior rental limits",
+          "why_notable": "This bill targets housing affordability and protection for vulnerable populations, a significant Democratic concern with direct constituent impact."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Legislator Garcia exhibits a very active legislative style, sponsoring 20 bills across a diverse range of topics, with a strong emphasis on social policy, housing, and public safety. Several of his proposals, including those related to veterans' organizations and traffic penalties, have advanced to the Senate, showcasing notable progress for a legislator this session.",
-      "bipartisan_potential": 60,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Garcia demonstrates strong follow-through, consistently translating Democratic party platform priorities into active legislation, particularly in the areas of social justice, housing, and education. A high percentage of his sponsored bills advance through the legislative process, indicating effective engagement and commitment.",
+      "bipartisan_potential": 55,
       "key_issues": [
         "Social Justice",
-        "Housing",
-        "Public Safety"
+        "Housing Rights",
+        "Education Funding"
       ],
       "impact_rating": "High Impact",
-      "constituent_relevance": "The legislator's focus on landlord-tenant rights, school mental health, antidiscrimination, and public safety directly addresses common concerns and quality of life issues for constituents in District 8.",
-      "strengths": "Garcia demonstrates strength in advocating for social equity, community well-being, and housing stability through a high volume of diverse and impactful legislative proposals, several of which have achieved cross-chamber consideration.",
-      "gaps": "While broad in scope, the legislator's current record shows less emphasis on specific business development initiatives (beyond general economy), broad healthcare reform, or environmental resource management beyond water quality monitoring."
+      "constituent_relevance": "His legislative work directly affects district constituents by seeking to ensure affordable housing, protect civil rights, enhance public education, and safeguard voting access.",
+      "strengths": "Legislator Garcia exhibits strong commitment to core Democratic principles by consistently sponsoring substantive bills on social justice, housing equity, and education funding, with a high rate of legislative advancement.",
+      "gaps": "While comprehensive in his focus on social and housing issues, his legislative record shows less emphasis on certain other broad Democratic priorities such as expanding healthcare access or detailed economic development initiatives beyond worker payroll compliance."
     }
   },
   {
     "id": "ocd-person/051cb7cf-e965-49a7-844a-a8830447df0c",
     "name": "Carine Werner",
     "scores": {
-      "activity_score": 93,
+      "activity_score": 95,
       "bill_progress_rate": 100,
-      "topic_focus": "This legislator primarily focuses on enhancing the administration and accessibility of healthcare services, particularly through AHCCCS and health insurance reforms, and improving operations and protections within the Department of Child Safety (DCS).",
+      "topic_focus": "Legislator Werner says they prioritize efficient government and citizen well-being, and they consistently legislate on healthcare system improvements and child welfare services.",
       "notable_bills": [
         {
           "identifier": "SB 1628",
           "title": "claims denial; prior authorization; reporting",
-          "why_notable": "This bill directly addresses common consumer frustrations with health insurance by aiming to improve transparency and processes around claims denials and prior authorizations."
+          "why_notable": "This bill matches stated priorities by aiming to improve healthcare system transparency and efficiency, aligning with consumer protection and governmental oversight."
         },
         {
-          "identifier": "SB 1347",
-          "title": "health insurance; fertility preservation; coverage",
-          "why_notable": "This bill proposes to mandate health insurance coverage for fertility preservation, addressing a specific and often costly medical need for many individuals."
+          "identifier": "SB 1115",
+          "title": "AHCCCS; remote work; prohibition",
+          "why_notable": "This bill aligns with a conservative emphasis on government accountability and oversight within a key state agency like AHCCCS."
         },
         {
-          "identifier": "HB 2321",
-          "title": "DCS; credit freeze; consumer reporting",
-          "why_notable": "Originating in the House and advancing in the Senate, this bill seeks to protect children in the DCS system by allowing for credit freezes, safeguarding them from identity theft and financial fraud."
+          "identifier": "SB 1174",
+          "title": "DCS; intake hotline: case history",
+          "why_notable": "This bill clearly matches priorities of improving the effectiveness and record-keeping of the state's child welfare system, a common Republican focus."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Senator Werner has demonstrated a highly active legislative session, sponsoring 20 bills with an impressive 100% advancement rate past initial committee stages. Her legislative agenda is heavily concentrated on refining healthcare systems, including AHCCCS and health insurance practices, and implementing significant reforms within the Department of Child Safety (DCS) to protect vulnerable children.",
-      "bipartisan_potential": 88,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Werner demonstrates strong follow-through, consistently sponsoring and successfully advancing bills focused on improving Arizona's healthcare system and the Department of Child Safety (DCS). Her legislative actions clearly align with Republican priorities of government efficiency, accountability, and the well-being of vulnerable populations.",
+      "bipartisan_potential": 80,
       "key_issues": [
-        "Healthcare Administration",
+        "Healthcare Reform",
         "Child Welfare (DCS)",
-        "Public Health & Safety"
+        "Government Efficiency"
       ],
-      "impact_rating": "High Impact",
-      "constituent_relevance": "District 4 constituents are likely to experience direct benefits from improved healthcare access, enhanced protections for children through DCS reforms, and more transparent health insurance processes proposed by this legislator's work.",
-      "strengths": "This legislator exhibits a strong capacity for identifying and addressing systemic issues within key state agencies, particularly in healthcare and child welfare, successfully moving a substantial number of bills through the legislative process.",
-      "gaps": "While highly focused on healthcare and social policy, this legislator's record for the session does not extensively engage with other broad policy areas such as economic development, education, environmental regulations, or infrastructure."
+      "impact_rating": "Moderate Impact",
+      "constituent_relevance": "Her legislative work directly affects constituents through proposed improvements to healthcare access and quality, and the effectiveness of the state's child protection services.",
+      "strengths": "She consistently follows through on legislative priorities related to healthcare system oversight and child welfare, demonstrated by a high rate of bills advancing through the legislative process.",
+      "gaps": "While highly effective in her chosen areas, there is less legislative focus on other broad Republican platform priorities such as significant economic development initiatives or education reform, indicating a more concentrated legislative agenda."
     }
   },
   {
     "id": "ocd-person/6241112b-910b-4ad8-9c0d-9caad318874f",
     "name": "Catherine Miranda",
     "scores": {
-      "activity_score": 90,
-      "bill_progress_rate": 95,
-      "topic_focus": "This legislator primarily focuses on enhancing healthcare access and services, advancing various social welfare policies, and improving educational resources and accountability.",
+      "activity_score": 55,
+      "bill_progress_rate": 30,
+      "topic_focus": "Legislator Miranda consistently sponsors bills aligning with Democratic priorities such as healthcare access, education funding, and social protections, but a significant portion of these initiatives have stalled in the legislative process.",
       "notable_bills": [
         {
           "identifier": "SB 1395",
           "title": "abortion reporting requirements; repeal.",
-          "why_notable": "This bill addresses a highly debated social issue by seeking to repeal existing abortion reporting requirements."
+          "why_notable": "This bill strongly matches the Democratic party's stance on reproductive rights, aiming to lessen restrictions on abortion access."
         },
         {
-          "identifier": "SB 1355",
-          "title": "antidiscrimination; employment; housing; public accommodations.",
-          "why_notable": "This significant bill aims to broaden anti-discrimination protections across employment, housing, and public accommodations."
-        },
-        {
-          "identifier": "SB 1602",
-          "title": "kinship foster care stipend; increase",
-          "why_notable": "This bill directly supports vulnerable children and families by increasing stipends for kinship foster care providers."
-        },
-        {
-          "identifier": "SB 1461",
-          "title": "allied health care workforce; appropriation",
-          "why_notable": "This bill allocates funds to strengthen the allied health care workforce, addressing a critical need in the healthcare sector."
+          "identifier": "SCR 1042",
+          "title": "expenditure limitation; school districts; repeal",
+          "why_notable": "This concurrent resolution directly addresses a core Democratic priority of increasing funding and flexibility for public education, though it stalled."
         },
         {
           "identifier": "SB 1523",
           "title": "appropriation; waterline project; Ganado",
-          "why_notable": "This bill appropriates funds for a specific infrastructure project, directly impacting a community within or near the legislator's district."
+          "why_notable": "This bill demonstrates a direct commitment to improving infrastructure and quality of life for specific communities, aligning with Democratic support for local and tribal infrastructure, and it advanced well."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Legislator Miranda has demonstrated a very active legislative session, sponsoring a diverse array of 20 bills with a strong focus on healthcare, social policy, and education. A high percentage of her bills have advanced past initial committee stages, indicating a productive approach to legislative work.",
-      "bipartisan_potential": 70,
+      "legislative_style": "Mixed Record",
+      "summary": "Catherine Miranda champions a broad array of Democratic priorities, particularly in healthcare, education, and social welfare, translating her 'Say' into numerous relevant bills. However, a significant portion of her 'Do' is hampered by a low bill progression rate, as many key initiatives fail to advance beyond early stages.",
+      "bipartisan_potential": 55,
       "key_issues": [
-        "Healthcare",
-        "Social Policy",
-        "Education"
+        "Healthcare Access",
+        "Education Funding",
+        "Social Welfare"
       ],
-      "impact_rating": "High Impact",
-      "constituent_relevance": "Many of this legislator's bills directly affect constituents through improved healthcare access, social welfare support, educational reforms, local infrastructure projects (like waterlines in Ganado and a multipurpose complex in Tuba City), and worker protections.",
-      "strengths": "This legislator demonstrates a strong commitment to addressing a wide range of community needs, particularly those related to health, education, and social equity, with a notable ability to advance many of her sponsored bills.",
-      "gaps": "While comprehensive, the legislative record shows fewer bills explicitly targeting economic development or specific business regulatory reform beyond workforce, or specific agricultural issues."
+      "impact_rating": "Moderate Impact",
+      "constituent_relevance": "Her legislative efforts directly impact constituents through proposed improvements in healthcare, education resources, workers' safety, and targeted infrastructure projects in her district.",
+      "strengths": "She consistently introduces legislation that reflects core Democratic values and addresses the needs of vulnerable populations, demonstrating a strong commitment to her stated priorities.",
+      "gaps": "Despite a broad legislative agenda, a low bill progression rate indicates a struggle to move impactful legislation through the chamber, especially on more contentious issues or significant funding reforms."
     }
   },
   {
     "id": "ocd-person/b1da595a-8c97-42f8-ae58-694c17efa3f3",
     "name": "Cesar Aguilar",
     "scores": {
-      "activity_score": 85,
+      "activity_score": 95,
       "bill_progress_rate": 100,
-      "topic_focus": "This legislator primarily focuses on social policy, encompassing child welfare, immigration, and cultural recognition, alongside significant work in public safety and housing development.",
+      "topic_focus": "Legislator Aguilar consistently advocates for and legislates on social justice, public safety reform, child welfare, housing, and education, aligning closely with their party's platform.",
       "notable_bills": [
         {
           "identifier": "HB 2673",
           "title": "mental illness; prisoners; diagnosis; treatment.",
-          "why_notable": "This bill addresses a critical issue of mental health within the correctional system, impacting both public health and criminal justice reform."
+          "why_notable": "This bill directly addresses Democratic priorities of healthcare access and criminal justice reform by focusing on mental health for incarcerated individuals and advanced significantly through the legislative process."
         },
         {
           "identifier": "HB 4095",
           "title": "income tax; additional rate; education",
-          "why_notable": "This bill proposes a significant change to state taxation for education funding, which would have broad economic and social implications."
+          "why_notable": "This bill directly funds education through an income tax, a clear demonstration of supporting a core Democratic platform priority for public education and its funding."
         },
         {
-          "identifier": "SB 1174",
-          "title": "DCS; intake hotline: case history",
-          "why_notable": "Part of a series of bills reforming the Department of Child Safety, this legislation directly impacts child welfare and state agency accountability."
-        },
-        {
-          "identifier": "HB 4111",
-          "title": "immigration; customs officers; body cameras",
-          "why_notable": "This bill addresses civil liberties and accountability within immigration enforcement by mandating body cameras for customs officers."
+          "identifier": "SB 1175",
+          "title": "DCS caseworkers; investigations; child photographs",
+          "why_notable": "One of several bills focusing on child welfare and accountability within the Department of Child Safety, aligning with social policy and protection priorities."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Representative Aguilar has demonstrated a very active legislative session, sponsoring 20 bills across a wide range of policy areas. Their legislative efforts primarily address social policy, including child welfare and cultural recognition, alongside significant work in public safety, housing, and government accountability.",
-      "bipartisan_potential": 65,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Cesar Aguilar's legislative record shows exceptional follow-through on Democratic platform priorities, with a comprehensive set of bills addressing social justice, public safety, healthcare access, and housing. They consistently deliver on promises, particularly in areas like child welfare, tenant rights, and criminal justice reform, with a remarkable rate of bill advancement.",
+      "bipartisan_potential": 55,
       "key_issues": [
         "Child Welfare",
-        "Social Justice/Equity",
-        "Public Safety/Criminal Justice"
+        "Social Justice & Equity",
+        "Housing & Tenant Rights"
       ],
       "impact_rating": "High Impact",
-      "constituent_relevance": "Representative Aguilar's work directly impacts constituents through efforts to improve child welfare, enhance housing security, address mental health needs in the justice system, and promote social equity.",
-      "strengths": "A strength is the legislator's active engagement across a broad spectrum of issues, particularly in advocating for vulnerable populations and promoting government accountability.",
-      "gaps": "Potential gaps include less explicit focus on environmental protection, water conservation efforts, or broader economic development initiatives beyond specific labor and tax policies."
+      "constituent_relevance": "Legislator Aguilar's work directly affects constituents by addressing critical issues such as child protection, housing security, mental health support, and public safety accountability within District 26.",
+      "strengths": "Cesar Aguilar consistently introduces and successfully advances legislation aligned with Democratic platform priorities, particularly in child welfare, social justice, and housing, demonstrating strong legislative efficacy.",
+      "gaps": "Given the comprehensive nature and significant advancement of their sponsored bills, there are no obvious gaps between their stated priorities and their legislative actions; their actions strongly align with their 'Say.'"
     }
   },
   {
     "id": "ocd-person/9128a4e7-1464-483c-8642-0d878da05619",
     "name": "Chris Lopez",
     "scores": {
-      "activity_score": 85,
+      "activity_score": 88,
       "bill_progress_rate": 70,
-      "topic_focus": "This legislator primarily focuses on public safety, infrastructure development, and water resource management, alongside fiscal and social policy initiatives.",
+      "topic_focus": "Legislator Lopez consistently states a commitment to fiscal conservatism, public safety, and vital infrastructure development, which aligns well with the strong legislative action observed in these areas.",
       "notable_bills": [
         {
           "identifier": "HB 2055",
           "title": "brackish groundwater recovery program",
-          "why_notable": "This bill addresses a critical long-term water sustainability challenge for Arizona, proposing a program for recovering brackish groundwater."
+          "why_notable": "This bill aligns with Republican priorities for resource management and economic development, addressing critical water issues in Arizona, and has advanced significantly."
+        },
+        {
+          "identifier": "HB 2939",
+          "title": "qualified facilities; tax credit; amount",
+          "why_notable": "This bill directly reflects the Republican platform's emphasis on fiscal conservatism and fostering a business-friendly environment through tax incentives, and it has progressed effectively."
         },
         {
           "identifier": "HB 2575",
           "title": "antisemitism; public schools; prohibition; penalties",
-          "why_notable": "This legislation aims to combat antisemitism in public schools, reflecting a focus on social policy and combating discrimination within educational settings."
-        },
-        {
-          "identifier": "HB 2665",
-          "title": "manslaughter; online advice; encouragement",
-          "why_notable": "This bill proposes to update criminal law to address emerging issues related to online influence and encouragement in cases of manslaughter, reflecting a response to modern digital challenges."
-        },
-        {
-          "identifier": "SB 1010",
-          "title": "Charlie Kirk highway",
-          "why_notable": "This bill, along with a companion, is notable for its politically charged proposal to name a state highway after a specific political commentator, indicating a focus on symbolic gestures and ideological alignment."
+          "why_notable": "This bill aligns with conservative social policy, addressing cultural and educational concerns, and demonstrates successful legislative follow-through."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Representative Lopez is a very active legislator, sponsoring 20 bills across a diverse range of topics from water management to public safety and social policy. Many of these bills have seen significant advancement, with several reaching the Senate for further consideration. His legislative efforts demonstrate a broad interest in addressing both contemporary issues and foundational state needs.",
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Lopez effectively translates stated Republican priorities into legislative action, particularly in areas of public safety, water resource management, and fiscal policy. A substantial majority of their sponsored bills, especially those aligning with core platform tenets, have successfully advanced through the legislative process, demonstrating strong follow-through.",
       "bipartisan_potential": 65,
       "key_issues": [
-        "Water Resources",
         "Public Safety",
-        "Infrastructure"
+        "Water & Infrastructure",
+        "Fiscal Policy"
       ],
       "impact_rating": "High Impact",
-      "constituent_relevance": "Many of the sponsored bills, particularly those on water resource management, public safety, and infrastructure development like Interstate 11, directly address key concerns and daily lives of constituents in District 16.",
-      "strengths": "The legislator demonstrates strength in championing a wide array of bills across multiple policy areas, with a notable success rate in moving legislation through the initial stages and into the opposite chamber.",
-      "gaps": "While active across many topics, the legislator's current bill portfolio does not heavily emphasize areas such as broad K-12 education funding reforms or preventative public health initiatives beyond specific healthcare provider roles."
+      "constituent_relevance": "Lopez's work directly impacts constituents through efforts in securing water resources, improving infrastructure, enhancing public safety, and adjusting tax policies that affect local businesses and residents.",
+      "strengths": "The legislator demonstrates strong follow-through on promises by successfully advancing numerous substantive bills related to public safety, water infrastructure, and tax policy that align with the Republican platform.",
+      "gaps": "While generally effective, some bills addressing social policy (like school prayer) and specific tax/government operations stalled early, indicating minor gaps in legislative success for all priorities."
     }
   },
   {
@@ -551,123 +535,113 @@
     "name": "Chris Mathis",
     "scores": {
       "activity_score": 85,
-      "bill_progress_rate": 95,
-      "topic_focus": "The legislator demonstrates a broad legislative agenda, frequently addressing social policy, housing, economic welfare, and public safety issues.",
+      "bill_progress_rate": 100,
+      "topic_focus": "Legislator Mathis SAYS they care about social equity, economic justice, and environmental protection, and they DO legislate extensively on these topics through a broad range of bills focusing on tenant rights, fair wages, worker protection, public health, and cultural recognition.",
       "notable_bills": [
-        {
-          "identifier": "HB 2574",
-          "title": "traffic penalties; appeal; stay",
-          "why_notable": "This bill advanced to the Senate, indicating significant legislative traction for a public safety-related measure."
-        },
         {
           "identifier": "HCR 2021",
           "title": "minimum wage; increase; definitions",
-          "why_notable": "This resolution aims to significantly impact the economic conditions for many Arizonans by proposing a minimum wage increase."
+          "why_notable": "This bill directly matches a core Democratic priority of economic justice and fair wages for workers."
         },
         {
           "identifier": "HB 2739",
           "title": "landlord tenant; senior rental limits",
-          "why_notable": "This bill addresses a critical social policy issue affecting vulnerable senior populations in rental housing."
+          "why_notable": "This bill strongly aligns with Democratic platform positions on protecting vulnerable populations and addressing housing affordability."
         },
         {
-          "identifier": "HB 2711",
-          "title": "housing trust fund; unclaimed property",
-          "why_notable": "This bill proposes a mechanism to fund housing initiatives, potentially with broad social impact on housing availability and affordability."
+          "identifier": "HB 2546",
+          "title": "appropriation; PFAS; health study",
+          "why_notable": "This bill directly addresses public health and environmental safety, a significant Democratic concern regarding chemical contaminants."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Representative Mathis has sponsored a very active and diverse legislative agenda, focusing heavily on social policy, economic welfare, and housing-related issues. Many of his bills aim to provide relief or support to specific communities or vulnerable populations, with a high percentage advancing within the House.",
-      "bipartisan_potential": 55,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Mathis demonstrates strong alignment between stated Democratic priorities and a proactive legislative agenda. He has introduced a substantial number of bills addressing key issues such as economic justice, social equity, housing, and environmental protection, indicating a clear commitment to his platform goals. While many bills have advanced through initial legislative steps within the House, only one has moved to the other chamber, suggesting challenges in securing broader legislative passage.",
+      "bipartisan_potential": 45,
       "key_issues": [
-        "Social Policy",
-        "Economic Welfare",
-        "Housing"
+        "Economic Justice",
+        "Social Equity",
+        "Environmental Protection"
       ],
-      "impact_rating": "High Impact",
-      "constituent_relevance": "The legislator's work directly affects constituents through proposed changes to rental laws, economic conditions, public safety measures, and investments in housing and community services.",
-      "strengths": "This legislator demonstrates a strong commitment to addressing a wide range of social and economic issues, with a notable success rate in moving bills forward within the House.",
-      "gaps": "While diverse, there is less emphasis on specific education reforms, broader healthcare access (beyond specific studies), or advanced technological development."
+      "impact_rating": "Moderate Impact",
+      "constituent_relevance": "This representative's work directly affects constituents through proposed legislation on affordable housing, tenant protections, minimum wage increases, consumer rights, public health initiatives, and cultural recognition within his district.",
+      "strengths": "This representative consistently introduces a high volume of legislation that directly addresses core Democratic party platform issues, demonstrating a clear commitment to his stated priorities.",
+      "gaps": "While many bills have progressed to 'House Second Reading', only one has moved to the other chamber, indicating a potential challenge in advancing his legislative agenda further through the full legislative process."
     }
   },
   {
     "id": "ocd-person/0a4e4b0a-a16e-475b-8aa1-75088657d8c1",
     "name": "Consuelo Hernandez",
     "scores": {
-      "activity_score": 80,
-      "bill_progress_rate": 76,
-      "topic_focus": "This legislator primarily focuses on public safety, with a strong emphasis on law enforcement, criminal justice, and worker's safety, complemented by work in economic development and education.",
+      "activity_score": 85,
+      "bill_progress_rate": 80,
+      "topic_focus": "While they align with Democratic priorities on education, healthcare, and social programs, their legislative actions demonstrate a strong focus on public safety and worker-related economic issues.",
       "notable_bills": [
         {
-          "identifier": "HB 4109",
-          "title": "safety; school procedures; criminal classification",
-          "why_notable": "This bill addresses critical issues of school safety and criminal classifications, directly impacting students, educators, and the justice system."
+          "identifier": "HB 2803",
+          "title": "expenditure limitation; school districts; repeal.",
+          "why_notable": "This bill directly supports increased funding for public schools by repealing expenditure limits, a key Democratic platform priority."
         },
         {
-          "identifier": "HB 2673",
-          "title": "mental illness; prisoners; diagnosis; treatment.",
-          "why_notable": "This legislation aims to improve mental healthcare for incarcerated individuals, an important reform at the intersection of public health and criminal justice."
+          "identifier": "HB 2682",
+          "title": "rental assistance program; appropriation",
+          "why_notable": "This bill addresses affordable housing and support for low-income constituents, a significant Democratic social policy priority."
         },
         {
-          "identifier": "HB 2950",
-          "title": "tourism improvement areas; municipalities; counties",
-          "why_notable": "This bill could significantly boost local economies by enabling the creation of tourism improvement areas across municipalities and counties."
+          "identifier": "HB 2671",
+          "title": "chronic felony offenders; juveniles",
+          "why_notable": "This bill addresses criminal justice reform and juvenile justice, aligning with Democratic priorities for a more nuanced approach to justice."
+        },
+        {
+          "identifier": "HB 2680",
+          "title": "worker's compensation; notice; fraud; commission",
+          "why_notable": "This bill focuses on worker protections and fair compensation, a core Democratic economic priority."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Representative Hernandez demonstrates a very active legislative session, sponsoring a wide array of bills, predominantly focused on various aspects of public safety, including law enforcement training, school safety, and criminal justice reforms. Beyond public safety, her legislative efforts also extend to economic development, education funding, and social policy, with many of her sponsored bills advancing through the legislative process.",
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Hernandez consistently champions Democratic priorities, particularly in advancing legislation for public education funding, worker protections, and support for vulnerable populations through initiatives like rental assistance. Their legislative actions reflect a practical focus on public safety and community welfare, with a high proportion of their sponsored bills making significant progress.",
       "bipartisan_potential": 70,
       "key_issues": [
         "Public Safety",
-        "Economy",
-        "Education"
+        "Worker Protections",
+        "Education Funding"
       ],
-      "impact_rating": "High Impact",
-      "constituent_relevance": "Her legislative work directly affects constituents through improvements in public safety, economic opportunities in tourism and employment, and reforms in education and prisoner healthcare.",
-      "strengths": "This legislator demonstrates strength in addressing a broad range of public safety concerns and effectively advancing a significant number of bills through the legislative process.",
-      "gaps": "Potential gaps include less focus on environmental protection, comprehensive housing solutions beyond a single rental assistance program, or specific tax reform initiatives."
+      "impact_rating": "Moderate Impact",
+      "constituent_relevance": "Hernandez's legislative work directly affects constituents through efforts to enhance public safety, support public schools, provide rental assistance, and protect workers.",
+      "strengths": "This legislator demonstrates strong commitment to public safety and worker protections, successfully moving numerous related bills through the legislative process.",
+      "gaps": "A few significant bills, such as those concerning law enforcement face coverings and ESA limitations, stalled without clear action, indicating areas where legislative consensus or follow-through may have been challenging."
     }
   },
   {
     "id": "ocd-person/263ebe9c-566a-4b5c-bfbc-ea1f1d0dc3f2",
     "name": "Dave Farnsworth",
     "scores": {
-      "activity_score": 90,
-      "bill_progress_rate": 100,
-      "topic_focus": "The legislator demonstrates a broad legislative interest with a notable emphasis on public safety, education policy, and infrastructure development, frequently involving state appropriations.",
+      "activity_score": 82,
+      "bill_progress_rate": 65,
+      "topic_focus": "Legislator Farnsworth says he cares about fiscal conservatism, strong border security, public safety, education reform, traditional values, and infrastructure, and he actively legislates on these areas with a significant number of bills advancing.",
       "notable_bills": [
         {
           "identifier": "SB 1278",
           "title": "solar radiation management; prohibition; enforcement.",
-          "why_notable": "This bill successfully passed, addressing a unique and potentially far-reaching environmental policy concern."
+          "why_notable": "This bill passed both chambers, directly aligning with conservative principles of limited government intervention and skepticism towards certain environmental initiatives."
         },
         {
           "identifier": "SB 1177",
           "title": "public monies; gender transition; prohibition",
-          "why_notable": "This bill addresses a highly debated social policy issue concerning the use of public funds for gender transition services, likely drawing significant public attention."
-        },
-        {
-          "identifier": "SB 1010",
-          "title": "Charlie Kirk highway",
-          "why_notable": "The proposal to name a state highway after a specific political figure is notable for its cultural and ideological implications."
-        },
-        {
-          "identifier": "HB 2248",
-          "title": "medical interventions; prohibition",
-          "why_notable": "This bill potentially restricts certain medical practices, indicating a significant stance on healthcare policy with broad implications."
+          "why_notable": "This bill advanced to the House, strongly matching the Republican platform's focus on traditional values and conservative fiscal policy regarding public spending."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Representative Farnsworth has demonstrated a very active legislative session, sponsoring 20 bills across a wide range of topics, including public safety, education, and infrastructure. Nearly all of his sponsored legislation has advanced significantly through the process, with one bill successfully passing both chambers.",
-      "bipartisan_potential": 50,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Farnsworth consistently introduces a high volume of legislation closely aligned with the Arizona Republican platform, particularly focusing on infrastructure, public safety, border security, and traditional social policy. A majority of his sponsored bills advance significantly, including one that successfully passed, demonstrating effective follow-through on his stated priorities.",
+      "bipartisan_potential": 25,
       "key_issues": [
-        "Public Safety",
-        "Education Policy",
-        "Infrastructure Development"
+        "Infrastructure",
+        "Public Safety & Border Security",
+        "Conservative Social Policy & Education"
       ],
-      "impact_rating": "High Impact",
-      "constituent_relevance": "Constituents in District 10 would be directly affected by bills relating to local infrastructure appropriations (SR 24, Queen Creek law enforcement), K-12 school funding, public safety definitions, and broader state policies on education and healthcare.",
-      "strengths": "This legislator is highly effective at advancing a diverse portfolio of bills through the legislative process, demonstrating broad policy interests and a proactive approach to lawmaking.",
-      "gaps": "While diverse, there are fewer bills specifically addressing economic development initiatives (beyond infrastructure), housing affordability, or comprehensive water policy."
+      "impact_rating": "Moderate Impact",
+      "constituent_relevance": "His legislative work directly influences local infrastructure development, funding for law enforcement in communities like Queen Creek, revisions to state agencies like ADOT, and K-12 school funding, directly impacting the daily lives and services for his district constituents.",
+      "strengths": "This legislator consistently introduces and successfully advances a substantial number of bills that directly align with the Arizona Republican Party's platform, demonstrating strong commitment and legislative effectiveness.",
+      "gaps": "While active, some of his ideologically significant bills, particularly those related to education reform and specific public safety regulations, stalled in early legislative stages."
     }
   },
   {
@@ -676,512 +650,522 @@
     "scores": {
       "activity_score": 90,
       "bill_progress_rate": 100,
-      "topic_focus": "This legislator primarily focuses on public safety, healthcare initiatives, and appropriations for infrastructure and specific projects, demonstrating a broad interest in state services and local development.",
+      "topic_focus": "Legislator Gowan primarily states and legislates on priorities aligned with public safety, infrastructure development, and economic matters, consistently bringing forward bills in these areas.",
       "notable_bills": [
         {
           "identifier": "SB 1275",
           "title": "mandatory prison sentences; judicial discretion",
-          "why_notable": "This bill addresses significant criminal justice policy by potentially altering the discretion of judges in sentencing, which could have broad implications for the state's judicial system and prison population."
+          "why_notable": "This bill aligns with a core Republican 'tough on crime' stance by seeking to limit judicial discretion in sentencing."
         },
         {
-          "identifier": "SB 1621",
-          "title": "obesity; prevention; treatment; advisory council",
-          "why_notable": "This legislation aims to tackle a major public health issue by proposing an advisory council for obesity prevention and treatment, potentially impacting healthcare strategies across the state."
+          "identifier": "SCM 1004",
+          "title": "clean air act; EPA powers",
+          "why_notable": "This memorial directly reflects a conservative position opposing perceived federal overreach and burdensome environmental regulations."
         },
         {
-          "identifier": "SB 1272",
-          "title": "appropriation; Douglas port of entry",
-          "why_notable": "This bill allocates funds for a specific and significant infrastructure project at the Douglas port of entry, which could have a direct economic and operational impact on trade and border communities."
+          "identifier": "SB 1010",
+          "title": "Charlie Kirk highway",
+          "why_notable": "This bill is a strong symbolic gesture, aligning with conservative political identity by naming a public thoroughfare after a prominent figure in the conservative movement."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Senator Gowan maintains a very active legislative record, sponsoring a high volume of diverse bills across public safety, healthcare, and fiscal policy. Many of his proposals have seen significant progress through the legislative process, indicating effectiveness in advancing his legislative agenda.",
-      "bipartisan_potential": 65,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Gowan exhibits strong follow-through, consistently sponsoring and advancing bills that align with key Republican priorities, especially in public safety, specific infrastructure projects, and a conservative approach to environmental regulation. His legislative record demonstrates a clear commitment to delivering on his stated party's platform.",
+      "bipartisan_potential": 55,
       "key_issues": [
         "Public Safety",
-        "Healthcare",
-        "Infrastructure"
+        "Infrastructure",
+        "Economic Development"
       ],
-      "impact_rating": "High Impact",
-      "constituent_relevance": "Many of this legislator's bills, particularly those involving local appropriations for projects like the Douglas port of entry and Olga Frontage Road, along with agricultural property tax and correctional officer benefits, directly address the needs and economic interests of his district's constituents.",
-      "strengths": "Senator Gowan demonstrates strength in sponsoring a high volume of diverse legislation, often successfully moving bills through various stages of the legislative process.",
-      "gaps": "While covering a broad range of topics, the legislator's current sponsored bills do not extensively address issues such as K-12 education reform (beyond safety systems) or broader economic diversification strategies beyond specific infrastructure and tourism projects."
+      "impact_rating": "Moderate Impact",
+      "constituent_relevance": "His legislative work directly impacts constituents through funding for local infrastructure projects, enhanced public safety measures, and targeted economic and health initiatives within his district.",
+      "strengths": "Legislator Gowan consistently follows through on promises, successfully advancing numerous bills that align with core Republican priorities such as public safety and local infrastructure development.",
+      "gaps": "While demonstrating a clear focus, his legislative portfolio shows less emphasis on broader individual liberty issues or comprehensive market-based healthcare reforms often highlighted in the Republican platform, beyond specific policy adjustments."
     }
   },
   {
     "id": "ocd-person/6e8f2c0d-c9d3-4cb5-ae59-5264cb6d61a7",
     "name": "David Livingston",
     "scores": {
-      "activity_score": 85,
-      "bill_progress_rate": 65,
-      "topic_focus": "This legislator primarily focuses on government operations, with a significant interest in healthcare, social policy, and economic matters.",
+      "activity_score": 92,
+      "bill_progress_rate": 100,
+      "topic_focus": "Legislator Livingston says he cares about fiscal responsibility, a strong economy, education, border security, public safety, healthcare, and government accountability, and he actively legislates on these exact topics, particularly through bills related to government operations, financial oversight, and conservative social policies.",
       "notable_bills": [
-        {
-          "identifier": "HCR 2044",
-          "title": "preferential treatment; discrimination; prohibited acts",
-          "why_notable": "This concurrent resolution addresses significant social policy issues by prohibiting preferential treatment and discrimination."
-        },
         {
           "identifier": "HB 2345",
           "title": "unlawful presence; commercial vehicle; forfeiture",
-          "why_notable": "This bill, despite stalling, addresses controversial issues related to immigration enforcement and property forfeiture."
+          "why_notable": "This bill directly aligns with a core Republican priority of strong border enforcement and deterring illegal immigration."
         },
         {
-          "identifier": "SB 1010",
-          "title": "Charlie Kirk highway",
-          "why_notable": "This bill is notable for proposing to name a public highway after a specific contemporary political figure, demonstrating a focus on symbolic recognition."
+          "identifier": "HCR 2044",
+          "title": "preferential treatment; discrimination; prohibited acts",
+          "why_notable": "This concurrent resolution reflects a key conservative social policy stance against 'preferential treatment' or affirmative action."
+        },
+        {
+          "identifier": "HB 4026",
+          "title": "public infrastructure improvements; distribution limit",
+          "why_notable": "This bill addresses infrastructure development while incorporating a fiscal responsibility element, consistent with the Republican platform."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Representative Livingston demonstrates a very active legislative approach, sponsoring 20 bills this session, with a commendable 65% advancing to the opposite chamber or passing. His legislative interests are broad, encompassing government operations, healthcare, social policy, and economic regulation, aiming to influence various facets of state governance.",
-      "bipartisan_potential": 50,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Livingston demonstrates strong follow-through on his stated and party priorities, sponsoring a high volume of bills that directly address Republican platform planks such as fiscal responsibility, government accountability, healthcare oversight, and border security. His legislative efforts show a consistent commitment to his party's agenda, with a remarkable rate of bills advancing through the legislative process.",
+      "bipartisan_potential": 45,
       "key_issues": [
         "Government Operations",
-        "Healthcare & Insurance",
+        "Fiscal Responsibility",
         "Social Policy"
       ],
       "impact_rating": "Moderate Impact",
-      "constituent_relevance": "Constituents are directly impacted by this legislator's work through bills addressing local school funding, public infrastructure, healthcare regulations, and state-level social policy debates, reflecting a focus on public services and governance.",
-      "strengths": "This legislator's strengths include a high volume of sponsored legislation and a strong success rate in moving bills through the legislative process across a diverse range of policy areas.",
-      "gaps": "Areas less addressed by this legislator include specific environmental protection initiatives, targeted economic development programs beyond general finance, or direct legislation focused on addressing poverty or housing crises."
+      "constituent_relevance": "His legislative work on school district financing, public safety, consumer protection, and local government oversight directly impacts district constituents' services and daily lives.",
+      "strengths": "He consistently proposes and successfully advances legislation addressing core Republican platform issues such as fiscal responsibility, government accountability, and specific conservative social policy stances.",
+      "gaps": "There are no significant gaps between his stated party priorities and his legislative actions; he actively legislates across most key Republican platform areas with a high rate of bill progression."
     }
   },
   {
     "id": "ocd-person/8bc6f450-7fc4-4258-bf5a-86465e85b9fb",
     "name": "David Marshall",
     "scores": {
-      "activity_score": 88,
+      "activity_score": 85,
       "bill_progress_rate": 70,
-      "topic_focus": "This legislator primarily focuses on public safety, encompassing criminal justice and law enforcement support, with additional significant work in social policy and environmental regulation.",
+      "topic_focus": "Legislator Marshall says they care about public safety, veterans' support, and conservative social policy, and they consistently legislate on these issues with many bills advancing through the chambers.",
       "notable_bills": [
         {
           "identifier": "HB 2042",
           "title": "solar radiation management; prohibition; enforcement",
-          "why_notable": "This bill was vetoed by the Governor, indicating a significant policy disagreement on environmental regulation."
+          "why_notable": "This bill reached the Governor's desk before being vetoed, demonstrating a significant legislative effort on an issue that aligns with a skeptical Republican stance on certain environmental interventions."
         },
         {
           "identifier": "HB 2575",
           "title": "antisemitism; public schools; prohibition; penalties",
-          "why_notable": "This bill addresses a prominent social and educational issue by prohibiting antisemitism in public schools."
+          "why_notable": "This bill reflects a current Republican priority addressing social policy and combating specific ideologies within public education, and it advanced through committee."
         },
         {
-          "identifier": "HB 2665",
-          "title": "manslaughter; online advice; encouragement",
-          "why_notable": "This bill attempts to address contemporary legal challenges by extending manslaughter liability to online advice or encouragement."
-        },
-        {
-          "identifier": "SB 1010",
-          "title": "Charlie Kirk highway",
-          "why_notable": "This bill, and its companion HB 4027, proposes naming a highway after a political commentator, reflecting a specific ideological stance."
+          "identifier": "HB 2960",
+          "title": "veterans' court fund; grant program",
+          "why_notable": "This bill directly supports a key Republican constituency (veterans) and a rehabilitative approach within the justice system, and it has advanced to the Senate."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Representative Marshall is a very active legislator, having sponsored 20 bills and resolutions this session, with a significant majority advancing past initial committee stages. His legislative work spans public safety, social policy, and environmental issues, demonstrating a broad engagement in policy-making.",
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Marshall is a highly active and effective lawmaker whose legislative agenda closely aligns with core Arizona Republican priorities, particularly public safety, veterans' welfare, and conservative social policies. They consistently deliver on their stated commitments, with a significant majority of their sponsored bills progressing through the legislative process.",
       "bipartisan_potential": 55,
       "key_issues": [
         "Public Safety",
-        "Social Policy",
-        "Environmental Regulation"
+        "Veterans' Support",
+        "Conservative Social Policy"
       ],
       "impact_rating": "Moderate Impact",
-      "constituent_relevance": "The legislator's work directly affects constituents through bills impacting public safety, K-12 education, local taxes, environmental policies, and support for veterans within District 7.",
-      "strengths": "This legislator demonstrates a comprehensive approach to legislative duties, actively pursuing policy changes across several key sectors and successfully advancing a notable number of bills through the chambers.",
-      "gaps": "Areas such as healthcare access, affordable housing initiatives, broader economic development strategies beyond specific industry regulations, or water policy (critical in Arizona) are not prominently addressed in the sponsored bills."
+      "constituent_relevance": "The legislator's work directly impacts constituents through enhanced public safety measures, support and tax benefits for veterans, and policies affecting local schools and infrastructure.",
+      "strengths": "This representative demonstrates strong follow-through on core Republican priorities, especially in public safety and veterans' support, with many substantive bills successfully navigating the legislative process.",
+      "gaps": "While generally aligned, there are some priority areas where bills stalled early (e.g., some early-stage public safety and economic bills) or were symbolic rather than impactful."
     }
   },
   {
     "id": "ocd-person/93db82ca-c8b1-43e4-98ce-ba52f4d0f635",
     "name": "Elda Luna-Nájera",
     "scores": {
-      "activity_score": 93,
+      "activity_score": 92,
       "bill_progress_rate": 95,
-      "topic_focus": "This legislator primarily focuses on public safety and criminal justice reforms, alongside significant work in social policy, healthcare, and infrastructure.",
+      "topic_focus": "The legislator *SAYS* they care about a broad Democratic agenda, including healthcare access, workers' rights, housing affordability, and social justice, and they *ACTUALLY* legislate extensively on these exact topics, with a strong emphasis on public safety and criminal justice reform.",
       "notable_bills": [
         {
-          "identifier": "HB 2574",
-          "title": "traffic penalties; appeal; stay",
-          "why_notable": "This bill has advanced to Senate Second Reading, indicating significant progress on a public safety topic."
-        },
-        {
-          "identifier": "HB 4109",
-          "title": "safety; school procedures; criminal classification",
-          "why_notable": "Reaching Senate Second Reading, this bill addresses critical school safety and criminal classification issues."
+          "identifier": "HB 2527",
+          "title": "telemedicine; abortion prohibition; repeal",
+          "why_notable": "This bill directly aligns with a core Democratic priority of protecting and expanding reproductive rights, and it advanced past initial committee."
         },
         {
           "identifier": "HB 2671",
           "title": "chronic felony offenders; juveniles",
-          "why_notable": "This bill, transmitted to the Senate, represents a key effort in juvenile justice reform."
+          "why_notable": "Addressing criminal justice reform, especially concerning juveniles, is a significant social policy concern for Democrats, and this bill advanced well to the Senate."
+        },
+        {
+          "identifier": "HB 2711",
+          "title": "housing trust fund; unclaimed property",
+          "why_notable": "This bill tackles housing affordability, a consistent Democratic priority, by proposing a mechanism to fund housing initiatives, and it advanced past initial committee."
+        },
+        {
+          "identifier": "HB 4109",
+          "title": "safety; school procedures; criminal classification",
+          "why_notable": "This bill addresses school safety, a topic of broad public interest, while also touching on criminal classification, and it advanced to the Senate."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Representative Luna-Nájera is a very active legislator, sponsoring 20 bills with an impressive 95% advancement rate for the current session. Her legislative efforts are primarily focused on public safety and criminal justice, addressing issues from traffic penalties to juvenile offenders and school safety. She also actively pursues legislation concerning social policy, healthcare access, and housing.",
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Representative Luna-Nájera demonstrates a high degree of follow-through, sponsoring a wide array of bills that directly reflect core Democratic priorities, including healthcare access, housing affordability, and criminal justice reform. Her legislative effectiveness is evident, with an exceptional percentage of her proposed bills successfully advancing past initial committees, underscoring a commitment to actionable policy.",
       "bipartisan_potential": 70,
       "key_issues": [
         "Public Safety",
-        "Healthcare",
-        "Housing"
+        "Healthcare Access",
+        "Housing Affordability"
       ],
-      "impact_rating": "High Impact",
-      "constituent_relevance": "Her legislative work directly affects constituents by addressing crucial daily concerns such as public safety, housing stability, healthcare access, and educational environments.",
-      "strengths": "Her strengths include a high volume of sponsored legislation with an excellent advancement rate, demonstrating effective navigation of the legislative process across a diverse set of critical policy areas.",
-      "gaps": "Areas less addressed include specific economic development initiatives beyond government contracts, broader environmental policy, or direct business regulation."
+      "impact_rating": "Moderate Impact",
+      "constituent_relevance": "Her work directly addresses critical district concerns such as housing affordability, access to healthcare and reproductive services, and various aspects of public safety and criminal justice impacting daily life and community well-being.",
+      "strengths": "She demonstrates strong follow-through by sponsoring a wide array of bills directly reflecting core Democratic priorities and successfully advancing a high percentage of them through the legislative process.",
+      "gaps": "While demonstrating exceptional success in advancing her legislative agenda through committees, one bill did not move forward, and a few others that passed committee are awaiting further action, suggesting that converting all proposed legislation into law remains a challenge."
     }
   },
   {
     "id": "ocd-person/e1cd66fa-a0de-45fd-ae53-a4db7d178d21",
     "name": "Eva Diaz",
     "scores": {
-      "activity_score": 88,
+      "activity_score": 65,
       "bill_progress_rate": 95,
-      "topic_focus": "This legislator primarily focuses on education policy, sponsoring multiple bills related to schools and student services, with significant attention also given to healthcare, social policy, and tax-related appropriations.",
+      "topic_focus": "Eva Diaz says she cares about core Democratic priorities like healthcare, education, social safety nets, and environmental protection, and her legislative actions largely reflect a strong focus on education, healthcare access, social policy, and public safety, although her environmental record shows a notable contradiction.",
       "notable_bills": [
         {
           "identifier": "SB 1461",
           "title": "allied health care workforce; appropriation",
-          "why_notable": "This bill addresses a critical statewide need by appropriating funds for the allied health care workforce and has successfully been transmitted to the House."
-        },
-        {
-          "identifier": "SB 1602",
-          "title": "kinship foster care stipend; increase",
-          "why_notable": "This bill directly impacts vulnerable families by increasing stipends for kinship foster care and has advanced to the House for further consideration."
+          "why_notable": "This bill directly aligns with Democratic priorities of improving healthcare access and infrastructure, and it has progressed well to the House."
         },
         {
           "identifier": "SB 1395",
           "title": "abortion reporting requirements; repeal.",
-          "why_notable": "This bill is politically significant, proposing to repeal specific abortion reporting requirements, reflecting a clear stance on reproductive policy."
+          "why_notable": "This bill strongly aligns with Democratic platform positions on reproductive rights by seeking to reduce reporting requirements."
         },
         {
-          "identifier": "SB 1165",
-          "title": "insurance; cost sharing; breast exams",
-          "why_notable": "This bill addresses healthcare access and affordability for women, aiming to reduce cost sharing for breast exams, and has progressed to the House."
+          "identifier": "SB 1383",
+          "title": "greenhouse gas programs; repeal; prohibition.",
+          "why_notable": "This bill directly contradicts typical Democratic environmental priorities by seeking to repeal greenhouse gas programs, yet it has advanced in the Senate."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Senator Diaz demonstrates a very active legislative record this session, sponsoring 20 bills across a diverse range of topics with a strong emphasis on education, healthcare, and social policy. A high percentage of her proposed legislation has advanced through the Senate, with several key bills successfully moving to the House for further review, indicating effective legislative engagement.",
+      "legislative_style": "Mostly Aligned",
+      "summary": "Eva Diaz largely walks the talk for a Democratic legislator, sponsoring a wide array of bills focused on education, healthcare, and social services that align with party platform priorities. While the vast majority of her bills are progressing through the legislative process, a significant contradiction appears in her environmental legislation, indicating a mixed approach to that key issue.",
       "bipartisan_potential": 70,
       "key_issues": [
-        "Education",
-        "Healthcare",
-        "Social Policy"
+        "education",
+        "healthcare",
+        "social policy"
       ],
       "impact_rating": "Moderate Impact",
-      "constituent_relevance": "Many of Senator Diaz's bills directly impact district constituents through proposed improvements in education, healthcare access, social services like kinship care, public safety initiatives, and specific community appropriations for facilities and universities.",
-      "strengths": "Senator Diaz demonstrates strength in pursuing a broad legislative agenda focused on public services and vulnerable populations, successfully advancing a significant number of bills through her chamber.",
-      "gaps": "Gaps in Senator Diaz's legislative record appear in broader economic development initiatives, explicit housing affordability measures, or extensive regulatory reforms for businesses."
+      "constituent_relevance": "Diaz's work directly affects her District 22 constituents through bills on school funding, healthcare access (breast exams, workforce), support for vulnerable populations (kinship care, runaways), and targeted appropriations for community and tribal institutions.",
+      "strengths": "Diaz consistently follows through on promises regarding education quality, healthcare accessibility, and strengthening the social safety net, with most of her bills advancing through the legislative process.",
+      "gaps": "A notable gap exists in her environmental policy, where a bill to repeal greenhouse gas programs contradicts typical Democratic environmental protection goals, despite strong alignment elsewhere."
     }
   },
   {
     "id": "ocd-person/36cc8d88-e944-4889-b8ab-cf5610f3f03e",
     "name": "Flavio Bravo",
     "scores": {
-      "activity_score": 92,
-      "bill_progress_rate": 95,
-      "topic_focus": "This legislator primarily focuses on social policy and education, alongside significant work in healthcare and public safety.",
+      "activity_score": 70,
+      "bill_progress_rate": 85,
+      "topic_focus": "While stating support for broad Democratic priorities including education, healthcare, and social safety nets, this legislator's actual legislation primarily focuses on education, social policy, and public safety initiatives like anti-human trafficking, with one notable bill contradicting environmental priorities.",
       "notable_bills": [
         {
           "identifier": "SB 1602",
           "title": "kinship foster care stipend; increase",
-          "why_notable": "This bill seeks to increase financial support for kinship foster care, directly impacting vulnerable families and children."
+          "why_notable": "This bill strongly aligns with Democratic priorities of supporting social safety nets and child welfare, demonstrating follow-through on care for vulnerable populations and has advanced to the House."
         },
         {
           "identifier": "SB 1461",
           "title": "allied health care workforce; appropriation",
-          "why_notable": "This legislation aims to strengthen Arizona's healthcare system by allocating funds to address workforce shortages."
+          "why_notable": "This bill aligns with Democratic priorities for strengthening healthcare infrastructure and access through workforce development, showing tangible action and has passed the Senate."
         },
         {
-          "identifier": "SB 1535",
-          "title": "prostitution; assessment; anti-human trafficking fund.",
-          "why_notable": "This bill addresses a critical public safety concern by directing funds from prostitution assessments to combat human trafficking."
+          "identifier": "SB 1383",
+          "title": "greenhouse gas programs; repeal; prohibition.",
+          "why_notable": "This bill contradicts typical Democratic party platforms that advocate for environmental protection and combating climate change through greenhouse gas regulation."
         },
         {
           "identifier": "SB 1264",
           "title": "ESA program; performance review; termination",
-          "why_notable": "This bill proposes a significant change to Arizona's Empowerment Scholarship Account (ESA) program, aiming for review and potential termination."
+          "why_notable": "This bill directly addresses a key Democratic priority in Arizona by seeking to terminate the controversial Empowerment Scholarship Account (ESA) program, reflecting a commitment to public education over private school vouchers."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Representative Bravo is a very active legislator, sponsoring 20 items across a wide range of topics, with a strong emphasis on social policy and education. An impressive majority of his sponsored bills have advanced successfully through early legislative stages, demonstrating strong engagement and effectiveness in the legislative process.",
+      "legislative_style": "Mostly Aligned",
+      "summary": "Legislator Bravo states a commitment to core Democratic priorities such as public education, social welfare, and healthcare, backing these claims with numerous substantive bills that have seen good progress. However, a notable bill seeking to repeal greenhouse gas programs presents a significant contradiction to typical Democratic environmental stances, creating a mixed record despite overall strong alignment in other areas.",
       "bipartisan_potential": 65,
       "key_issues": [
-        "Social Policy",
         "Education",
-        "Public Safety"
+        "Social Policy",
+        "Healthcare"
       ],
-      "impact_rating": "High Impact",
-      "constituent_relevance": "His legislative efforts directly impact District 26 constituents through improved social services, education initiatives, healthcare access, and public safety measures.",
-      "strengths": "Demonstrates a comprehensive legislative approach, actively championing causes in social welfare, education, and public health, and effectively moving a high volume of bills forward.",
-      "gaps": "While diverse, his legislative portfolio has less explicit focus on economic development beyond workforce appropriations, specific environmental regulations beyond repeals, or highly localized community-specific initiatives."
+      "impact_rating": "Moderate Impact",
+      "constituent_relevance": "The legislator's focus on public education, social safety nets like kinship foster care and aging services, and healthcare workforce development directly impacts families, students, and vulnerable populations within his district.",
+      "strengths": "The legislator consistently follows through on promises to support public education, social welfare programs, and combat human trafficking, with several related bills advancing well.",
+      "gaps": "Despite overall alignment with Democratic principles, a significant gap exists in environmental policy, as demonstrated by sponsoring a bill to repeal greenhouse gas programs, which contradicts typical party priorities."
     }
   },
   {
     "id": "ocd-person/faca0001-6681-450b-9577-6185f4f49a3d",
     "name": "Frank Carroll",
     "scores": {
-      "activity_score": 92,
-      "bill_progress_rate": 95,
-      "topic_focus": "This legislator primarily focuses on public safety, social policy, and infrastructure development, while also addressing economic and healthcare concerns.",
+      "activity_score": 82,
+      "bill_progress_rate": 60,
+      "topic_focus": "Legislator Carroll says they care about infrastructure, public safety, economic development, and conservative social policies, and their sponsored bills directly reflect and prioritize these areas, with many advancing through the legislative process.",
       "notable_bills": [
         {
           "identifier": "SB 1683",
           "title": "landownership; foreign adversary; prohibition",
-          "why_notable": "This bill addresses a significant policy issue regarding foreign ownership of land and has advanced to a second reading in the House."
-        },
-        {
-          "identifier": "HB 4026",
-          "title": "public infrastructure improvements; distribution limit",
-          "why_notable": "This bill concerns significant public infrastructure funding and has advanced to a second reading in the Senate, indicating substantial progress."
-        },
-        {
-          "identifier": "SB 1088",
-          "title": "appropriation; Arizona homeland security; cybersecurity",
-          "why_notable": "This bill allocates appropriations for critical state security, highlighting a key area of focus and successfully transmitted to the House."
+          "why_notable": "This bill aligns strongly with Republican priorities concerning national security, property rights, and limiting foreign influence, and it has advanced to the House."
         },
         {
           "identifier": "HCR 2044",
           "title": "preferential treatment; discrimination; prohibited acts",
-          "why_notable": "This concurrent resolution addresses a broad social policy issue with potential statewide implications and has advanced to a second reading in the Senate."
+          "why_notable": "This concurrent resolution directly addresses a key Republican social policy platform opposing preferential treatment and has advanced significantly."
+        },
+        {
+          "identifier": "SB 1207",
+          "title": "appropriation; study; transportation infrastructure",
+          "why_notable": "This bill exemplifies the legislator's focus on infrastructure development, a core Republican priority, and has successfully transmitted to the House."
+        },
+        {
+          "identifier": "HB 2411",
+          "title": "coerced abortion; abortion-inducing drugs",
+          "why_notable": "This bill strongly aligns with conservative social policy positions on abortion, a significant Republican priority, and has advanced to Senate Second Reading."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Representative Carroll has demonstrated a very active legislative session, sponsoring 20 bills and resolutions that span a wide array of topics including public safety, social policy, and infrastructure. A significant majority of his sponsored legislation has advanced successfully through committee or passed its originating chamber, indicating effective engagement in the legislative process.",
-      "bipartisan_potential": 60,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Carroll demonstrates strong follow-through, sponsoring numerous bills directly aligned with Arizona Republican platform priorities, particularly in infrastructure, public safety, and social policy. A significant portion of these bills are progressing well through the legislative chambers, indicating effective action on stated commitments.",
+      "bipartisan_potential": 45,
       "key_issues": [
+        "Infrastructure",
         "Public Safety",
-        "Social Policy",
-        "Infrastructure"
+        "Social Policy"
       ],
-      "impact_rating": "Moderate Impact",
-      "constituent_relevance": "The legislator's focus on infrastructure improvements, public safety, and access to healthcare directly addresses key concerns for district constituents, potentially improving local services and daily life.",
-      "strengths": "This legislator demonstrates strength in actively sponsoring a diverse portfolio of legislation and successfully advancing a high percentage of bills through the legislative process.",
-      "gaps": "While active in many areas, the legislator's sponsored bills do not explicitly address major statewide issues such as K-12 education funding, affordable housing initiatives, or specific water conservation strategies."
+      "impact_rating": "High Impact",
+      "constituent_relevance": "Carroll's legislative work directly impacts district constituents through improved transportation infrastructure, enhanced public safety measures, and legislation reflecting key social values.",
+      "strengths": "The legislator consistently follows through on promises by introducing and advancing bills focused on infrastructure improvements, public safety, and conservative social policies.",
+      "gaps": "While many bills advance, some initiatives related to economic development and healthcare, such as business entity exemptions and ALTCS provider changes, have stalled."
     }
   },
   {
     "id": "ocd-person/1e39adcf-868d-4722-a07b-09fcd36ad9ed",
     "name": "Gail Griffin",
     "scores": {
-      "activity_score": 88,
+      "activity_score": 95,
       "bill_progress_rate": 100,
-      "topic_focus": "This legislator primarily focuses on environmental issues, particularly water resources and state land use, with significant attention also given to taxation and public safety.",
+      "topic_focus": "Legislator Griffin explicitly states care for the environment, public safety, and taxes, and her legislative actions strongly reflect a deep focus on water resource management, state land use, natural resource access, public safety (including veteran support and criminal justice), and strategic appropriations related to these areas.",
       "notable_bills": [
         {
           "identifier": "HB 2055",
           "title": "brackish groundwater recovery program",
-          "why_notable": "This bill addresses a critical long-term strategy for water resource management in Arizona."
+          "why_notable": "This bill directly addresses Arizona's critical water scarcity issues, aligning with a Republican emphasis on practical resource management and economic development."
         },
         {
           "identifier": "HB 2755",
           "title": "state land use; highest; best",
-          "why_notable": "This legislation could significantly influence the management and development of state lands across Arizona."
+          "why_notable": "This bill promotes the efficient and economically beneficial use of state land, which aligns with conservative principles of optimizing state assets and fostering economic growth."
         },
         {
-          "identifier": "HB 2665",
-          "title": "manslaughter; online advice; encouragement",
-          "why_notable": "This bill addresses a modern public safety concern relating to criminal culpability for online interactions."
+          "identifier": "HB 2373",
+          "title": "income tax; refunds; veterans' organizations",
+          "why_notable": "This bill directly supports veterans through tax relief, a clear and consistent priority within the Republican party platform."
+        },
+        {
+          "identifier": "HB 2763",
+          "title": "shooting range; closure; conditions",
+          "why_notable": "This bill likely aims to protect or regulate shooting ranges, which aligns with Republican support for Second Amendment rights and recreational shooting."
         }
       ],
-      "legislative_style": "Active",
-      "summary": "Representative Griffin is an active legislator, having sponsored 20 bills and memorials in the current session, all of which have advanced past initial committee consideration. Her legislative efforts largely concentrate on environmental policy, especially regarding water resources and state land use, alongside bills addressing taxation and public safety. A significant portion of her sponsored legislation has progressed through committee, with several bills reaching second reading in the opposite chamber.",
-      "bipartisan_potential": 65,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Gail Griffin demonstrates strong follow-through, consistently translating her stated priorities and Republican platform positions into effective legislation. She heavily focuses on water and natural resource management, public safety, and veteran support, with a high percentage of her sponsored bills advancing significantly through the legislative process.",
+      "bipartisan_potential": 70,
       "key_issues": [
-        "Water Resources",
-        "State Land Use",
-        "Appropriations"
+        "Water & Natural Resources",
+        "Public Safety & Veterans",
+        "State Land Use & Infrastructure"
       ],
-      "impact_rating": "High Impact",
-      "constituent_relevance": "Her focus on water resources, state land management, and local infrastructure appropriations directly impacts constituents in her largely rural district, addressing their concerns about essential resource availability and economic development.",
-      "strengths": "Representative Griffin demonstrates a strong commitment to addressing critical state resources like water and land use, successfully advancing a significant number of bills through legislative committees and to the floor of the opposite chamber.",
-      "gaps": "Her legislative portfolio shows less engagement with areas such as education, healthcare, social services, or broader economic development initiatives beyond resource management."
+      "impact_rating": "Moderate Impact",
+      "constituent_relevance": "Her legislative efforts directly address vital concerns for her district, such as water availability, land use policies, local infrastructure projects (e.g., Douglas Port of Entry, Olga Frontage Road), and support for veterans in the community.",
+      "strengths": "She consistently and effectively champions legislation related to water resource management, land use optimization, and public safety that aligns with stated and party priorities, with a high success rate in moving bills forward.",
+      "gaps": "Based on the provided data, there are no apparent gaps between Legislator Griffin's stated priorities and her actual legislative work; she demonstrates strong alignment and consistent action across her focus areas."
     }
   },
   {
     "id": "ocd-person/a739b3e9-8161-4b10-b007-3d1e90de791f",
     "name": "Hildy Angius",
     "scores": {
-      "activity_score": 90,
+      "activity_score": 93,
       "bill_progress_rate": 100,
-      "topic_focus": "The legislator primarily focuses on healthcare policy, with a significant secondary emphasis on improving child welfare services through DCS reforms and general government operations.",
+      "topic_focus": "Hildy Angius says she cares about government efficiency, healthcare system improvements, and child welfare, and she consistently legislates on these exact topics with a high rate of bill advancement.",
       "notable_bills": [
         {
           "identifier": "SB 1316",
           "title": "Arizona rural health transformation fund",
-          "why_notable": "This bill proposes establishing a fund to address and improve healthcare access and services in Arizona's rural areas."
-        },
-        {
-          "identifier": "SB 1602",
-          "title": "kinship foster care stipend; increase",
-          "why_notable": "This legislation directly impacts families providing kinship care by increasing financial support for fostering children."
+          "why_notable": "This bill aligns with a focus on improving healthcare access and infrastructure, particularly for underserved rural constituents, a common priority for many legislators."
         },
         {
           "identifier": "SB 1115",
           "title": "AHCCCS; remote work; prohibition",
-          "why_notable": "This bill specifies a prohibition on remote work for employees within the AHCCCS state agency, reflecting a clear policy directive on government operations."
+          "why_notable": "This bill directly reflects a Republican emphasis on traditional government operations and efficiency, seeking to limit remote work within a state agency."
+        },
+        {
+          "identifier": "SB 1602",
+          "title": "kinship foster care stipend; increase",
+          "why_notable": "This bill demonstrates a commitment to supporting vulnerable children and family structures, a widely shared, yet often prioritized, social policy for Republicans."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Legislator Angius maintains a very active legislative agenda, sponsoring 20 bills this session, nearly all of which have advanced significantly to the opposing chamber. Her work primarily focuses on healthcare policy and improving child welfare services, alongside efforts to refine government operations.",
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Angius consistently backs her stated priorities, particularly in healthcare system refinement, government operational efficiency, and child welfare, with a substantial volume of advancing legislation. Her efforts are focused on improving the functionality and accountability of key state agencies and services rather than expanding their scope.",
       "bipartisan_potential": 75,
       "key_issues": [
-        "Healthcare",
-        "Child Welfare",
-        "Government Operations"
+        "Healthcare Efficiency",
+        "Government Operations",
+        "Child Welfare"
       ],
-      "impact_rating": "High Impact",
-      "constituent_relevance": "Her work directly affects constituents through proposed improvements to healthcare access, quality of child welfare services, and efficiency of state government functions.",
-      "strengths": "This legislator demonstrates a strong commitment to addressing critical issues within healthcare and child welfare, exhibiting an impressive ability to advance a large number of substantive bills through the legislative process.",
-      "gaps": "The legislative agenda shows less focus on broader economic development, education funding, environmental policy, or tax reforms outside of specific agency operations."
+      "impact_rating": "Moderate Impact",
+      "constituent_relevance": "Her work directly affects constituents by aiming to improve the delivery and oversight of critical state services like healthcare (AHCCCS, rural health) and child protection (DCS), ensuring greater accountability and access.",
+      "strengths": "She demonstrates strong follow-through on her stated priorities, consistently sponsoring and advancing a high volume of legislation aimed at improving government efficiency and specific service delivery.",
+      "gaps": "Based on the provided data, there are no significant gaps between her stated priorities and her legislative actions; her sponsored bills consistently align with the themes she champions."
     }
   },
   {
     "id": "ocd-person/06adeea1-c37c-4dd1-8be5-92e9b5d3556e",
     "name": "J.D. Mesnard",
     "scores": {
-      "activity_score": 90,
-      "bill_progress_rate": 90,
-      "topic_focus": "This legislator primarily focuses on tax policy and economic regulation, with a significant interest in government operations and social issues.",
+      "activity_score": 88,
+      "bill_progress_rate": 74,
+      "topic_focus": "J.D. Mesnard states a commitment to fiscal conservatism, economic growth, and efficient government, and his legislative work predominantly reflects these priorities through numerous tax and economy-related bills.",
       "notable_bills": [
         {
-          "identifier": "SB 1106",
-          "title": "internal revenue code; conformity; deductions",
-          "why_notable": "This bill was vetoed by the Governor, indicating a direct policy disagreement with the executive branch."
-        },
-        {
-          "identifier": "SB 1430",
-          "title": "tax corrections act of 2026",
-          "why_notable": "This bill suggests a comprehensive legislative effort to refine and update the state's tax laws."
+          "identifier": "SB 1633",
+          "title": "income tax; subtraction; primary residence",
+          "why_notable": "This bill directly aligns with Republican platform priorities of tax relief and promoting financial benefits for homeowners."
         },
         {
           "identifier": "SB 1253",
           "title": "safe haven providers; hospital deliveries",
-          "why_notable": "This bill addresses a critical social safety net issue by clarifying provisions for safe haven providers."
+          "why_notable": "This bill aligns with the Republican platform's emphasis on protecting life and supporting safe alternatives for newborns."
+        },
+        {
+          "identifier": "SB 1106",
+          "title": "internal revenue code; conformity; deductions",
+          "why_notable": "Despite a gubernatorial veto, this bill represents a significant effort to align state tax code with federal, a common Republican fiscal policy goal."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Senator Mesnard is a highly active legislator, consistently sponsoring a large number of bills with a strong emphasis on tax policy and economic adjustments. Many of his sponsored bills advance significantly through the legislative process, demonstrating effectiveness in moving his agenda.",
-      "bipartisan_potential": 75,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator J.D. Mesnard consistently prioritizes core Republican platform issues, particularly fiscal policy and economic efficiency. His legislative output demonstrates a strong alignment between his stated interests and his actions, with a high proportion of his substantive bills advancing through the legislative process.",
+      "bipartisan_potential": 55,
       "key_issues": [
-        "Taxes",
-        "Economic Regulation",
-        "Government Efficiency"
+        "taxes",
+        "economy",
+        "government operations"
       ],
-      "impact_rating": "High Impact",
-      "constituent_relevance": "Constituents are directly impacted by this legislator's work through changes to their tax obligations, property valuations, economic regulations affecting businesses, and community rules like those for homeowners' associations.",
-      "strengths": "Senator Mesnard demonstrates strength in drafting and advancing legislation related to fiscal policy and economic governance, with a high success rate in moving bills through chambers.",
-      "gaps": "The legislator's agenda shows fewer bills addressing environmental protection, criminal justice reform, or direct social services programs beyond healthcare-related safe haven provisions."
+      "impact_rating": "Moderate Impact",
+      "constituent_relevance": "Mesnard's work directly impacts his constituents through proposed changes to income and property taxes, regulations affecting businesses, and adjustments to local governance structures like homeowner associations.",
+      "strengths": "He demonstrates strong follow-through on fiscal responsibility, tax policy, and economic development, with many of his bills in these areas progressing successfully.",
+      "gaps": "While he addresses a breadth of topics, his legislative portfolio shows less direct engagement with core Republican education reform priorities beyond a niche safety bill."
     }
   },
   {
     "id": "ocd-person/35f7056c-9f29-4b66-9ae0-f041fe6e7e05",
     "name": "Jake Hoffman",
     "scores": {
-      "activity_score": 90,
-      "bill_progress_rate": 95,
-      "topic_focus": "The legislator primarily focuses on election integrity and reform, education policy (especially school choice and funding), and economic issues including digital currency and state financial oversight.",
+      "activity_score": 92,
+      "bill_progress_rate": 90,
+      "topic_focus": "Senator Hoffman consistently SAYS he cares about election integrity, school choice, and fiscal conservatism, and he ACTUALLY legislates extensively on these precise topics with a high rate of bill advancement.",
       "notable_bills": [
         {
-          "identifier": "SB 1432",
-          "title": "central bank digital currency; ban",
-          "why_notable": "This bill proposes a significant ban on central bank digital currency, addressing a novel and high-profile economic policy issue."
+          "identifier": "HCR 2001",
+          "title": "citizenship; identification; contributions; early voting",
+          "why_notable": "This concurrent resolution strongly aligns with conservative priorities regarding election integrity and restricting voting to citizens, demonstrating a clear 'Say vs. Do' match."
+        },
+        {
+          "identifier": "SB 1687",
+          "title": "ESAs; returned monies; administrative costs",
+          "why_notable": "This bill directly addresses school choice initiatives (ESAs), a key Republican platform priority, showing direct action on a stated concern."
         },
         {
           "identifier": "SB 1439",
           "title": "municipalities; counties; recycling; prohibition",
-          "why_notable": "This bill, which was vetoed by the Governor, represents a contentious policy attempt to prohibit local recycling programs, indicating a strong stance on local government and environmental regulation."
-        },
-        {
-          "identifier": "SB 1746",
-          "title": "elections; voting centers; polling places",
-          "why_notable": "This bill directly impacts election administration and voter access, reflecting a primary focus of the legislator's efforts in social policy."
+          "why_notable": "This bill, despite being vetoed, clearly matches the Republican stance on limiting local government mandates and regulations, showcasing an attempt to enact a core party principle."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "This legislator has demonstrated a very active session, sponsoring a large number of bills and resolutions across diverse and impactful topics. Their legislative efforts prominently address election integrity, educational policy, and economic matters, with many proposals advancing significantly through the legislative process.",
-      "bipartisan_potential": 30,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Senator Hoffman is a highly active legislator who consistently translates his stated Republican priorities into actionable legislation. He demonstrates strong follow-through, particularly on issues of election integrity, school choice, and fiscal policy, with a high proportion of his bills advancing through the legislative process.",
+      "bipartisan_potential": 15,
       "key_issues": [
-        "elections",
-        "education",
-        "economy"
+        "Elections",
+        "Education",
+        "Economy"
       ],
       "impact_rating": "High Impact",
-      "constituent_relevance": "The legislator's work on election procedures, education funding, local tax rates, and economic policies directly affects the daily lives and civic participation of residents in District 15.",
-      "strengths": "This legislator demonstrates a high level of legislative engagement, consistently sponsoring a substantial number of bills and actively pursuing policy changes in their focused areas.",
-      "gaps": "While active in many areas, there appears to be less focus on healthcare reform, housing affordability, or specific social service programs outside of education."
+      "constituent_relevance": "His work directly affects district constituents through proposed changes to fundamental election processes, public education funding, and local government regulatory powers.",
+      "strengths": "Senator Hoffman consistently translates his stated Republican priorities, such as election integrity and school choice, into a substantial number of bills that advance successfully through the legislature.",
+      "gaps": "While highly active and aligned, some initiatives, such as limiting local excise taxes, did not succeed, indicating potential challenges in achieving all legislative aims."
     }
   },
   {
     "id": "ocd-person/70f55f83-fed8-497f-86a9-94b6d428b9b4",
     "name": "James Taylor",
     "scores": {
-      "activity_score": 78,
+      "activity_score": 90,
       "bill_progress_rate": 90,
-      "topic_focus": "This legislator demonstrates a primary focus on environmental and natural resource management, alongside infrastructure development and specific social policy reforms.",
+      "topic_focus": "Legislator Taylor SAYS they care about core Republican principles including public safety, economic development, limited regulation, and conservative social policy, and they DO legislate consistently on these topics with a high rate of bill advancement.",
       "notable_bills": [
         {
           "identifier": "HCM 2009",
           "title": "subsurface minerals; access; federal policy",
-          "why_notable": "This memorial addresses federal policy regarding subsurface mineral access, indicating a significant stance on state versus federal control over natural resources, which can have broad economic and environmental implications for Arizona."
+          "why_notable": "This memorial directly aligns with Republican priorities for natural resource development and reduced federal intervention, and it has advanced to the Senate."
         },
         {
-          "identifier": "HB 2665",
-          "title": "manslaughter; online advice; encouragement",
-          "why_notable": "This bill proposes addressing the legal consequences of online behavior related to serious crimes like manslaughter, reflecting a response to emerging societal challenges in the digital age."
+          "identifier": "HCR 2044",
+          "title": "preferential treatment; discrimination; prohibited acts",
+          "why_notable": "This resolution aligns strongly with conservative social policy regarding 'equal opportunity' and opposition to affirmative action, showing significant progress."
         },
         {
-          "identifier": "HB 4027",
-          "title": "Charlie Kirk highway.",
-          "why_notable": "Sponsoring two bills (HB 4027 and SB 1010) to name a highway after a prominent conservative figure is a clear political statement, highlighting the legislator's ideological alignment and potential to generate public discussion."
+          "identifier": "HB 2676",
+          "title": "juvenile restoration; rights; firearms; civil",
+          "why_notable": "This bill directly addresses Second Amendment rights and rehabilitation, a key Republican priority, and has been transmitted to the Senate."
+        },
+        {
+          "identifier": "HB 2493",
+          "title": "small modular reactors; manufacturing; zoning",
+          "why_notable": "This bill promotes advanced energy technology and energy independence, aligning with a forward-looking Republican energy agenda."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "James Taylor is a very active Republican legislator who has sponsored 20 bills and resolutions this session, with a strong focus on environmental policy, infrastructure, and social policy. Many of his proposals, including those addressing subsurface minerals, online behavior consequences, and infrastructure naming, have advanced through various legislative stages.",
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Taylor consistently champions the Republican platform, focusing on public safety, resource development, and conservative social issues. His legislative actions demonstrate a strong commitment to these stated priorities, with a high percentage of his sponsored bills progressing through the legislative chambers.",
       "bipartisan_potential": 45,
       "key_issues": [
-        "Environment",
-        "Infrastructure",
+        "Public Safety",
+        "Environment & Energy",
         "Social Policy"
       ],
       "impact_rating": "High Impact",
-      "constituent_relevance": "Bills on public safety, taxes (food, contracting), infrastructure (housing, railroads), and environmental regulations directly impact the daily lives and economic opportunities for constituents in District 29.",
-      "strengths": "The legislator is highly active, sponsors a diverse range of substantive bills, and demonstrates a strong capacity to advance many of their proposals through the legislative process.",
-      "gaps": "While active in many areas, this legislator has not notably sponsored bills focused explicitly on healthcare access, broader economic development beyond tax exemptions, or dedicated elder care services."
+      "constituent_relevance": "This representative's work directly affects constituents through proposed tax exemptions on food, public safety measures, vocational training programs, and policies impacting housing development and water resources.",
+      "strengths": "This representative demonstrates strong legislative activity and consistent follow-through on core Republican tenets, with a high success rate in moving bills aligned with their party's platform through the initial stages of the legislative process.",
+      "gaps": "While the representative shows strong alignment, a few potentially impactful tax relief measures stalled, and the overall legislative portfolio could show more breadth in addressing economic diversification beyond resource extraction."
     }
   },
   {
     "id": "ocd-person/c94f542a-52e0-4831-8479-02793a97ccd9",
     "name": "Janae Shamp",
     "scores": {
-      "activity_score": 88,
+      "activity_score": 92,
       "bill_progress_rate": 95,
-      "topic_focus": "This legislator primarily focuses on healthcare policy, with significant attention also given to social issues and public safety.",
+      "topic_focus": "Legislator Shamp SAYS they care about individual liberty, healthcare reform, public safety, and supporting traditional values and economic sectors like agriculture, and they DO legislate extensively on these exact topics, particularly within healthcare and social policy.",
       "notable_bills": [
-        {
-          "identifier": "SB 1018",
-          "title": "foreign law; sharia law; prohibition",
-          "why_notable": "This bill addresses a politically charged topic by prohibiting the application of foreign law, including Sharia law, in Arizona courts."
-        },
         {
           "identifier": "SB 1016",
           "title": "employers; medical products; religious exemption",
-          "why_notable": "This bill impacts employers and individuals by creating religious exemptions related to medical product mandates, touching on both religious freedom and workplace policy."
+          "why_notable": "This bill strongly matches the stated priority of religious freedom and individual liberty, consistently advanced by the Republican party."
+        },
+        {
+          "identifier": "SB 1018",
+          "title": "foreign law; sharia law; prohibition",
+          "why_notable": "This bill directly aligns with a core Republican platform stance regarding national sovereignty and the prohibition of foreign law."
+        },
+        {
+          "identifier": "SB 1014",
+          "title": "insurance; gender surgeries; documentation; reports",
+          "why_notable": "This bill addresses a specific social policy issue often aligned with conservative values, demonstrating follow-through on culturally-focused legislative efforts."
         },
         {
           "identifier": "SB 1194",
           "title": "vaccination status; denial; prohibition",
-          "why_notable": "This bill directly addresses individual liberties and public health policy by prohibiting denial of services based on vaccination status."
+          "why_notable": "This bill directly addresses individual liberty and opposition to mandates, a key 'Say' position for many Republicans, and has progressed well."
         }
       ],
-      "legislative_style": "Very Active",
-      "summary": "Senator Shamp demonstrates a very active legislative session, sponsoring 20 bills with a high rate of advancement across the chambers. Her legislative efforts are predominantly concentrated on healthcare policy, including reforms and funding, alongside significant work on social policy issues, individual liberties, and public safety.",
-      "bipartisan_potential": 45,
+      "legislative_style": "Strong Follow-Through",
+      "summary": "Legislator Shamp demonstrates strong follow-through between her stated priorities and legislative actions, consistently sponsoring and advancing bills aligned with core Republican principles. Her efforts are particularly concentrated on healthcare policy, individual liberties, and public safety, effectively translating party platform positions into concrete legislative proposals that see significant progress.",
+      "bipartisan_potential": 50,
       "key_issues": [
         "Healthcare",
-        "Social Policy",
+        "Individual Liberty",
         "Public Safety"
       ],
       "impact_rating": "Moderate Impact",
-      "constituent_relevance": "Many of her sponsored bills directly affect constituents' daily lives through healthcare access and choices, public safety regulations, and local infrastructure funding.",
-      "strengths": "The legislator demonstrates strength in actively sponsoring a significant number of bills and effectively moving many of them through the legislative process, particularly in healthcare policy.",
-      "gaps": "Potential gaps exist in addressing issues such as education funding, broader economic development beyond agriculture, or comprehensive environmental and housing policies."
+      "constituent_relevance": "Her work directly affects district constituents by addressing issues such as rural healthcare access, agricultural regulations, transportation improvements, and individual freedoms regarding medical decisions and religious practices.",
+      "strengths": "She consistently introduces and advances legislation that aligns with core Republican principles, demonstrating strong follow-through on her party's platform priorities.",
+      "gaps": "Her legislative efforts show less emphasis on broader economic deregulation, tax relief, border security, or education reform, which are often prominent components of the Republican platform."
     }
   }
 ]

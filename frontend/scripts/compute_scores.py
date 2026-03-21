@@ -17,10 +17,12 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "public", "data")
 INPUT_FILE = os.path.join(DATA_DIR, "az_reps_final.json")
 OUTPUT_FILE = os.path.join(DATA_DIR, "az_reps_scored.json")
 
-SCORE_PROMPT = """You are a nonpartisan legislative analyst. Analyze this Arizona state legislator's sponsored bills and provide a JSON assessment.
+SCORE_PROMPT = """You are a nonpartisan legislative analyst performing a "Say vs. Do" analysis.
+
+Your job: Figure out what this legislator SAYS they care about (based on bill titles, party platform positions, and their stated topics), then compare that against what they actually DO (which bills advanced, which stalled, whether they follow through).
 
 LEGISLATOR: {name}
-PARTY: {party}
+PARTY: {party} (Use known {party} party platform priorities for Arizona as the "Say" baseline)
 CHAMBER: {chamber}
 DISTRICT: {district}
 
@@ -29,34 +31,35 @@ SPONSORED BILLS:
 
 Respond with ONLY valid JSON (no markdown, no code fences):
 {{
-  "activity_score": <number 0-100, based on bill count, diversity of topics, how far bills advanced>,
+  "activity_score": <number 0-100, the SAY VS DO score — how well their actions match their stated/party priorities. 100 = perfect follow-through, 0 = all talk no action>,
   "bill_progress_rate": <number 0-100, percentage of bills that advanced past initial committee>,
-  "topic_focus": "<one sentence describing what this legislator primarily works on>",
+  "topic_focus": "<one sentence: what they SAY they care about vs what they actually legislate on>",
   "notable_bills": [
     {{
       "identifier": "<bill number>",
       "title": "<bill title>",
-      "why_notable": "<one sentence explaining significance>"
+      "why_notable": "<one sentence: does this bill match or contradict their stated priorities?>"
     }}
   ],
-  "legislative_style": "<one of: 'Very Active', 'Active', 'Moderate', 'Low Activity'>",
-  "summary": "<2-3 sentence nonpartisan summary of this legislator's legislative record this session>",
-  "bipartisan_potential": <number 0-100, how likely bills cross party lines based on topic universality>,
-  "key_issues": ["<top 3 issue keywords this rep cares about most>"],
+  "legislative_style": "<one of: 'Strong Follow-Through', 'Mostly Aligned', 'Mixed Record', 'Weak Alignment'>",
+  "summary": "<2-3 sentence nonpartisan Say vs Do summary — what do they promise vs what do they deliver?>",
+  "bipartisan_potential": <number 0-100, how likely their bills would get support from the opposing party based on topic universality>,
+  "key_issues": ["<top 3 issue keywords this rep focuses on>"],
   "impact_rating": "<one of: 'High Impact', 'Moderate Impact', 'Low Impact'> based on how consequential the bills are to everyday Arizonans",
   "constituent_relevance": "<one sentence on how this rep's work directly affects their district constituents>",
-  "strengths": "<one sentence on what this legislator does well>",
-  "gaps": "<one sentence on areas or topics this legislator hasn't addressed>"
+  "strengths": "<one sentence on where this rep follows through on promises>",
+  "gaps": "<one sentence on where this rep talks the talk but doesn't walk the walk>"
 }}
 
-Scoring guidance:
-- 80-100: Many bills, diverse topics, bills advancing through chambers
-- 60-79: Good number of bills, some advancing, reasonable topic diversity
-- 40-59: Average activity, some bills but limited advancement
-- 20-39: Few substantive bills, mostly resolutions or stalled
-- 0-19: Very little legislative activity
+Say vs Do scoring guidance:
+- 80-100: Strong follow-through. Many substantive bills matching stated priorities, bills advancing through chambers
+- 60-79: Mostly aligned. Good effort but some priorities not backed by legislation or bills stalling
+- 40-59: Mixed record. Says one thing but bills don't fully match, or bills aren't progressing
+- 20-39: Weak alignment. Big gap between stated priorities and actual legislative work
+- 0-19: All talk. Almost no substantive bills matching their claimed positions
 - Resolutions (death resolutions, memorials) should count less than substantive bills
 - Bills that passed multiple readings or reached the other chamber score higher
+- Look for contradictions: does a rep claim to care about X but sponsor zero bills on X?
 """
 
 

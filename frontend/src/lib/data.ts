@@ -61,8 +61,10 @@ let scoresCache: ScoredRep[] | null = null;
 export async function getAllReps(): Promise<Rep[]> {
   if (repsCache) return repsCache;
   const res = await fetch("/data/az_reps_final.json");
-  repsCache = await res.json();
-  return repsCache!;
+  const all: Rep[] = await res.json();
+  // Filter out executive officials (e.g. Secretary of State) who don't sponsor bills
+  repsCache = all.filter((r) => r.chamber !== "executive" && r.bills.length > 0);
+  return repsCache;
 }
 
 export async function getZipMap(): Promise<ZipToReps> {

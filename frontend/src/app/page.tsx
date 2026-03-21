@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Search, MapPin, Users, BarChart3 } from "lucide-react";
 import { Rep, getAllReps, getRepsByZip, getPartyColor } from "@/lib/data";
@@ -13,10 +13,17 @@ export default function Home() {
   const [searched, setSearched] = useState(false);
   const [loading, setLoading] = useState(false);
   const [showAll, setShowAll] = useState(false);
+  const resultsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     getAllReps().then(setAllReps);
   }, []);
+
+  const scrollToResults = () => {
+    setTimeout(() => {
+      resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 100);
+  };
 
   const handleSearch = async () => {
     if (zip.length !== 5) return;
@@ -26,12 +33,14 @@ export default function Home() {
     const reps = await getRepsByZip(zip);
     setResults(reps);
     setLoading(false);
+    scrollToResults();
   };
 
   const handleBrowseAll = () => {
     setShowAll(true);
     setSearched(false);
     setResults([]);
+    scrollToResults();
   };
 
   const stats = {
@@ -152,7 +161,7 @@ export default function Home() {
       </motion.section>
 
       {/* Results */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <section ref={resultsRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <AnimatePresence mode="wait">
           {loading && (
             <motion.div

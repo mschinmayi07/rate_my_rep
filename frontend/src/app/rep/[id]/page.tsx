@@ -201,9 +201,12 @@ export default function RepPage() {
                   <p className="text-xs text-slate-400">Topics</p>
                 </div>
                 {scores?.bipartisan_potential != null && (
-                  <div className="glass-card rounded-lg px-4 py-2">
+                  <div className="glass-card rounded-lg px-4 py-2 group relative">
                     <p className="text-lg font-bold text-white">{scores.bipartisan_potential}%</p>
-                    <p className="text-xs text-slate-400">Bipartisan</p>
+                    <p className="text-xs text-slate-400">Cross-Party Appeal</p>
+                    <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-2 bg-slate-700 rounded-lg text-xs text-slate-300 w-48 text-center opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
+                      How likely this rep&apos;s bills would get support from the other party
+                    </div>
                   </div>
                 )}
               </div>
@@ -217,7 +220,7 @@ export default function RepPage() {
         <div className="grid gap-6 lg:grid-cols-3">
           {/* Left column */}
           <div className="space-y-6">
-            {/* Activity Score */}
+            {/* Say vs Do Score */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -225,14 +228,17 @@ export default function RepPage() {
             >
               <h3 className="text-sm font-medium text-slate-400 mb-4 flex items-center justify-center gap-2">
                 <Scale className="w-4 h-4" />
-                Legislative Activity Score
+                Say vs. Do Score
               </h3>
-              <ScoreGauge score={activityScore} label="Activity Score" />
+              <ScoreGauge score={activityScore} label="Say vs. Do" />
               {scores?.topic_focus && (
                 <p className="text-xs text-slate-400 mt-3 italic">
                   {scores.topic_focus}
                 </p>
               )}
+              <p className="text-xs text-slate-500 mt-2 px-2">
+                Measures how well this rep&apos;s legislative actions align with their stated priorities. Higher = more follow-through.
+              </p>
             </motion.div>
 
             {/* Key Issues */}
@@ -307,8 +313,11 @@ export default function RepPage() {
             >
               <h3 className="text-sm font-medium text-slate-400 mb-2 flex items-center gap-2">
                 <BarChart3Icon />
-                Topic Focus
+                What They Actually Work On
               </h3>
+              <p className="text-xs text-slate-500 mb-2">
+                Breakdown of bill topics — shows where this rep spends their legislative energy. Each axis = % of bills in that category.
+              </p>
               <TopicRadar data={topicData} partyColor={partyColor} />
             </motion.div>
 
