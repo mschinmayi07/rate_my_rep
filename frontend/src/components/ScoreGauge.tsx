@@ -16,11 +16,11 @@ function getScoreColor(score: number): string {
 }
 
 function getScoreLabel(score: number): string {
-  if (score >= 80) return "Excellent";
-  if (score >= 60) return "Good";
-  if (score >= 40) return "Moderate";
-  if (score >= 20) return "Low";
-  return "Very Low";
+  if (score >= 80) return "Strong Follow-Through";
+  if (score >= 60) return "Mostly Aligned";
+  if (score >= 40) return "Mixed Record";
+  if (score >= 20) return "Weak Alignment";
+  return "All Talk";
 }
 
 export default function ScoreGauge({ score, label = "Activity Score", size = 160 }: ScoreGaugeProps) {

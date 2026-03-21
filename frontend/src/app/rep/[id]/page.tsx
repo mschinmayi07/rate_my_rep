@@ -10,12 +10,19 @@ import {
   Scale,
   FileText,
   MessageSquare,
+  Sparkles,
+  Target,
+  Handshake,
+  Zap,
+  AlertTriangle,
+  TrendingUp,
 } from "lucide-react";
 import Link from "next/link";
 import {
   Rep,
+  RepScores,
   getRepById,
-  getAllReps,
+  getScoreForRep,
   getPartyColor,
   getChamberLabel,
   getTopicBreakdown,
@@ -30,12 +37,14 @@ import EthicsDisclaimer from "@/components/EthicsDisclaimer";
 export default function RepPage() {
   const params = useParams();
   const [rep, setRep] = useState<Rep | null>(null);
+  const [scores, setScores] = useState<RepScores | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const id = decodeURIComponent(params.id as string);
-    getRepById(id).then((r) => {
+    Promise.all([getRepById(id), getScoreForRep(id)]).then(([r, s]) => {
       setRep(r || null);
+      setScores(s);
       setLoading(false);
     });
   }, [params.id]);
@@ -63,17 +72,8 @@ export default function RepPage() {
   const partyShort = rep.party.includes("Democrat") ? "D" : "R";
   const topicData = getTopicBreakdown(rep.bills);
   const progressRate = getBillProgressRate(rep.bills);
-  const actualBills = rep.bills.filter(
-    (b) => !b.classification.includes("resolution") && !b.classification.includes("memorial")
-  );
-  const activityScore = Math.min(
-    100,
-    Math.round(
-      (actualBills.length / 20) * 40 +
-        (progressRate / 100) * 35 +
-        (Math.min(topicData.length, 6) / 6) * 25
-    )
-  );
+
+  const impactColor = scores?.impact_rating === "High Impact" ? "#22c55e" : scores?.impact_rating === "Moderate Impact" ? "#f59e0b" : "#94a3b8";
 
   return (
     <div className="min-h-screen">
@@ -125,7 +125,7 @@ export default function RepPage() {
               transition={{ delay: 0.1 }}
               className="flex-1"
             >
-              <div className="flex items-center gap-3 mb-2">
+              <div className="flex items-center gap-3 mb-2 flex-wrap">
                 <h1 className="text-3xl sm:text-4xl font-bold">{rep.name}</h1>
                 <span
                   className="px-3 py-1 rounded-full text-sm font-bold text-white"
@@ -133,6 +133,19 @@ export default function RepPage() {
                 >
                   {partyShort}
                 </span>
+                {scores?.legislative_style && (
+                  <span className="px-3 py-1 rounded-full text-xs font-medium bg-slate-700 text-slate-300">
+                    {scores.legislative_style}
+                  </span>
+                )}
+                {scores?.impact_rating && (
+                  <span
+                    className="px-3 py-1 rounded-full text-xs font-medium"
+                    style={{ backgroundColor: `${impactColor}20`, color: impactColor }}
+                  >
+                    {scores.impact_rating}
+                  </span>
+                )}
               </div>
               <div className="flex flex-wrap items-center gap-4 text-slate-400">
                 <span className="flex items-center gap-1.5">
@@ -141,14 +154,27 @@ export default function RepPage() {
                 </span>
                 <span className="flex items-center gap-1.5">
                   <Mail className="w-4 h-4" />
-                  <a
-                    href={`mailto:${rep.email}`}
-                    className="text-blue-400 hover:underline"
-                  >
+                  <a href={`mailto:${rep.email}`} className="text-blue-400 hover:underline">
                     {rep.email}
                   </a>
                 </span>
               </div>
+
+              {/* AI Summary */}
+              {scores?.summary && (
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.3 }}
+                  className="mt-4 p-3 bg-slate-800/50 rounded-lg border border-slate-700/50"
+                >
+                  <div className="flex items-center gap-1.5 text-xs text-purple-400 mb-1">
+                    <Sparkles className="w-3 h-3" />
+                    AI Analysis
+                  </div>
+                  <p className="text-sm text-slate-300">{scores.summary}</p>
+                </motion.div>
+              )}
 
               {/* Quick stats */}
               <div className="flex flex-wrap gap-4 mt-4">
@@ -157,13 +183,22 @@ export default function RepPage() {
                   <p className="text-xs text-slate-400">Total Bills</p>
                 </div>
                 <div className="glass-card rounded-lg px-4 py-2">
-                  <p className="text-lg font-bold text-white">{progressRate}%</p>
+                  <p className="text-lg font-bold text-white">{scores?.bill_progress_rate ?? progressRate}%</p>
                   <p className="text-xs text-slate-400">Advanced</p>
                 </div>
                 <div className="glass-card rounded-lg px-4 py-2">
                   <p className="text-lg font-bold text-white">{topicData.length}</p>
                   <p className="text-xs text-slate-400">Topics</p>
                 </div>
+                {scores?.bipartisan_potential != null && (
+                  <div className="glass-card rounded-lg px-4 py-2 group relative">
+                    <p className="text-lg font-bold text-white">{scores.bipartisan_potential}%</p>
+                    <p className="text-xs text-slate-400">Cross-Party Appeal</p>
+                    <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-2 bg-slate-700 rounded-lg text-xs text-slate-300 w-48 text-center opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
+                      How likely this rep&apos;s bills would get support from the other party
+                    </div>
+                  </div>
+                )}
               </div>
             </motion.div>
           </div>
@@ -173,9 +208,9 @@ export default function RepPage() {
       {/* Dashboard Grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid gap-6 lg:grid-cols-3">
-          {/* Left column - Score + Radar */}
+          {/* Left column */}
           <div className="space-y-6">
-            {/* Activity Score */}
+            {/* Say vs Do Score */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -183,25 +218,119 @@ export default function RepPage() {
             >
               <h3 className="text-sm font-medium text-slate-400 mb-4 flex items-center justify-center gap-2">
                 <Scale className="w-4 h-4" />
-                Legislative Activity Score
+                Say vs. Do Score
               </h3>
-              <ScoreGauge score={activityScore} label="Activity Score" />
-              <p className="text-xs text-slate-500 mt-3">
-                Based on bill count, progress rate, and topic diversity
+
+              {/* Show real score if statements exist, otherwise show awaiting */}
+              <div className="relative">
+                <ScoreGauge score={0} label="Say vs. Do" />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="bg-slate-900/90 rounded-xl px-4 py-3 text-center">
+                    <p className="text-sm font-medium text-amber-400 mb-1">Coming Soon</p>
+                    <p className="text-xs text-slate-400">Awaiting public statements data</p>
+                  </div>
+                </div>
+              </div>
+
+              <p className="text-xs text-slate-500 mt-3 px-2">
+                The Say vs. Do score compares what reps <strong className="text-slate-300">say</strong> they&apos;ll work on against what they <strong className="text-slate-300">actually</strong> legislate. Once public statements are collected, this score will show their follow-through.
               </p>
+
+              {/* Bill stats preview */}
+              <div className="mt-4 pt-4 border-t border-slate-700/50 space-y-2 text-left">
+                <p className="text-xs text-slate-500 font-medium mb-2">Legislative Activity (Do side ready):</p>
+                <div className="flex justify-between text-xs">
+                  <span className="text-slate-400">Bills Sponsored</span>
+                  <span className="text-white font-medium">{rep.bills.length}</span>
+                </div>
+                <div className="flex justify-between text-xs">
+                  <span className="text-slate-400">Bills Advanced</span>
+                  <span className="text-white font-medium">{scores?.bill_progress_rate ?? progressRate}%</span>
+                </div>
+                <div className="flex justify-between text-xs">
+                  <span className="text-slate-400">Topics Covered</span>
+                  <span className="text-white font-medium">{topicData.length}</span>
+                </div>
+              </div>
             </motion.div>
+
+            {/* Key Issues */}
+            {scores?.key_issues && scores.key_issues.length > 0 && (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.15 }}
+                className="glass-card rounded-xl p-6"
+              >
+                <h3 className="text-sm font-medium text-slate-400 mb-3 flex items-center gap-2">
+                  <Target className="w-4 h-4" />
+                  Key Issues
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  {scores.key_issues.map((issue, i) => (
+                    <span
+                      key={i}
+                      className="px-3 py-1.5 rounded-full text-sm font-medium bg-blue-500/15 text-blue-300 border border-blue-500/20"
+                    >
+                      {issue}
+                    </span>
+                  ))}
+                </div>
+              </motion.div>
+            )}
+
+            {/* Strengths & Gaps */}
+            {(scores?.strengths || scores?.gaps) && (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 }}
+                className="glass-card rounded-xl p-6 space-y-4"
+              >
+                {scores?.strengths && (
+                  <div>
+                    <h4 className="text-xs font-medium text-green-400 mb-1 flex items-center gap-1.5">
+                      <TrendingUp className="w-3.5 h-3.5" />
+                      Strengths
+                    </h4>
+                    <p className="text-sm text-slate-300">{scores.strengths}</p>
+                  </div>
+                )}
+                {scores?.gaps && (
+                  <div>
+                    <h4 className="text-xs font-medium text-amber-400 mb-1 flex items-center gap-1.5">
+                      <AlertTriangle className="w-3.5 h-3.5" />
+                      Gaps
+                    </h4>
+                    <p className="text-sm text-slate-300">{scores.gaps}</p>
+                  </div>
+                )}
+                {scores?.constituent_relevance && (
+                  <div>
+                    <h4 className="text-xs font-medium text-cyan-400 mb-1 flex items-center gap-1.5">
+                      <Handshake className="w-3.5 h-3.5" />
+                      District Relevance
+                    </h4>
+                    <p className="text-sm text-slate-300">{scores.constituent_relevance}</p>
+                  </div>
+                )}
+              </motion.div>
+            )}
 
             {/* Radar Chart */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
+              transition={{ delay: 0.25 }}
               className="glass-card rounded-xl p-6"
             >
               <h3 className="text-sm font-medium text-slate-400 mb-2 flex items-center gap-2">
                 <BarChart3Icon />
-                Topic Focus
+                What They Actually Work On
               </h3>
+              <p className="text-xs text-slate-500 mb-2">
+                Breakdown of bill topics — shows where this rep spends their legislative energy. Each axis = % of bills in that category.
+              </p>
               <TopicRadar data={topicData} partyColor={partyColor} />
             </motion.div>
 
@@ -209,19 +338,47 @@ export default function RepPage() {
             <EthicsDisclaimer billCount={rep.bills.length} />
           </div>
 
-          {/* Right column - Bills + Contact */}
+          {/* Right column - Notable Bills + All Bills + Contact */}
           <div className="lg:col-span-2 space-y-6">
-            {/* Bills */}
+            {/* Notable Bills (from Gemini) */}
+            {scores?.notable_bills && scores.notable_bills.length > 0 && (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="glass-card rounded-xl p-6"
+              >
+                <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                  <Zap className="w-5 h-5 text-amber-400" />
+                  Notable Bills
+                  <span className="text-xs font-normal text-purple-400 flex items-center gap-1 ml-2">
+                    <Sparkles className="w-3 h-3" /> AI-identified
+                  </span>
+                </h3>
+                <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                  {scores.notable_bills.map((nb, i) => (
+                    <motion.div
+                      key={i}
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.1 * i }}
+                      className="p-4 rounded-lg bg-slate-800/50 border border-slate-700/50 hover:border-amber-500/30 transition-colors"
+                    >
+                      <p className="text-sm font-bold text-amber-300 mb-1">{nb.identifier}</p>
+                      <p className="text-xs text-slate-400 mb-2">{nb.title}</p>
+                      <p className="text-xs text-slate-300">{nb.why_notable}</p>
+                    </motion.div>
+                  ))}
+                </div>
+              </motion.div>
+            )}
+
+            {/* All Bills */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
               className="glass-card rounded-xl p-6"
             >
-              <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
-                <FileText className="w-5 h-5 text-blue-400" />
-                Sponsored Bills ({rep.bills.length})
-              </h3>
               <BillList bills={rep.bills} />
             </motion.div>
 
@@ -240,6 +397,8 @@ export default function RepPage() {
                 repName={rep.name}
                 repEmail={rep.email}
                 district={rep.district}
+                bills={rep.bills}
+                sayVsDoScore={scores?.activity_score}
               />
             </motion.div>
           </div>

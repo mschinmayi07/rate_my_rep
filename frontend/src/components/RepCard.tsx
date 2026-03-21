@@ -1,7 +1,8 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Rep, getPartyColor, getChamberLabel, slugify, getBillProgressRate } from "@/lib/data";
+import { Rep, RepScores, getPartyColor, getChamberLabel, getBillProgressRate, getScoreForRep } from "@/lib/data";
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 
@@ -10,10 +11,23 @@ interface RepCardProps {
   index: number;
 }
 
+function getScoreColor(score: number): string {
+  if (score >= 70) return "#22c55e";
+  if (score >= 40) return "#f59e0b";
+  return "#ef4444";
+}
+
 export default function RepCard({ rep, index }: RepCardProps) {
+  const [scores, setScores] = useState<RepScores | null>(null);
   const partyColor = getPartyColor(rep.party);
   const partyShort = rep.party.toLowerCase().includes("democrat") ? "D" : "R";
   const progress = getBillProgressRate(rep.bills);
+
+  useEffect(() => {
+    getScoreForRep(rep.id).then(setScores);
+  }, [rep.id]);
+
+  const score = scores?.activity_score;
 
   return (
     <motion.div
@@ -25,25 +39,28 @@ export default function RepCard({ rep, index }: RepCardProps) {
         <div className="glass-card rounded-xl p-5 hover:border-slate-600 transition-all duration-300 hover:scale-[1.02] cursor-pointer group">
           <div className="flex items-start gap-4">
             {/* Photo */}
-            <div
-              className="w-16 h-16 rounded-full overflow-hidden border-2 flex-shrink-0"
-              style={{ borderColor: partyColor }}
-            >
-              {rep.image ? (
-                <img
-                  src={rep.image}
-                  alt={rep.name}
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).style.display = "none";
-                    (e.target as HTMLImageElement).parentElement!.innerHTML = `<div class="w-full h-full flex items-center justify-center bg-slate-700 text-lg font-bold">${rep.name.charAt(0)}</div>`;
-                  }}
-                />
-              ) : (
-                <div className="w-full h-full flex items-center justify-center bg-slate-700 text-lg font-bold">
-                  {rep.name.charAt(0)}
-                </div>
-              )}
+            <div className="relative flex-shrink-0">
+              <div
+                className="w-16 h-16 rounded-full overflow-hidden border-2"
+                style={{ borderColor: partyColor }}
+              >
+                {rep.image ? (
+                  <img
+                    src={rep.image}
+                    alt={rep.name}
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).style.display = "none";
+                      (e.target as HTMLImageElement).parentElement!.innerHTML = `<div class="w-full h-full flex items-center justify-center bg-slate-700 text-lg font-bold">${rep.name.charAt(0)}</div>`;
+                    }}
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center bg-slate-700 text-lg font-bold">
+                    {rep.name.charAt(0)}
+                  </div>
+                )}
+              </div>
+              {/* Score badge - will show Say vs Do score once statements arrive */}
             </div>
 
             {/* Info */}
@@ -69,6 +86,13 @@ export default function RepCard({ rep, index }: RepCardProps) {
                 <div className="text-xs text-slate-500">
                   <span className="text-slate-300 font-medium">{progress}%</span> advanced
                 </div>
+                {scores?.impact_rating && (
+                  <div className="text-xs text-slate-500">
+                    <span className={`font-medium ${scores.impact_rating === "High Impact" ? "text-green-400" : scores.impact_rating === "Moderate Impact" ? "text-amber-400" : "text-slate-400"}`}>
+                      {scores.impact_rating}
+                    </span>
+                  </div>
+                )}
               </div>
             </div>
 
