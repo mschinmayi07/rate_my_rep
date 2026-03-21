@@ -35,7 +35,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2574/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about traffic penalties \u2014 appeal \u2014 stay"
       },
       {
@@ -50,7 +50,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-02-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2960/",
-        "topic": "taxes",
+        "topic": "public safety",
         "plain_english": "A bill about veterans' court fund \u2014 grant program"
       },
       {
@@ -80,7 +80,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2673/",
-        "topic": "public safety",
+        "topic": "healthcare",
         "plain_english": "A bill about mental illness \u2014 prisoners \u2014 diagnosis \u2014 treatment."
       },
       {
@@ -95,7 +95,7 @@
         "latest_action_date": "2026-02-11",
         "first_action_date": "2026-02-10",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4111/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about immigration \u2014 customs officers \u2014 body cameras"
       },
       {
@@ -125,7 +125,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1377/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about working conditions \u2014 heat illness \u2014 prevention."
       },
       {
@@ -140,7 +140,7 @@
         "latest_action_date": "2026-01-22",
         "first_action_date": "2026-01-21",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2638/",
-        "topic": "healthcare",
+        "topic": "education",
         "plain_english": "A bill about school mental health professionals \u2014 academy"
       },
       {
@@ -170,7 +170,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2708/",
-        "topic": "environment",
+        "topic": "social policy",
         "plain_english": "A bill about landlord tenant \u2014 judgment \u2014 fees \u2014 satisfaction"
       },
       {
@@ -200,7 +200,7 @@
         "latest_action_date": "2026-01-22",
         "first_action_date": "2026-01-21",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2572/",
-        "topic": "education",
+        "topic": "social policy",
         "plain_english": "A bill about in-state student status \u2014 nonimmigrant aliens"
       },
       {
@@ -215,7 +215,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2471/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about Dolores Huerta \u2014 Cesar Chavez \u2014 holidays"
       },
       {
@@ -245,7 +245,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1789/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about pet stores \u2014 pet dealers"
       },
       {
@@ -260,7 +260,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1353/",
-        "topic": "taxes",
+        "topic": "environment",
         "plain_english": "A bill about monitoring program \u2014 fish contaminants \u2014 appropriation"
       },
       {
@@ -275,7 +275,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1355/",
-        "topic": "economy",
+        "topic": "social policy",
         "plain_english": "A bill about antidiscrimination \u2014 employment \u2014 housing \u2014 public accommodations."
       },
       {
@@ -305,20 +305,21 @@
         "latest_action_date": "2026-02-12",
         "first_action_date": "2026-02-11",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4095/",
-        "topic": "education",
+        "topic": "taxes",
         "plain_english": "A bill about income tax \u2014 additional rate \u2014 education"
       }
     ],
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 35.0,
-      "public safety": 25.0,
-      "taxes": 15.0,
-      "education": 10.0,
+      "public safety": 35.0,
+      "social policy": 25.0,
+      "government operations": 10.0,
+      "taxes": 10.0,
       "healthcare": 5.0,
-      "environment": 5.0,
-      "economy": 5.0
+      "education": 5.0,
+      "economy": 5.0,
+      "environment": 5.0
     }
   },
   {
@@ -355,7 +356,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2574/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about traffic penalties \u2014 appeal \u2014 stay"
       },
       {
@@ -370,7 +371,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2025-11-15",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2001/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about citizenship \u2014 identification \u2014 contributions \u2014 early voting"
       },
       {
@@ -415,7 +416,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-29",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2908/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about constitutional convention \u2014 faithless delegates"
       },
       {
@@ -430,7 +431,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2044/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about preferential treatment \u2014 discrimination \u2014 prohibited acts"
       },
       {
@@ -460,7 +461,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2556/",
-        "topic": "public safety",
+        "topic": "taxes",
         "plain_english": "A bill about special plate: law enforcement support"
       },
       {
@@ -490,7 +491,7 @@
         "latest_action_date": "2026-01-26",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2366/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about voting centers ban \u2014 precinct size"
       },
       {
@@ -505,7 +506,7 @@
         "latest_action_date": "",
         "first_action_date": "",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2031/",
-        "topic": "environment",
+        "topic": "government operations",
         "plain_english": "A bill about technical correction \u2014 state lands \u2014 price"
       },
       {
@@ -565,7 +566,7 @@
         "latest_action_date": "2026-03-11",
         "first_action_date": "2026-02-04",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2976/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about justice courts \u2014 administration \u2014 due process"
       },
       {
@@ -595,7 +596,7 @@
         "latest_action_date": "",
         "first_action_date": "",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2032/",
-        "topic": "environment",
+        "topic": "government operations",
         "plain_english": "A bill about state trust lands \u2014 technical correction"
       },
       {
@@ -647,13 +648,13 @@
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 50.0,
-      "public safety": 15.0,
+      "government operations": 30.0,
+      "public safety": 20.0,
+      "social policy": 20.0,
       "infrastructure": 10.0,
-      "environment": 10.0,
+      "taxes": 10.0,
       "education": 5.0,
-      "economy": 5.0,
-      "taxes": 5.0
+      "economy": 5.0
     }
   },
   {
@@ -677,7 +678,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2680/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about worker's compensation \u2014 notice \u2014 fraud \u2014 commission"
       },
       {
@@ -692,7 +693,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2673/",
-        "topic": "public safety",
+        "topic": "healthcare",
         "plain_english": "A bill about mental illness \u2014 prisoners \u2014 diagnosis \u2014 treatment."
       },
       {
@@ -707,7 +708,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2665/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about manslaughter \u2014 online advice \u2014 encouragement"
       },
       {
@@ -722,7 +723,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-10",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4109/",
-        "topic": "education",
+        "topic": "public safety",
         "plain_english": "A bill about safety \u2014 school procedures \u2014 criminal classification"
       },
       {
@@ -737,7 +738,7 @@
         "latest_action_date": "2026-02-11",
         "first_action_date": "2026-02-10",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4111/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about immigration \u2014 customs officers \u2014 body cameras"
       },
       {
@@ -767,7 +768,7 @@
         "latest_action_date": "2026-02-11",
         "first_action_date": "2026-02-10",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4074/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about historic structures \u2014 improper demolition \u2014 penalties"
       },
       {
@@ -782,7 +783,7 @@
         "latest_action_date": "2026-03-11",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2671/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about chronic felony offenders \u2014 juveniles"
       },
       {
@@ -812,7 +813,7 @@
         "latest_action_date": "2026-01-28",
         "first_action_date": "2026-01-27",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2922/",
-        "topic": "taxes",
+        "topic": "public safety",
         "plain_english": "A bill about obstructing criminal investigations \u2014 homeowner exemption"
       },
       {
@@ -827,7 +828,7 @@
         "latest_action_date": "2026-02-04",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2043/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about congressional term limits \u2014 convention"
       },
       {
@@ -842,7 +843,7 @@
         "latest_action_date": "2026-02-03",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2682/",
-        "topic": "taxes",
+        "topic": "infrastructure",
         "plain_english": "A bill about rental assistance program \u2014 appropriation"
       },
       {
@@ -857,7 +858,7 @@
         "latest_action_date": "2026-01-29",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2674/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about abating sentencing requirements \u2014 deceased defendants"
       },
       {
@@ -917,7 +918,7 @@
         "latest_action_date": "2026-02-12",
         "first_action_date": "2026-02-11",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4099/",
-        "topic": "taxes",
+        "topic": "social policy",
         "plain_english": "A bill about child care \u2014 state lottery fund"
       },
       {
@@ -969,12 +970,13 @@
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 40.0,
-      "public safety": 20.0,
-      "taxes": 20.0,
+      "public safety": 50.0,
+      "social policy": 15.0,
+      "infrastructure": 10.0,
       "economy": 10.0,
-      "education": 5.0,
-      "infrastructure": 5.0
+      "healthcare": 5.0,
+      "taxes": 5.0,
+      "government operations": 5.0
     }
   },
   {
@@ -998,7 +1000,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2574/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about traffic penalties \u2014 appeal \u2014 stay"
       },
       {
@@ -1028,7 +1030,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1776/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about traditional healing services \u2014 AHCCCS"
       },
       {
@@ -1058,7 +1060,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-01-27",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1431/",
-        "topic": "government operations",
+        "topic": "infrastructure",
         "plain_english": "A bill about municipalities \u2014 planned communities \u2014 design \u2014 prohibition"
       },
       {
@@ -1088,7 +1090,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2565/",
-        "topic": "environment",
+        "topic": "infrastructure",
         "plain_english": "A bill about landlord tenant \u2014 notice \u2014 assistance information"
       },
       {
@@ -1103,7 +1105,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1377/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about working conditions \u2014 heat illness \u2014 prevention."
       },
       {
@@ -1133,7 +1135,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SCR1042/",
-        "topic": "education",
+        "topic": "taxes",
         "plain_english": "A bill about expenditure limitation \u2014 school districts \u2014 repeal"
       },
       {
@@ -1148,7 +1150,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2471/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about Dolores Huerta \u2014 Cesar Chavez \u2014 holidays"
       },
       {
@@ -1163,7 +1165,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SCR1045/",
-        "topic": "environment",
+        "topic": "taxes",
         "plain_english": "A bill about permanent funds \u2014 land trust \u2014 distributions"
       },
       {
@@ -1193,7 +1195,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1782/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about runaways \u2014 alert systems"
       },
       {
@@ -1253,7 +1255,7 @@
         "latest_action_date": "",
         "first_action_date": "",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1367/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about vapor products"
       },
       {
@@ -1268,7 +1270,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2516/",
-        "topic": "healthcare",
+        "topic": "environment",
         "plain_english": "A bill about watershed health \u2014 use \u2014 survey"
       },
       {
@@ -1290,13 +1292,14 @@
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 40.0,
-      "education": 15.0,
-      "healthcare": 10.0,
-      "public safety": 10.0,
-      "environment": 10.0,
-      "social policy": 10.0,
-      "taxes": 5.0
+      "public safety": 25.0,
+      "healthcare": 15.0,
+      "social policy": 15.0,
+      "taxes": 15.0,
+      "infrastructure": 10.0,
+      "education": 10.0,
+      "government operations": 5.0,
+      "environment": 5.0
     }
   },
   {
@@ -1320,7 +1323,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2574/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about traffic penalties \u2014 appeal \u2014 stay"
       },
       {
@@ -1350,7 +1353,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2708/",
-        "topic": "environment",
+        "topic": "economy",
         "plain_english": "A bill about landlord tenant \u2014 judgment \u2014 fees \u2014 satisfaction"
       },
       {
@@ -1365,7 +1368,7 @@
         "latest_action_date": "2026-01-26",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2503/",
-        "topic": "taxes",
+        "topic": "social policy",
         "plain_english": "A bill about campaign finance \u2014 caregiver expenses"
       },
       {
@@ -1380,7 +1383,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2471/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about Dolores Huerta \u2014 Cesar Chavez \u2014 holidays"
       },
       {
@@ -1395,7 +1398,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2741/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about day of racial healing \u2014 observation"
       },
       {
@@ -1410,7 +1413,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2740/",
-        "topic": "taxes",
+        "topic": "social policy",
         "plain_english": "A bill about appropriation \u2014 office of African-American Affairs"
       },
       {
@@ -1425,7 +1428,7 @@
         "latest_action_date": "2026-01-26",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2507/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about early ballot return \u2014 voter intimidation"
       },
       {
@@ -1455,7 +1458,7 @@
         "latest_action_date": "2026-01-28",
         "first_action_date": "2026-01-27",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2922/",
-        "topic": "taxes",
+        "topic": "public safety",
         "plain_english": "A bill about obstructing criminal investigations \u2014 homeowner exemption"
       },
       {
@@ -1485,7 +1488,7 @@
         "latest_action_date": "",
         "first_action_date": "",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4132/",
-        "topic": "government operations",
+        "topic": "education",
         "plain_english": "A bill about ESAs \u2014 expenditures \u2014 enrollment \u2014 limitations."
       },
       {
@@ -1590,7 +1593,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2391/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about vloggers \u2014 minors \u2014 compensation \u2014 trust accounts"
       },
       {
@@ -1605,21 +1608,20 @@
         "latest_action_date": "2026-01-20",
         "first_action_date": "2026-01-15",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2347/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about reasonable assistance \u2014 emergencies \u2014 Good Samaritans"
       }
     ],
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 35.0,
-      "taxes": 15.0,
-      "education": 15.0,
+      "social policy": 30.0,
+      "education": 20.0,
+      "public safety": 15.0,
+      "economy": 15.0,
       "healthcare": 10.0,
-      "environment": 10.0,
       "infrastructure": 5.0,
-      "economy": 5.0,
-      "social policy": 5.0
+      "environment": 5.0
     }
   },
   {
@@ -1643,7 +1645,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2700/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about technology study committee \u2014 assistive technology"
       },
       {
@@ -1658,7 +1660,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2574/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about traffic penalties \u2014 appeal \u2014 stay"
       },
       {
@@ -1673,7 +1675,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2565/",
-        "topic": "environment",
+        "topic": "infrastructure",
         "plain_english": "A bill about landlord tenant \u2014 notice \u2014 assistance information"
       },
       {
@@ -1688,7 +1690,7 @@
         "latest_action_date": "2026-02-12",
         "first_action_date": "2026-02-11",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4090/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about liquor licenses \u2014 issuance \u2014 prohibition"
       },
       {
@@ -1703,7 +1705,7 @@
         "latest_action_date": "2026-02-11",
         "first_action_date": "2026-02-10",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4075/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about civil rights \u2014 right to vote"
       },
       {
@@ -1718,7 +1720,7 @@
         "latest_action_date": "2026-01-22",
         "first_action_date": "2026-01-21",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2638/",
-        "topic": "healthcare",
+        "topic": "education",
         "plain_english": "A bill about school mental health professionals \u2014 academy"
       },
       {
@@ -1733,7 +1735,7 @@
         "latest_action_date": "2026-02-11",
         "first_action_date": "2026-02-10",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4074/",
-        "topic": "government operations",
+        "topic": "environment",
         "plain_english": "A bill about historic structures \u2014 improper demolition \u2014 penalties"
       },
       {
@@ -1748,7 +1750,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2708/",
-        "topic": "environment",
+        "topic": "infrastructure",
         "plain_english": "A bill about landlord tenant \u2014 judgment \u2014 fees \u2014 satisfaction"
       },
       {
@@ -1763,7 +1765,7 @@
         "latest_action_date": "2026-01-26",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2503/",
-        "topic": "taxes",
+        "topic": "government operations",
         "plain_english": "A bill about campaign finance \u2014 caregiver expenses"
       },
       {
@@ -1793,7 +1795,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2741/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about day of racial healing \u2014 observation"
       },
       {
@@ -1823,7 +1825,7 @@
         "latest_action_date": "2026-02-11",
         "first_action_date": "2026-02-10",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4061/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about clean elections \u2014 statewide \u2014 legislative candidates"
       },
       {
@@ -1838,7 +1840,7 @@
         "latest_action_date": "2026-01-26",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2507/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about early ballot return \u2014 voter intimidation"
       },
       {
@@ -1868,7 +1870,7 @@
         "latest_action_date": "2026-02-12",
         "first_action_date": "2026-02-11",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4095/",
-        "topic": "education",
+        "topic": "taxes",
         "plain_english": "A bill about income tax \u2014 additional rate \u2014 education"
       },
       {
@@ -1898,7 +1900,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2359/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about adult incarceration contractors \u2014 public records"
       },
       {
@@ -1928,20 +1930,22 @@
         "latest_action_date": "",
         "first_action_date": "",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4132/",
-        "topic": "government operations",
+        "topic": "education",
         "plain_english": "A bill about ESAs \u2014 expenditures \u2014 enrollment \u2014 limitations."
       }
     ],
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 60.0,
-      "environment": 10.0,
+      "social policy": 25.0,
+      "infrastructure": 15.0,
+      "government operations": 15.0,
+      "public safety": 10.0,
+      "education": 10.0,
       "taxes": 10.0,
       "healthcare": 5.0,
-      "education": 5.0,
-      "infrastructure": 5.0,
-      "social policy": 5.0
+      "economy": 5.0,
+      "environment": 5.0
     }
   },
   {
@@ -1965,7 +1969,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2665/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about manslaughter \u2014 online advice \u2014 encouragement"
       },
       {
@@ -1980,7 +1984,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2025-11-15",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2001/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about citizenship \u2014 identification \u2014 contributions \u2014 early voting"
       },
       {
@@ -2010,7 +2014,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2044/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about preferential treatment \u2014 discrimination \u2014 prohibited acts"
       },
       {
@@ -2070,7 +2074,7 @@
         "latest_action_date": "2026-01-26",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2366/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about voting centers ban \u2014 precinct size"
       },
       {
@@ -2145,7 +2149,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2666/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about sexual extortion \u2014 classification"
       },
       {
@@ -2160,7 +2164,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2557/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about candidate petitions \u2014 felony disclosure"
       },
       {
@@ -2190,7 +2194,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-02-11",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2059/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about county sheriffs \u2014 expressing support"
       },
       {
@@ -2205,7 +2209,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-02-04",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCM2011/",
-        "topic": "government operations",
+        "topic": "environment",
         "plain_english": "A bill about Mexican wolf \u2014 delist \u2014 urging support"
       },
       {
@@ -2220,7 +2224,7 @@
         "latest_action_date": "2026-03-09",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2016/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about voting centers \u2014 precinct voting"
       },
       {
@@ -2235,7 +2239,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-02-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4010/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about genetic counselors \u2014 board \u2014 licensure"
       },
       {
@@ -2257,13 +2261,15 @@
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 65.0,
+      "social policy": 25.0,
+      "public safety": 20.0,
+      "government operations": 15.0,
+      "healthcare": 10.0,
       "taxes": 10.0,
       "infrastructure": 5.0,
-      "public safety": 5.0,
-      "healthcare": 5.0,
       "education": 5.0,
-      "economy": 5.0
+      "economy": 5.0,
+      "environment": 5.0
     }
   },
   {
@@ -2287,7 +2293,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1630/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about home \u2014 community-based services \u2014 mental illness"
       },
       {
@@ -2302,7 +2308,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-04",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2950/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about tourism improvement areas \u2014 municipalities \u2014 counties"
       },
       {
@@ -2317,7 +2323,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-02-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1798/",
-        "topic": "education",
+        "topic": "public safety",
         "plain_english": "A bill about school safety \u2014 identification system \u2014 appropriation"
       },
       {
@@ -2332,7 +2338,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-29",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1479/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about deeds \u2014 identification \u2014 forgery \u2014 notice \u2014 notaries"
       },
       {
@@ -2377,7 +2383,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SCR1042/",
-        "topic": "education",
+        "topic": "taxes",
         "plain_english": "A bill about expenditure limitation \u2014 school districts \u2014 repeal"
       },
       {
@@ -2392,7 +2398,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SCR1045/",
-        "topic": "environment",
+        "topic": "taxes",
         "plain_english": "A bill about permanent funds \u2014 land trust \u2014 distributions"
       },
       {
@@ -2422,7 +2428,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1226/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about pricing \u2014 covered goods \u2014 requirements."
       },
       {
@@ -2437,7 +2443,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1705/",
-        "topic": "taxes",
+        "topic": "education",
         "plain_english": "A bill about class size limits \u2014 policies \u2014 appropriations"
       },
       {
@@ -2467,7 +2473,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1230/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about motor vehicle dealer \u2014 advertising \u2014 restriction"
       },
       {
@@ -2482,7 +2488,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1383/",
-        "topic": "government operations",
+        "topic": "environment",
         "plain_english": "A bill about greenhouse gas programs \u2014 repeal \u2014 prohibition."
       },
       {
@@ -2512,7 +2518,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1708/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about property use \u2014 immigration enforcement \u2014 prohibition"
       },
       {
@@ -2542,7 +2548,7 @@
         "latest_action_date": "2026-02-03",
         "first_action_date": "2026-02-02",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1532/",
-        "topic": "government operations",
+        "topic": "education",
         "plain_english": "A bill about continuation \u2014 ASDB"
       },
       {
@@ -2572,20 +2578,21 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1714/",
-        "topic": "public safety",
+        "topic": "economy",
         "plain_english": "A bill about pricing \u2014 emergency \u2014 enforcement \u2014 attorney general"
       }
     ],
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 45.0,
       "education": 25.0,
-      "taxes": 10.0,
-      "social policy": 5.0,
+      "economy": 20.0,
+      "taxes": 15.0,
+      "healthcare": 10.0,
+      "public safety": 10.0,
+      "social policy": 10.0,
       "environment": 5.0,
-      "healthcare": 5.0,
-      "public safety": 5.0
+      "government operations": 5.0
     }
   },
   {
@@ -2609,7 +2616,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2574/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about traffic penalties \u2014 appeal \u2014 stay"
       },
       {
@@ -2639,7 +2646,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2739/",
-        "topic": "environment",
+        "topic": "infrastructure",
         "plain_english": "A bill about landlord tenant \u2014 senior rental limits"
       },
       {
@@ -2654,7 +2661,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2565/",
-        "topic": "environment",
+        "topic": "infrastructure",
         "plain_english": "A bill about landlord tenant \u2014 notice \u2014 assistance information"
       },
       {
@@ -2669,7 +2676,7 @@
         "latest_action_date": "2026-02-11",
         "first_action_date": "2026-02-10",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4111/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about immigration \u2014 customs officers \u2014 body cameras"
       },
       {
@@ -2684,7 +2691,7 @@
         "latest_action_date": "2026-01-22",
         "first_action_date": "2026-01-21",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2638/",
-        "topic": "healthcare",
+        "topic": "education",
         "plain_english": "A bill about school mental health professionals \u2014 academy"
       },
       {
@@ -2714,7 +2721,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2708/",
-        "topic": "environment",
+        "topic": "infrastructure",
         "plain_english": "A bill about landlord tenant \u2014 judgment \u2014 fees \u2014 satisfaction"
       },
       {
@@ -2729,7 +2736,7 @@
         "latest_action_date": "2026-01-26",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2503/",
-        "topic": "taxes",
+        "topic": "social policy",
         "plain_english": "A bill about campaign finance \u2014 caregiver expenses"
       },
       {
@@ -2744,7 +2751,7 @@
         "latest_action_date": "2026-01-22",
         "first_action_date": "2026-01-21",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2572/",
-        "topic": "education",
+        "topic": "social policy",
         "plain_english": "A bill about in-state student status \u2014 nonimmigrant aliens"
       },
       {
@@ -2759,7 +2766,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2471/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about Dolores Huerta \u2014 Cesar Chavez \u2014 holidays"
       },
       {
@@ -2774,7 +2781,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1789/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about pet stores \u2014 pet dealers"
       },
       {
@@ -2789,7 +2796,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1353/",
-        "topic": "taxes",
+        "topic": "environment",
         "plain_english": "A bill about monitoring program \u2014 fish contaminants \u2014 appropriation"
       },
       {
@@ -2804,7 +2811,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2741/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about day of racial healing \u2014 observation"
       },
       {
@@ -2819,7 +2826,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2740/",
-        "topic": "taxes",
+        "topic": "social policy",
         "plain_english": "A bill about appropriation \u2014 office of African-American Affairs"
       },
       {
@@ -2834,7 +2841,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1355/",
-        "topic": "economy",
+        "topic": "social policy",
         "plain_english": "A bill about antidiscrimination \u2014 employment \u2014 housing \u2014 public accommodations."
       },
       {
@@ -2849,7 +2856,7 @@
         "latest_action_date": "2026-01-26",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2507/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about early ballot return \u2014 voter intimidation"
       },
       {
@@ -2864,7 +2871,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2462/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about covered contracts \u2014 governmental unit \u2014 payroll"
       },
       {
@@ -2879,7 +2886,7 @@
         "latest_action_date": "2026-02-12",
         "first_action_date": "2026-02-11",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4095/",
-        "topic": "education",
+        "topic": "taxes",
         "plain_english": "A bill about income tax \u2014 additional rate \u2014 education"
       },
       {
@@ -2901,14 +2908,13 @@
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 35.0,
-      "taxes": 20.0,
-      "environment": 15.0,
-      "education": 10.0,
-      "healthcare": 5.0,
-      "public safety": 5.0,
-      "economy": 5.0,
-      "infrastructure": 5.0
+      "social policy": 40.0,
+      "infrastructure": 20.0,
+      "public safety": 10.0,
+      "taxes": 10.0,
+      "economy": 10.0,
+      "education": 5.0,
+      "environment": 5.0
     }
   },
   {
@@ -2932,7 +2938,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-27",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1346/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about AHCCCS \u2014 fee-for-service \u2014 claims"
       },
       {
@@ -2947,7 +2953,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1628/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about claims denial \u2014 prior authorization \u2014 reporting"
       },
       {
@@ -2962,7 +2968,7 @@
         "latest_action_date": "2026-03-09",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1174/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about DCS \u2014 intake hotline: case history"
       },
       {
@@ -2977,7 +2983,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1171/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about AHCCCS \u2014 dual enrollment \u2014 notice"
       },
       {
@@ -2992,7 +2998,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1631/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about DCS \u2014 sexual abuse allegations \u2014 interviews"
       },
       {
@@ -3007,7 +3013,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-01-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1115/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about AHCCCS \u2014 remote work \u2014 prohibition"
       },
       {
@@ -3097,7 +3103,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-01-29",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1496/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about DCS \u2014 policies \u2014 procedures"
       },
       {
@@ -3127,7 +3133,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1630/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about home \u2014 community-based services \u2014 mental illness"
       },
       {
@@ -3142,7 +3148,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1172/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about DCS \u2014 intake hotline \u2014 multiple reports"
       },
       {
@@ -3157,7 +3163,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1164/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about ALTCS \u2014 providers \u2014 change of ownership"
       },
       {
@@ -3172,7 +3178,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1814/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about substance use disorder treatment \u2014 committee"
       },
       {
@@ -3187,7 +3193,7 @@
         "latest_action_date": "2026-03-09",
         "first_action_date": "2026-01-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1120/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about radiation protection systems \u2014 installation requirement"
       },
       {
@@ -3217,17 +3223,17 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2321/",
-        "topic": "taxes",
+        "topic": "social policy",
         "plain_english": "A bill about DCS \u2014 credit freeze \u2014 consumer reporting"
       }
     ],
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 70.0,
-      "healthcare": 20.0,
-      "social policy": 5.0,
-      "taxes": 5.0
+      "healthcare": 55.0,
+      "social policy": 25.0,
+      "public safety": 10.0,
+      "government operations": 10.0
     }
   },
   {
@@ -3251,7 +3257,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1630/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about home \u2014 community-based services \u2014 mental illness"
       },
       {
@@ -3266,7 +3272,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1602/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about kinship foster care stipend \u2014 increase"
       },
       {
@@ -3281,7 +3287,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1164/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about ALTCS \u2014 providers \u2014 change of ownership"
       },
       {
@@ -3311,7 +3317,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1776/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about traditional healing services \u2014 AHCCCS"
       },
       {
@@ -3341,7 +3347,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1377/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about working conditions \u2014 heat illness \u2014 prevention."
       },
       {
@@ -3371,7 +3377,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SCR1042/",
-        "topic": "education",
+        "topic": "taxes",
         "plain_english": "A bill about expenditure limitation \u2014 school districts \u2014 repeal"
       },
       {
@@ -3386,7 +3392,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-02-02",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1523/",
-        "topic": "environment",
+        "topic": "infrastructure",
         "plain_english": "A bill about appropriation \u2014 waterline project \u2014 Ganado"
       },
       {
@@ -3401,7 +3407,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SCR1045/",
-        "topic": "environment",
+        "topic": "taxes",
         "plain_english": "A bill about permanent funds \u2014 land trust \u2014 distributions"
       },
       {
@@ -3431,7 +3437,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1353/",
-        "topic": "taxes",
+        "topic": "environment",
         "plain_english": "A bill about monitoring program \u2014 fish contaminants \u2014 appropriation"
       },
       {
@@ -3446,7 +3452,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1355/",
-        "topic": "economy",
+        "topic": "social policy",
         "plain_english": "A bill about antidiscrimination \u2014 employment \u2014 housing \u2014 public accommodations."
       },
       {
@@ -3461,7 +3467,7 @@
         "latest_action_date": "2025-12-16",
         "first_action_date": "2025-12-16",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1031/",
-        "topic": "public safety",
+        "topic": "social policy",
         "plain_english": "A bill about immigration \u2014 law enforcement \u2014 repeal"
       },
       {
@@ -3476,7 +3482,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1782/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about runaways \u2014 alert systems"
       },
       {
@@ -3491,7 +3497,7 @@
         "latest_action_date": "2026-03-09",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1165/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about insurance \u2014 cost sharing \u2014 breast exams"
       },
       {
@@ -3506,7 +3512,7 @@
         "latest_action_date": "2026-02-02",
         "first_action_date": "2026-01-29",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1485/",
-        "topic": "taxes",
+        "topic": "infrastructure",
         "plain_english": "A bill about appropriation \u2014 multipurpose complex \u2014 Tuba City"
       },
       {
@@ -3536,21 +3542,20 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1705/",
-        "topic": "taxes",
+        "topic": "education",
         "plain_english": "A bill about class size limits \u2014 policies \u2014 appropriations"
       }
     ],
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 35.0,
-      "taxes": 20.0,
+      "healthcare": 25.0,
+      "social policy": 20.0,
       "education": 15.0,
-      "environment": 10.0,
-      "healthcare": 5.0,
-      "social policy": 5.0,
-      "economy": 5.0,
-      "public safety": 5.0
+      "taxes": 15.0,
+      "public safety": 10.0,
+      "infrastructure": 10.0,
+      "environment": 5.0
     }
   },
   {
@@ -3574,7 +3579,7 @@
         "latest_action_date": "2026-03-09",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1174/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about DCS \u2014 intake hotline: case history"
       },
       {
@@ -3589,7 +3594,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2700/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about technology study committee \u2014 assistive technology"
       },
       {
@@ -3604,7 +3609,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2574/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about traffic penalties \u2014 appeal \u2014 stay"
       },
       {
@@ -3619,7 +3624,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1172/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about DCS \u2014 intake hotline \u2014 multiple reports"
       },
       {
@@ -3649,7 +3654,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2680/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about worker's compensation \u2014 notice \u2014 fraud \u2014 commission"
       },
       {
@@ -3664,7 +3669,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2673/",
-        "topic": "public safety",
+        "topic": "healthcare",
         "plain_english": "A bill about mental illness \u2014 prisoners \u2014 diagnosis \u2014 treatment."
       },
       {
@@ -3679,7 +3684,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2565/",
-        "topic": "environment",
+        "topic": "infrastructure",
         "plain_english": "A bill about landlord tenant \u2014 notice \u2014 assistance information"
       },
       {
@@ -3694,7 +3699,7 @@
         "latest_action_date": "2026-02-11",
         "first_action_date": "2026-02-10",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4111/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about immigration \u2014 customs officers \u2014 body cameras"
       },
       {
@@ -3709,7 +3714,7 @@
         "latest_action_date": "2026-01-22",
         "first_action_date": "2026-01-21",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2638/",
-        "topic": "healthcare",
+        "topic": "education",
         "plain_english": "A bill about school mental health professionals \u2014 academy"
       },
       {
@@ -3724,7 +3729,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2708/",
-        "topic": "environment",
+        "topic": "infrastructure",
         "plain_english": "A bill about landlord tenant \u2014 judgment \u2014 fees \u2014 satisfaction"
       },
       {
@@ -3739,7 +3744,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2471/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about Dolores Huerta \u2014 Cesar Chavez \u2014 holidays"
       },
       {
@@ -3769,7 +3774,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2741/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about day of racial healing \u2014 observation"
       },
       {
@@ -3799,7 +3804,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2462/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about covered contracts \u2014 governmental unit \u2014 payroll"
       },
       {
@@ -3814,7 +3819,7 @@
         "latest_action_date": "2026-02-12",
         "first_action_date": "2026-02-11",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4095/",
-        "topic": "education",
+        "topic": "taxes",
         "plain_english": "A bill about income tax \u2014 additional rate \u2014 education"
       },
       {
@@ -3829,7 +3834,7 @@
         "latest_action_date": "2026-01-28",
         "first_action_date": "2026-01-27",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2922/",
-        "topic": "taxes",
+        "topic": "public safety",
         "plain_english": "A bill about obstructing criminal investigations \u2014 homeowner exemption"
       },
       {
@@ -3859,21 +3864,20 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2359/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about adult incarceration contractors \u2014 public records"
       }
     ],
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 50.0,
-      "public safety": 10.0,
-      "environment": 10.0,
+      "social policy": 35.0,
+      "public safety": 25.0,
+      "infrastructure": 15.0,
       "taxes": 10.0,
-      "social policy": 5.0,
       "healthcare": 5.0,
       "education": 5.0,
-      "infrastructure": 5.0
+      "economy": 5.0
     }
   },
   {
@@ -3912,7 +3916,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2574/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about traffic penalties \u2014 appeal \u2014 stay"
       },
       {
@@ -3942,7 +3946,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-02-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2960/",
-        "topic": "taxes",
+        "topic": "public safety",
         "plain_english": "A bill about veterans' court fund \u2014 grant program"
       },
       {
@@ -3957,7 +3961,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2025-12-29",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2110/",
-        "topic": "education",
+        "topic": "social policy",
         "plain_english": "A bill about school governing bodies \u2014 meetings \u2014 prayer"
       },
       {
@@ -3972,7 +3976,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2665/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about manslaughter \u2014 online advice \u2014 encouragement"
       },
       {
@@ -3987,7 +3991,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2575/",
-        "topic": "education",
+        "topic": "social policy",
         "plain_english": "A bill about antisemitism \u2014 public schools \u2014 prohibition \u2014 penalties"
       },
       {
@@ -4002,7 +4006,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2025-12-29",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2113/",
-        "topic": "government operations",
+        "topic": "infrastructure",
         "plain_english": "A bill about public service corporation \u2014 rates \u2014 intervenor"
       },
       {
@@ -4032,7 +4036,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2025-12-12",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2056/",
-        "topic": "environment",
+        "topic": "taxes",
         "plain_english": "A bill about appropriation \u2014 brackish groundwater \u2014 feasibility study"
       },
       {
@@ -4062,7 +4066,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2025-12-12",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2057/",
-        "topic": "government operations",
+        "topic": "taxes",
         "plain_english": "A bill about special plate \u2014 centennial \u2014 fleet discount"
       },
       {
@@ -4092,7 +4096,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2444/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about pharmacists \u2014 independent testing \u2014 treatment"
       },
       {
@@ -4107,7 +4111,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2601/",
-        "topic": "environment",
+        "topic": "infrastructure",
         "plain_english": "A bill about Interstate 11 \u2014 environmental \u2014 engineering \u2014 study"
       },
       {
@@ -4122,7 +4126,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2044/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about preferential treatment \u2014 discrimination \u2014 prohibited acts"
       },
       {
@@ -4167,7 +4171,7 @@
         "latest_action_date": "2026-01-28",
         "first_action_date": "2026-01-27",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2920/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about software applications \u2014 minors \u2014 requirements"
       },
       {
@@ -4189,12 +4193,13 @@
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 45.0,
-      "environment": 15.0,
-      "taxes": 15.0,
-      "education": 10.0,
-      "infrastructure": 10.0,
-      "healthcare": 5.0
+      "public safety": 20.0,
+      "taxes": 20.0,
+      "infrastructure": 20.0,
+      "social policy": 15.0,
+      "healthcare": 10.0,
+      "government operations": 10.0,
+      "environment": 5.0
     }
   },
   {
@@ -4218,7 +4223,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2574/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about traffic penalties \u2014 appeal \u2014 stay"
       },
       {
@@ -4233,7 +4238,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2739/",
-        "topic": "environment",
+        "topic": "social policy",
         "plain_english": "A bill about landlord tenant \u2014 senior rental limits"
       },
       {
@@ -4248,7 +4253,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2708/",
-        "topic": "environment",
+        "topic": "public safety",
         "plain_english": "A bill about landlord tenant \u2014 judgment \u2014 fees \u2014 satisfaction"
       },
       {
@@ -4263,7 +4268,7 @@
         "latest_action_date": "2026-02-12",
         "first_action_date": "2026-02-11",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4076/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about merchants \u2014 delivery of goods \u2014 warranty"
       },
       {
@@ -4278,7 +4283,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2471/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about Dolores Huerta \u2014 Cesar Chavez \u2014 holidays"
       },
       {
@@ -4293,7 +4298,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2741/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about day of racial healing \u2014 observation"
       },
       {
@@ -4308,7 +4313,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2547/",
-        "topic": "government operations",
+        "topic": "environment",
         "plain_english": "A bill about well-drilling applications \u2014 location \u2014 GPS"
       },
       {
@@ -4353,7 +4358,7 @@
         "latest_action_date": "2026-01-28",
         "first_action_date": "2026-01-27",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2922/",
-        "topic": "taxes",
+        "topic": "public safety",
         "plain_english": "A bill about obstructing criminal investigations \u2014 homeowner exemption"
       },
       {
@@ -4398,7 +4403,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2391/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about vloggers \u2014 minors \u2014 compensation \u2014 trust accounts"
       },
       {
@@ -4428,7 +4433,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2988/",
-        "topic": "taxes",
+        "topic": "infrastructure",
         "plain_english": "A bill about municipal tax increment financing \u2014 infrastructure"
       },
       {
@@ -4443,7 +4448,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2552/",
-        "topic": "education",
+        "topic": "environment",
         "plain_english": "A bill about energy measuring \u2014 reporting prohibition \u2014 repeal"
       },
       {
@@ -4510,12 +4515,13 @@
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 40.0,
-      "taxes": 25.0,
+      "social policy": 20.0,
+      "public safety": 15.0,
+      "economy": 15.0,
+      "taxes": 15.0,
       "environment": 10.0,
-      "economy": 10.0,
-      "infrastructure": 5.0,
-      "education": 5.0,
+      "government operations": 10.0,
+      "infrastructure": 10.0,
       "healthcare": 5.0
     }
   },
@@ -4555,7 +4561,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-04",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2950/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about tourism improvement areas \u2014 municipalities \u2014 counties"
       },
       {
@@ -4570,7 +4576,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2680/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about worker's compensation \u2014 notice \u2014 fraud \u2014 commission"
       },
       {
@@ -4585,7 +4591,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2673/",
-        "topic": "public safety",
+        "topic": "healthcare",
         "plain_english": "A bill about mental illness \u2014 prisoners \u2014 diagnosis \u2014 treatment."
       },
       {
@@ -4600,7 +4606,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-02",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2941/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about motorcycles \u2014 reckless driving"
       },
       {
@@ -4615,7 +4621,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-10",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4109/",
-        "topic": "education",
+        "topic": "public safety",
         "plain_english": "A bill about safety \u2014 school procedures \u2014 criminal classification"
       },
       {
@@ -4645,7 +4651,7 @@
         "latest_action_date": "2026-03-11",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2671/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about chronic felony offenders \u2014 juveniles"
       },
       {
@@ -4675,7 +4681,7 @@
         "latest_action_date": "2026-01-28",
         "first_action_date": "2026-01-27",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2922/",
-        "topic": "taxes",
+        "topic": "public safety",
         "plain_english": "A bill about obstructing criminal investigations \u2014 homeowner exemption"
       },
       {
@@ -4690,7 +4696,7 @@
         "latest_action_date": "",
         "first_action_date": "",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4132/",
-        "topic": "government operations",
+        "topic": "education",
         "plain_english": "A bill about ESAs \u2014 expenditures \u2014 enrollment \u2014 limitations."
       },
       {
@@ -4720,7 +4726,7 @@
         "latest_action_date": "2026-02-04",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2043/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about congressional term limits \u2014 convention"
       },
       {
@@ -4735,7 +4741,7 @@
         "latest_action_date": "2026-02-03",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2682/",
-        "topic": "taxes",
+        "topic": "infrastructure",
         "plain_english": "A bill about rental assistance program \u2014 appropriation"
       },
       {
@@ -4750,7 +4756,7 @@
         "latest_action_date": "2026-01-29",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2674/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about abating sentencing requirements \u2014 deceased defendants"
       },
       {
@@ -4795,7 +4801,7 @@
         "latest_action_date": "2026-02-12",
         "first_action_date": "2026-02-11",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4099/",
-        "topic": "taxes",
+        "topic": "social policy",
         "plain_english": "A bill about child care \u2014 state lottery fund"
       },
       {
@@ -4832,12 +4838,12 @@
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 35.0,
-      "public safety": 25.0,
-      "taxes": 15.0,
+      "public safety": 50.0,
+      "economy": 15.0,
       "education": 10.0,
-      "economy": 10.0,
-      "infrastructure": 5.0
+      "social policy": 10.0,
+      "infrastructure": 10.0,
+      "healthcare": 5.0
     }
   },
   {
@@ -4906,7 +4912,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-01-29",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1457/",
-        "topic": "taxes",
+        "topic": "public safety",
         "plain_english": "A bill about air mobility fund \u2014 border security"
       },
       {
@@ -4921,7 +4927,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1550/",
-        "topic": "public safety",
+        "topic": "taxes",
         "plain_english": "A bill about appropriation \u2014 Queen Creek \u2014 law enforcement"
       },
       {
@@ -4936,7 +4942,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1177/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about public monies \u2014 gender transition \u2014 prohibition"
       },
       {
@@ -4966,7 +4972,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2025-12-11",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1024/",
-        "topic": "infrastructure",
+        "topic": "public safety",
         "plain_english": "A bill about roadable aircraft \u2014 registration \u2014 license plates"
       },
       {
@@ -4996,7 +5002,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1549/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about ultralight vehicles \u2014 definition"
       },
       {
@@ -5011,7 +5017,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-01-27",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1431/",
-        "topic": "government operations",
+        "topic": "infrastructure",
         "plain_english": "A bill about municipalities \u2014 planned communities \u2014 design \u2014 prohibition"
       },
       {
@@ -5026,7 +5032,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1820/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about criminal monetary thresholds \u2014 offense classifications"
       },
       {
@@ -5041,7 +5047,7 @@
         "latest_action_date": "2026-01-14",
         "first_action_date": "2025-12-11",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1025/",
-        "topic": "government operations",
+        "topic": "education",
         "plain_english": "A bill about science curricula \u2014 evolution \u2014 intelligent design"
       },
       {
@@ -5056,7 +5062,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1824/",
-        "topic": "government operations",
+        "topic": "education",
         "plain_english": "A bill about blindness compensatory skills \u2014 teaching certificates"
       },
       {
@@ -5101,7 +5107,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1327/",
-        "topic": "government operations",
+        "topic": "education",
         "plain_english": "A bill about ABOR \u2014 foreign countries \u2014 restrictions \u2014 penalties"
       },
       {
@@ -5146,21 +5152,21 @@
         "latest_action_date": "2026-03-03",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1552/",
-        "topic": "government operations",
+        "topic": "infrastructure",
         "plain_english": "A bill about ADOT \u2014 revisions."
       }
     ],
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 50.0,
+      "public safety": 20.0,
+      "education": 20.0,
       "taxes": 15.0,
-      "infrastructure": 10.0,
-      "social policy": 5.0,
-      "public safety": 5.0,
+      "infrastructure": 15.0,
+      "government operations": 10.0,
+      "social policy": 10.0,
       "healthcare": 5.0,
-      "environment": 5.0,
-      "education": 5.0
+      "environment": 5.0
     }
   },
   {
@@ -5184,7 +5190,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1135/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about death benefits \u2014 burial costs"
       },
       {
@@ -5214,7 +5220,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1621/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about obesity \u2014 prevention \u2014 treatment \u2014 advisory council"
       },
       {
@@ -5244,7 +5250,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1131/",
-        "topic": "education",
+        "topic": "healthcare",
         "plain_english": "A bill about cardiac emergency response plans \u2014 schools"
       },
       {
@@ -5259,7 +5265,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-02-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2960/",
-        "topic": "taxes",
+        "topic": "public safety",
         "plain_english": "A bill about veterans' court fund \u2014 grant program"
       },
       {
@@ -5274,7 +5280,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-04",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2950/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about tourism improvement areas \u2014 municipalities \u2014 counties"
       },
       {
@@ -5304,7 +5310,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-02-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1798/",
-        "topic": "education",
+        "topic": "taxes",
         "plain_english": "A bill about school safety \u2014 identification system \u2014 appropriation"
       },
       {
@@ -5349,7 +5355,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-01-21",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1273/",
-        "topic": "infrastructure",
+        "topic": "taxes",
         "plain_english": "A bill about appropriation \u2014 Olga Frontage Road"
       },
       {
@@ -5364,7 +5370,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1624/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about photo radar enforcement \u2014 civil penalty"
       },
       {
@@ -5379,7 +5385,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1366/",
-        "topic": "government operations",
+        "topic": "infrastructure",
         "plain_english": "A bill about commercial buildings \u2014 telecommunications services"
       },
       {
@@ -5409,7 +5415,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-29",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1502/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about unlawful flight \u2014 reckless endangerment \u2014 violation."
       },
       {
@@ -5454,7 +5460,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SCM1004/",
-        "topic": "government operations",
+        "topic": "environment",
         "plain_english": "A bill about clean air act \u2014 EPA powers"
       },
       {
@@ -5476,13 +5482,13 @@
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 35.0,
-      "public safety": 15.0,
-      "taxes": 15.0,
+      "public safety": 30.0,
+      "taxes": 20.0,
+      "healthcare": 15.0,
       "infrastructure": 15.0,
-      "education": 10.0,
-      "healthcare": 5.0,
-      "environment": 5.0
+      "environment": 10.0,
+      "social policy": 5.0,
+      "economy": 5.0
     }
   },
   {
@@ -5506,7 +5512,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-02-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4026/",
-        "topic": "government operations",
+        "topic": "infrastructure",
         "plain_english": "A bill about public infrastructure improvements \u2014 distribution limit"
       },
       {
@@ -5521,7 +5527,7 @@
         "latest_action_date": "2026-02-25",
         "first_action_date": "2025-12-23",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2091/",
-        "topic": "taxes",
+        "topic": "healthcare",
         "plain_english": "A bill about financial surveillance fund \u2014 insurer examinations"
       },
       {
@@ -5536,7 +5542,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2321/",
-        "topic": "taxes",
+        "topic": "social policy",
         "plain_english": "A bill about DCS \u2014 credit freeze \u2014 consumer reporting"
       },
       {
@@ -5566,7 +5572,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-02-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4020/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about insurance \u2014 fraud unit \u2014 assessment \u2014 increase"
       },
       {
@@ -5596,7 +5602,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2025-12-08",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1010/",
-        "topic": "infrastructure",
+        "topic": "government operations",
         "plain_english": "A bill about Charlie Kirk highway"
       },
       {
@@ -5611,7 +5617,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-02-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4027/",
-        "topic": "infrastructure",
+        "topic": "government operations",
         "plain_english": "A bill about Charlie Kirk highway."
       },
       {
@@ -5626,7 +5632,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2044/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about preferential treatment \u2014 discrimination \u2014 prohibited acts"
       },
       {
@@ -5641,7 +5647,7 @@
         "latest_action_date": "2026-03-09",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2271/",
-        "topic": "public safety",
+        "topic": "healthcare",
         "plain_english": "A bill about insurers covering firefighters \u2014 rate deviation"
       },
       {
@@ -5656,7 +5662,7 @@
         "latest_action_date": "2026-01-28",
         "first_action_date": "2026-01-15",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2345/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about unlawful presence \u2014 commercial vehicle \u2014 forfeiture"
       },
       {
@@ -5686,7 +5692,7 @@
         "latest_action_date": "2026-02-02",
         "first_action_date": "2026-01-21",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2303/",
-        "topic": "education",
+        "topic": "economy",
         "plain_english": "A bill about state treasurer \u2014 conflicts of interest"
       },
       {
@@ -5716,7 +5722,7 @@
         "latest_action_date": "2026-02-26",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2476/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about certified public accountants \u2014 certification \u2014 alternative."
       },
       {
@@ -5761,7 +5767,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-01-15",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2417/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about excessive speed \u2014 speed inhibiting device"
       },
       {
@@ -5776,7 +5782,7 @@
         "latest_action_date": "2026-02-12",
         "first_action_date": "2026-02-11",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2061/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about state officeholders \u2014 dual citizenship \u2014 prohibition"
       },
       {
@@ -5791,17 +5797,20 @@
         "latest_action_date": "2026-03-09",
         "first_action_date": "2025-12-23",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2092/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about ASRS \u2014 eligibility waiver"
       }
     ],
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 55.0,
-      "taxes": 15.0,
-      "education": 15.0,
-      "infrastructure": 10.0,
+      "government operations": 25.0,
+      "social policy": 20.0,
+      "healthcare": 15.0,
+      "economy": 15.0,
+      "education": 10.0,
+      "infrastructure": 5.0,
+      "taxes": 5.0,
       "public safety": 5.0
     }
   },
@@ -5826,7 +5835,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-01-27",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2916/",
-        "topic": "education",
+        "topic": "public safety",
         "plain_english": "A bill about traffic schools \u2014 instructors \u2014 fingerprint clearance"
       },
       {
@@ -5841,7 +5850,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-02-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2960/",
-        "topic": "taxes",
+        "topic": "public safety",
         "plain_english": "A bill about veterans' court fund \u2014 grant program"
       },
       {
@@ -5886,7 +5895,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2665/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about manslaughter \u2014 online advice \u2014 encouragement"
       },
       {
@@ -5901,7 +5910,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2575/",
-        "topic": "education",
+        "topic": "social policy",
         "plain_english": "A bill about antisemitism \u2014 public schools \u2014 prohibition \u2014 penalties"
       },
       {
@@ -5916,7 +5925,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-15",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2270/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about county seal \u2014 authority \u2014 sheriff's posse"
       },
       {
@@ -5961,7 +5970,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-01-15",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2369/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about traffic violation \u2014 judge \u2014 signature \u2014 requirement"
       },
       {
@@ -6006,7 +6015,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2365/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about safe haven \u2014 adoption agencies \u2014 contact"
       },
       {
@@ -6021,7 +6030,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2044/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about preferential treatment \u2014 discrimination \u2014 prohibited acts"
       },
       {
@@ -6036,7 +6045,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2339/",
-        "topic": "environment",
+        "topic": "economy",
         "plain_english": "A bill about solar devices \u2014 sellers \u2014 marketers \u2014 licensure"
       },
       {
@@ -6066,7 +6075,7 @@
         "latest_action_date": "2026-02-04",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2043/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about congressional term limits \u2014 convention"
       },
       {
@@ -6096,7 +6105,7 @@
         "latest_action_date": "2026-01-22",
         "first_action_date": "2026-01-21",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2691/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about officers \u2014 interviews \u2014 representative \u2014 cost"
       },
       {
@@ -6118,12 +6127,13 @@
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 40.0,
-      "environment": 20.0,
-      "taxes": 15.0,
-      "education": 10.0,
+      "public safety": 35.0,
+      "social policy": 20.0,
+      "environment": 15.0,
+      "taxes": 10.0,
       "infrastructure": 10.0,
-      "public safety": 5.0
+      "government operations": 5.0,
+      "economy": 5.0
     }
   },
   {
@@ -6147,7 +6157,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2574/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about traffic penalties \u2014 appeal \u2014 stay"
       },
       {
@@ -6162,7 +6172,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2680/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about worker's compensation \u2014 notice \u2014 fraud \u2014 commission"
       },
       {
@@ -6177,7 +6187,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2673/",
-        "topic": "public safety",
+        "topic": "healthcare",
         "plain_english": "A bill about mental illness \u2014 prisoners \u2014 diagnosis \u2014 treatment."
       },
       {
@@ -6192,7 +6202,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-02",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2941/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about motorcycles \u2014 reckless driving"
       },
       {
@@ -6207,7 +6217,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-10",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4109/",
-        "topic": "education",
+        "topic": "public safety",
         "plain_english": "A bill about safety \u2014 school procedures \u2014 criminal classification"
       },
       {
@@ -6222,7 +6232,7 @@
         "latest_action_date": "2026-02-11",
         "first_action_date": "2026-02-10",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4111/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about immigration \u2014 customs officers \u2014 body cameras"
       },
       {
@@ -6237,7 +6247,7 @@
         "latest_action_date": "2026-01-22",
         "first_action_date": "2026-01-21",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2638/",
-        "topic": "healthcare",
+        "topic": "education",
         "plain_english": "A bill about school mental health professionals \u2014 academy"
       },
       {
@@ -6267,7 +6277,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2708/",
-        "topic": "environment",
+        "topic": "infrastructure",
         "plain_english": "A bill about landlord tenant \u2014 judgment \u2014 fees \u2014 satisfaction"
       },
       {
@@ -6282,7 +6292,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2471/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about Dolores Huerta \u2014 Cesar Chavez \u2014 holidays"
       },
       {
@@ -6297,7 +6307,7 @@
         "latest_action_date": "2026-03-11",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2671/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about chronic felony offenders \u2014 juveniles"
       },
       {
@@ -6327,7 +6337,7 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2462/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about covered contracts \u2014 governmental unit \u2014 payroll"
       },
       {
@@ -6372,7 +6382,7 @@
         "latest_action_date": "2026-02-04",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2043/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about congressional term limits \u2014 convention"
       },
       {
@@ -6402,7 +6412,7 @@
         "latest_action_date": "2026-02-03",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2682/",
-        "topic": "taxes",
+        "topic": "infrastructure",
         "plain_english": "A bill about rental assistance program \u2014 appropriation"
       },
       {
@@ -6432,21 +6442,20 @@
         "latest_action_date": "2026-01-21",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2528/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about fertility treatment \u2014 access"
       }
     ],
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 45.0,
-      "public safety": 15.0,
-      "healthcare": 10.0,
-      "taxes": 10.0,
+      "public safety": 35.0,
+      "social policy": 20.0,
+      "healthcare": 15.0,
+      "infrastructure": 15.0,
       "education": 5.0,
-      "environment": 5.0,
-      "infrastructure": 5.0,
-      "social policy": 5.0
+      "economy": 5.0,
+      "taxes": 5.0
     }
   },
   {
@@ -6470,7 +6479,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1602/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about kinship foster care stipend \u2014 increase"
       },
       {
@@ -6500,7 +6509,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1776/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about traditional healing services \u2014 AHCCCS"
       },
       {
@@ -6560,7 +6569,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SCR1042/",
-        "topic": "education",
+        "topic": "taxes",
         "plain_english": "A bill about expenditure limitation \u2014 school districts \u2014 repeal"
       },
       {
@@ -6575,7 +6584,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SCR1045/",
-        "topic": "environment",
+        "topic": "taxes",
         "plain_english": "A bill about permanent funds \u2014 land trust \u2014 distributions"
       },
       {
@@ -6605,7 +6614,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1782/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about runaways \u2014 alert systems"
       },
       {
@@ -6620,7 +6629,7 @@
         "latest_action_date": "2026-03-09",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1165/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about insurance \u2014 cost sharing \u2014 breast exams"
       },
       {
@@ -6635,7 +6644,7 @@
         "latest_action_date": "2026-02-02",
         "first_action_date": "2026-01-29",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1485/",
-        "topic": "taxes",
+        "topic": "infrastructure",
         "plain_english": "A bill about appropriation \u2014 multipurpose complex \u2014 Tuba City"
       },
       {
@@ -6665,7 +6674,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1705/",
-        "topic": "taxes",
+        "topic": "education",
         "plain_english": "A bill about class size limits \u2014 policies \u2014 appropriations"
       },
       {
@@ -6680,7 +6689,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1342/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about immigration \u2014 government agencies \u2014 prohibited acts"
       },
       {
@@ -6710,7 +6719,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1383/",
-        "topic": "government operations",
+        "topic": "environment",
         "plain_english": "A bill about greenhouse gas programs \u2014 repeal \u2014 prohibition."
       },
       {
@@ -6740,7 +6749,7 @@
         "latest_action_date": "2026-02-04",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1599/",
-        "topic": "government operations",
+        "topic": "education",
         "plain_english": "A bill about textbooks \u2014 adverse representation \u2014 prohibition"
       },
       {
@@ -6762,13 +6771,13 @@
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 35.0,
-      "education": 25.0,
+      "education": 30.0,
+      "social policy": 15.0,
+      "healthcare": 15.0,
       "taxes": 15.0,
+      "public safety": 10.0,
       "environment": 10.0,
-      "healthcare": 5.0,
-      "public safety": 5.0,
-      "social policy": 5.0
+      "infrastructure": 5.0
     }
   },
   {
@@ -6792,7 +6801,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2700/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about technology study committee \u2014 assistive technology"
       },
       {
@@ -6807,7 +6816,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1602/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about kinship foster care stipend \u2014 increase"
       },
       {
@@ -6837,7 +6846,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1776/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about traditional healing services \u2014 AHCCCS"
       },
       {
@@ -6867,7 +6876,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-01-27",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1431/",
-        "topic": "government operations",
+        "topic": "infrastructure",
         "plain_english": "A bill about municipalities \u2014 planned communities \u2014 design \u2014 prohibition"
       },
       {
@@ -6927,7 +6936,7 @@
         "latest_action_date": "2026-02-04",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1605/",
-        "topic": "taxes",
+        "topic": "social policy",
         "plain_english": "A bill about appropriation \u2014 area agencies on aging"
       },
       {
@@ -6942,7 +6951,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1705/",
-        "topic": "taxes",
+        "topic": "education",
         "plain_english": "A bill about class size limits \u2014 policies \u2014 appropriations"
       },
       {
@@ -6957,7 +6966,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1342/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about immigration \u2014 government agencies \u2014 prohibited acts"
       },
       {
@@ -6972,7 +6981,7 @@
         "latest_action_date": "2026-01-27",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1383/",
-        "topic": "government operations",
+        "topic": "environment",
         "plain_english": "A bill about greenhouse gas programs \u2014 repeal \u2014 prohibition."
       },
       {
@@ -6987,7 +6996,7 @@
         "latest_action_date": "2026-02-04",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1599/",
-        "topic": "government operations",
+        "topic": "education",
         "plain_english": "A bill about textbooks \u2014 adverse representation \u2014 prohibition"
       },
       {
@@ -7017,7 +7026,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1708/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about property use \u2014 immigration enforcement \u2014 prohibition"
       },
       {
@@ -7047,7 +7056,7 @@
         "latest_action_date": "2026-01-22",
         "first_action_date": "2026-01-21",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1264/",
-        "topic": "government operations",
+        "topic": "education",
         "plain_english": "A bill about ESA program \u2014 performance review \u2014 termination"
       },
       {
@@ -7062,7 +7071,7 @@
         "latest_action_date": "2026-02-03",
         "first_action_date": "2026-02-02",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1532/",
-        "topic": "government operations",
+        "topic": "education",
         "plain_english": "A bill about continuation \u2014 ASDB"
       },
       {
@@ -7084,12 +7093,14 @@
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 55.0,
-      "taxes": 15.0,
+      "social policy": 30.0,
+      "education": 30.0,
+      "healthcare": 10.0,
       "public safety": 10.0,
-      "education": 10.0,
-      "healthcare": 5.0,
-      "social policy": 5.0
+      "infrastructure": 5.0,
+      "environment": 5.0,
+      "taxes": 5.0,
+      "government operations": 5.0
     }
   },
   {
@@ -7113,7 +7124,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-02-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4026/",
-        "topic": "government operations",
+        "topic": "infrastructure",
         "plain_english": "A bill about public infrastructure improvements \u2014 distribution limit"
       },
       {
@@ -7128,7 +7139,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1135/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about death benefits \u2014 burial costs"
       },
       {
@@ -7143,7 +7154,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1683/",
-        "topic": "environment",
+        "topic": "social policy",
         "plain_english": "A bill about landownership \u2014 foreign adversary \u2014 prohibition"
       },
       {
@@ -7158,7 +7169,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1164/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about ALTCS \u2014 providers \u2014 change of ownership"
       },
       {
@@ -7173,7 +7184,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-02-02",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1531/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about special plate \u2014 distracted driving"
       },
       {
@@ -7188,7 +7199,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-04",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2950/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about tourism improvement areas \u2014 municipalities \u2014 counties"
       },
       {
@@ -7218,7 +7229,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-01-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1088/",
-        "topic": "environment",
+        "topic": "public safety",
         "plain_english": "A bill about appropriation \u2014 Arizona homeland security \u2014 cybersecurity"
       },
       {
@@ -7233,7 +7244,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1204/",
-        "topic": "taxes",
+        "topic": "infrastructure",
         "plain_english": "A bill about appropriation \u2014 U.S. 60 \u2014 SR 303"
       },
       {
@@ -7278,7 +7289,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-29",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1479/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about deeds \u2014 identification \u2014 forgery \u2014 notice \u2014 notaries"
       },
       {
@@ -7293,7 +7304,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SCM1004/",
-        "topic": "government operations",
+        "topic": "environment",
         "plain_english": "A bill about clean air act \u2014 EPA powers"
       },
       {
@@ -7308,7 +7319,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2044/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about preferential treatment \u2014 discrimination \u2014 prohibited acts"
       },
       {
@@ -7323,7 +7334,7 @@
         "latest_action_date": "2026-02-05",
         "first_action_date": "2026-02-04",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2952/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about deeds \u2014 identification \u2014 forgery \u2014 notice \u2014 notaries."
       },
       {
@@ -7338,7 +7349,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2411/",
-        "topic": "healthcare",
+        "topic": "social policy",
         "plain_english": "A bill about coerced abortion \u2014 abortion-inducing drugs"
       },
       {
@@ -7353,7 +7364,7 @@
         "latest_action_date": "2026-03-09",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1165/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about insurance \u2014 cost sharing \u2014 breast exams"
       },
       {
@@ -7368,7 +7379,7 @@
         "latest_action_date": "2026-03-02",
         "first_action_date": "2026-01-15",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2413/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about sex offenders \u2014 electronic monitoring"
       },
       {
@@ -7398,19 +7409,20 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-01-29",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1511/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about commercial vehicles \u2014 operator \u2014 lawful presence"
       }
     ],
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 65.0,
-      "environment": 15.0,
-      "infrastructure": 5.0,
-      "taxes": 5.0,
-      "economy": 5.0,
-      "healthcare": 5.0
+      "social policy": 25.0,
+      "public safety": 25.0,
+      "infrastructure": 15.0,
+      "healthcare": 10.0,
+      "economy": 10.0,
+      "environment": 10.0,
+      "government operations": 5.0
     }
   },
   {
@@ -7464,7 +7476,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-01-07",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2145/",
-        "topic": "government operations",
+        "topic": "environment",
         "plain_english": "A bill about petition \u2014 waiver \u2014 fuel formulations"
       },
       {
@@ -7479,7 +7491,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCM2009/",
-        "topic": "government operations",
+        "topic": "environment",
         "plain_english": "A bill about subsurface minerals \u2014 access \u2014 federal policy"
       },
       {
@@ -7509,7 +7521,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2763/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about shooting range \u2014 closure \u2014 conditions"
       },
       {
@@ -7524,7 +7536,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-02-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2960/",
-        "topic": "taxes",
+        "topic": "public safety",
         "plain_english": "A bill about veterans' court fund \u2014 grant program"
       },
       {
@@ -7569,7 +7581,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-01-21",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1273/",
-        "topic": "infrastructure",
+        "topic": "taxes",
         "plain_english": "A bill about appropriation \u2014 Olga Frontage Road"
       },
       {
@@ -7584,7 +7596,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2665/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about manslaughter \u2014 online advice \u2014 encouragement"
       },
       {
@@ -7599,7 +7611,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2025-12-12",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2056/",
-        "topic": "environment",
+        "topic": "taxes",
         "plain_english": "A bill about appropriation \u2014 brackish groundwater \u2014 feasibility study"
       },
       {
@@ -7614,7 +7626,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2025-12-12",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2057/",
-        "topic": "government operations",
+        "topic": "taxes",
         "plain_english": "A bill about special plate \u2014 centennial \u2014 fleet discount"
       },
       {
@@ -7674,7 +7686,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2025-12-30",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2117/",
-        "topic": "environment",
+        "topic": "taxes",
         "plain_english": "A bill about natural resource conservation board \u2014 fund"
       },
       {
@@ -7689,7 +7701,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2025-12-02",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2031/",
-        "topic": "government operations",
+        "topic": "environment",
         "plain_english": "A bill about grandfathered right \u2014 Willcox AMA \u2014 extension"
       },
       {
@@ -7726,10 +7738,10 @@
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "environment": 45.0,
-      "government operations": 35.0,
-      "taxes": 15.0,
-      "infrastructure": 5.0
+      "environment": 50.0,
+      "taxes": 30.0,
+      "public safety": 15.0,
+      "government operations": 5.0
     }
   },
   {
@@ -7753,7 +7765,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-27",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1346/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about AHCCCS \u2014 fee-for-service \u2014 claims"
       },
       {
@@ -7768,7 +7780,7 @@
         "latest_action_date": "2026-03-09",
         "first_action_date": "2026-01-15",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2398/",
-        "topic": "environment",
+        "topic": "public safety",
         "plain_english": "A bill about watercraft \u2014 insurance requirements \u2014 penalties"
       },
       {
@@ -7783,7 +7795,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1628/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about claims denial \u2014 prior authorization \u2014 reporting"
       },
       {
@@ -7813,7 +7825,7 @@
         "latest_action_date": "2026-03-09",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1174/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about DCS \u2014 intake hotline: case history"
       },
       {
@@ -7828,7 +7840,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1171/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about AHCCCS \u2014 dual enrollment \u2014 notice"
       },
       {
@@ -7843,7 +7855,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1631/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about DCS \u2014 sexual abuse allegations \u2014 interviews"
       },
       {
@@ -7963,7 +7975,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1630/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about home \u2014 community-based services \u2014 mental illness"
       },
       {
@@ -7978,7 +7990,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1602/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about kinship foster care stipend \u2014 increase"
       },
       {
@@ -8008,7 +8020,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1164/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about ALTCS \u2014 providers \u2014 change of ownership"
       },
       {
@@ -8023,7 +8035,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1814/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about substance use disorder treatment \u2014 committee"
       },
       {
@@ -8038,17 +8050,17 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1175/",
-        "topic": "social policy",
+        "topic": "public safety",
         "plain_english": "A bill about DCS caseworkers \u2014 investigations \u2014 child photographs"
       }
     ],
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 70.0,
-      "healthcare": 20.0,
-      "environment": 5.0,
-      "social policy": 5.0
+      "healthcare": 50.0,
+      "government operations": 25.0,
+      "public safety": 15.0,
+      "social policy": 10.0
     }
   },
   {
@@ -8072,7 +8084,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-01-21",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1254/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about real property conveyances \u2014 formal requirements"
       },
       {
@@ -8117,7 +8129,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-01-29",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SCR1022/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about legislature \u2014 ninety house districts"
       },
       {
@@ -8162,7 +8174,7 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1724/",
-        "topic": "government operations",
+        "topic": "taxes",
         "plain_english": "A bill about property valuation \u2014 splits \u2014 subdivisions \u2014 consolidations"
       },
       {
@@ -8222,7 +8234,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-01-29",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SCR1027/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about general election day \u2014 all offices"
       },
       {
@@ -8282,7 +8294,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1252/",
-        "topic": "taxes",
+        "topic": "economy",
         "plain_english": "A bill about uniform assignment \u2014 benefit of creditors"
       },
       {
@@ -8312,7 +8324,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1292/",
-        "topic": "government operations",
+        "topic": "taxes",
         "plain_english": "A bill about PSPRS \u2014 investments"
       },
       {
@@ -8327,7 +8339,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1181/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about certified public accountants \u2014 certification \u2014 alternative"
       },
       {
@@ -8357,18 +8369,19 @@
         "latest_action_date": "2026-02-09",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1722/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about homeowners' associations \u2014 meetings \u2014 quorum"
       }
     ],
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 55.0,
-      "taxes": 30.0,
+      "taxes": 35.0,
+      "economy": 20.0,
+      "government operations": 20.0,
+      "social policy": 15.0,
       "education": 5.0,
-      "healthcare": 5.0,
-      "economy": 5.0
+      "healthcare": 5.0
     }
   },
   {
@@ -8392,7 +8405,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-27",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1432/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about central bank digital currency \u2014 ban"
       },
       {
@@ -8407,7 +8420,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1687/",
-        "topic": "government operations",
+        "topic": "education",
         "plain_english": "A bill about ESAs \u2014 returned monies \u2014 administrative costs"
       },
       {
@@ -8422,7 +8435,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1568/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about early ballots \u2014 registration signatures \u2014 curing"
       },
       {
@@ -8437,7 +8450,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2025-11-15",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2001/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about citizenship \u2014 identification \u2014 contributions \u2014 early voting"
       },
       {
@@ -8512,7 +8525,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-01-29",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SCR1031/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about legislative districts \u2014 population \u2014 census \u2014 citizenship"
       },
       {
@@ -8542,7 +8555,7 @@
         "latest_action_date": "2026-03-09",
         "first_action_date": "2026-02-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1688/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about membership associations \u2014 fees \u2014 disclosures"
       },
       {
@@ -8572,7 +8585,7 @@
         "latest_action_date": "2026-03-06",
         "first_action_date": "2026-01-28",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1439/",
-        "topic": "government operations",
+        "topic": "environment",
         "plain_english": "A bill about municipalities \u2014 counties \u2014 recycling \u2014 prohibition"
       },
       {
@@ -8617,7 +8630,7 @@
         "latest_action_date": "2026-03-03",
         "first_action_date": "2026-01-27",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SCR1033/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about state retirement systems \u2014 digital assets"
       },
       {
@@ -8632,7 +8645,7 @@
         "latest_action_date": "",
         "first_action_date": "",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SCR1030/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about citizenship \u2014 identification \u2014 contributions \u2014 early voting.."
       },
       {
@@ -8647,7 +8660,7 @@
         "latest_action_date": "2026-03-17",
         "first_action_date": "2026-02-05",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1746/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about elections \u2014 voting centers \u2014 polling places"
       },
       {
@@ -8677,17 +8690,20 @@
         "latest_action_date": "2026-03-03",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1569/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about special election boards \u2014 voter registration"
       }
     ],
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 70.0,
-      "education": 20.0,
+      "social policy": 30.0,
+      "education": 25.0,
+      "economy": 15.0,
+      "government operations": 15.0,
       "infrastructure": 5.0,
-      "taxes": 5.0
+      "taxes": 5.0,
+      "environment": 5.0
     }
   },
   {
@@ -8711,7 +8727,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCM2009/",
-        "topic": "government operations",
+        "topic": "environment",
         "plain_english": "A bill about subsurface minerals \u2014 access \u2014 federal policy"
       },
       {
@@ -8726,7 +8742,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2665/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about manslaughter \u2014 online advice \u2014 encouragement"
       },
       {
@@ -8741,7 +8757,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2811/",
-        "topic": "government operations",
+        "topic": "public safety",
         "plain_english": "A bill about obstructing governmental operations \u2014 lawful arrest"
       },
       {
@@ -8831,7 +8847,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2044/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about preferential treatment \u2014 discrimination \u2014 prohibited acts"
       },
       {
@@ -8861,7 +8877,7 @@
         "latest_action_date": "2026-03-04",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2020/",
-        "topic": "environment",
+        "topic": "infrastructure",
         "plain_english": "A bill about for-sale housing \u2014 development \u2014 groundwater replenishment"
       },
       {
@@ -8876,7 +8892,7 @@
         "latest_action_date": "2026-01-28",
         "first_action_date": "2026-01-27",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2920/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about software applications \u2014 minors \u2014 requirements"
       },
       {
@@ -8891,7 +8907,7 @@
         "latest_action_date": "2026-02-12",
         "first_action_date": "2026-02-11",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HCR2061/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about state officeholders \u2014 dual citizenship \u2014 prohibition"
       },
       {
@@ -8951,7 +8967,7 @@
         "latest_action_date": "2026-01-26",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2424/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about precinct committeemen \u2014 proxy voting"
       },
       {
@@ -8981,7 +8997,7 @@
         "latest_action_date": "2026-01-26",
         "first_action_date": "2026-01-22",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2493/",
-        "topic": "government operations",
+        "topic": "environment",
         "plain_english": "A bill about small modular reactors \u2014 manufacturing \u2014 zoning"
       },
       {
@@ -9003,11 +9019,12 @@
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 45.0,
-      "environment": 20.0,
-      "infrastructure": 15.0,
+      "environment": 25.0,
+      "infrastructure": 20.0,
+      "social policy": 20.0,
+      "public safety": 15.0,
       "taxes": 10.0,
-      "public safety": 5.0,
+      "government operations": 5.0,
       "education": 5.0
     }
   },
@@ -9032,7 +9049,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-01-26",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1290/",
-        "topic": "government operations",
+        "topic": "economy",
         "plain_english": "A bill about agricultural property \u2014 inspections \u2014 notice."
       },
       {
@@ -9047,7 +9064,7 @@
         "latest_action_date": "2026-03-16",
         "first_action_date": "2026-01-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1135/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about death benefits \u2014 burial costs"
       },
       {
@@ -9062,7 +9079,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2025-12-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1016/",
-        "topic": "healthcare",
+        "topic": "social policy",
         "plain_english": "A bill about employers \u2014 medical products \u2014 religious exemption"
       },
       {
@@ -9107,7 +9124,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1214/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about stem cells \u2014 birth tissue \u2014 therapy"
       },
       {
@@ -9122,7 +9139,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2025-12-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1018/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about foreign law \u2014 sharia law \u2014 prohibition"
       },
       {
@@ -9152,7 +9169,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-02-03",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1602/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about kinship foster care stipend \u2014 increase"
       },
       {
@@ -9182,7 +9199,7 @@
         "latest_action_date": "2026-03-10",
         "first_action_date": "2026-01-28",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1399/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about prepaid capitated contractors \u2014 cost reports"
       },
       {
@@ -9227,7 +9244,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1204/",
-        "topic": "taxes",
+        "topic": "infrastructure",
         "plain_english": "A bill about appropriation \u2014 U.S. 60 \u2014 SR 303"
       },
       {
@@ -9257,7 +9274,7 @@
         "latest_action_date": "2026-03-19",
         "first_action_date": "2026-02-02",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1544/",
-        "topic": "taxes",
+        "topic": "public safety",
         "plain_english": "A bill about probation records \u2014 disclosure \u2014 exemptions"
       },
       {
@@ -9287,7 +9304,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-28",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1398/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about AHCCCS \u2014 redeterminations \u2014 eligibility verification \u2014 report"
       },
       {
@@ -9302,7 +9319,7 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2025-12-09",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1014/",
-        "topic": "government operations",
+        "topic": "healthcare",
         "plain_english": "A bill about insurance \u2014 gender surgeries \u2014 documentation \u2014 reports"
       },
       {
@@ -9317,19 +9334,20 @@
         "latest_action_date": "2026-03-18",
         "first_action_date": "2026-01-20",
         "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1194/",
-        "topic": "government operations",
+        "topic": "social policy",
         "plain_english": "A bill about vaccination status \u2014 denial \u2014 prohibition"
       }
     ],
     "statements": [],
     "say_vs_do_score": null,
     "topic_breakdown": {
-      "government operations": 50.0,
-      "healthcare": 25.0,
-      "taxes": 10.0,
-      "infrastructure": 5.0,
-      "environment": 5.0,
-      "public safety": 5.0
+      "healthcare": 40.0,
+      "social policy": 25.0,
+      "infrastructure": 10.0,
+      "public safety": 10.0,
+      "economy": 5.0,
+      "government operations": 5.0,
+      "environment": 5.0
     }
   }
 ]
