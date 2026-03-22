@@ -85,9 +85,13 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000)
 
-## Publically accesible
+## Publically accessible
 
 Open https://ratemyrep.vercel.app?_vercel_share=iXoVbb4AJJMgaNiRoH8Grwsh04nMBffS
+
+## Demo
+
+https://youtu.be/wbeIfkjE7cc
 
 ## Team
 
