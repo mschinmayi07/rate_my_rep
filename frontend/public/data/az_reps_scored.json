@@ -108,27 +108,6 @@
     "has_data": true
   },
   {
-    "id": "ocd-person/45ff1caf-0d6b-4915-9e34-5f4694907a07",
-    "name": "Adrian Fontes",
-    "party": "Democratic",
-    "district": "",
-    "chamber": "executive",
-    "image": "https://azsos.gov/sites/default/files/Katie-4.jpg",
-    "email": "sosadmin@azsos.gov",
-    "say_topics": [],
-    "do_topics_primary": [],
-    "do_topics_cosponsor_only": [],
-    "topic_matches": [],
-    "score": null,
-    "score_breakdown": {},
-    "total_bills": 0,
-    "primary_bills": 0,
-    "cosponsor_bills": 0,
-    "bills_by_topic": {},
-    "statements": [],
-    "has_data": false
-  },
-  {
     "id": "ocd-person/102ffcb1-3028-401f-b74f-6f45db25e05e",
     "name": "Alexander Kolodin",
     "party": "Republican",
