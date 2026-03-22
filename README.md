@@ -2,7 +2,7 @@
 
 **Do your reps walk the talk?** A transparency tool that compares what Arizona legislators *say* they'll do versus what they *actually* legislate.
 
-Built at HackASU 2026.
+Built at ASU Claude Builder Club Hackathon 2026.
 
 ## How It Works
 
