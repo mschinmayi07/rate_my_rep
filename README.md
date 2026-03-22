@@ -63,8 +63,8 @@ ratemyrep/
 │   ├── fetch_reps.py               Fetch AZ legislators from OpenStates
 │   ├── fetch_bills.py              Fetch bills per rep
 │   ├── tag_smart.py                Tag bills with topics via Gemini
-│   ├── scrape_statements.py        Scrape Ballotpedia statements
-│   ├── fix_statements.py           Merge voter guide PDF statements
+│   ├── scrape_statements.py        Scrape public statements for each AZ representative from Ballotpedia using the TinyFish web agent API
+│   ├── fix_statements.py           Clean raw TinyFish API output into properly formatted statement arrays
 │   ├── compute_say_vs_do.py        Compute Say vs Do scores
 │   └── generate_summaries.py       Generate plain English summaries
 └── frontend/        Next.js web app
