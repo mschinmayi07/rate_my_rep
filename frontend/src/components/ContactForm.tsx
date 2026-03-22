@@ -10,10 +10,9 @@ interface ContactFormProps {
   repEmail: string;
   district: string;
   bills: Bill[];
-  sayVsDoScore?: number | null;
 }
 
-export default function ContactForm({ repName, repEmail, district, bills, sayVsDoScore }: ContactFormProps) {
+export default function ContactForm({ repName, repEmail, district, bills }: ContactFormProps) {
   const [issue, setIssue] = useState("");
   const [copied, setCopied] = useState(false);
 

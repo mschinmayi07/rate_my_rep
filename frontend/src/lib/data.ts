@@ -8,8 +8,37 @@ export interface Bill {
   latest_action_date: string;
   first_action_date: string;
   url: string;
+  sponsor_type: string;
   topic: string;
   plain_english: string;
+  topic_source?: string;
+}
+
+export interface TopicMatch {
+  topic: string;
+  weight: number;
+  type: "primary" | "cosponsor_only" | "no_bills";
+}
+
+export interface ScoredRep {
+  id: string;
+  name: string;
+  party: string;
+  district: string;
+  chamber: string;
+  image: string;
+  email: string;
+  say_topics: string[];
+  do_topics_primary: string[];
+  do_topics_cosponsor_only: string[];
+  topic_matches: TopicMatch[];
+  score: number | null;
+  total_bills: number;
+  primary_bills: number;
+  cosponsor_bills: number;
+  bills_by_topic: Record<string, { primary: number; cosponsor: number }>;
+  statements: string[];
+  has_data: boolean;
 }
 
 export interface Rep {
@@ -21,47 +50,6 @@ export interface Rep {
   image: string;
   email: string;
   bills: Bill[];
-}
-
-export interface NotableBill {
-  identifier: string;
-  title: string;
-  why_notable: string;
-}
-
-export interface ScoreBreakdownItem {
-  value: number;
-  weight: number;
-}
-
-export interface ScoreBreakdown {
-  bill_progress: ScoreBreakdownItem;
-  substantive_ratio: ScoreBreakdownItem;
-  topic_diversity: ScoreBreakdownItem;
-  bill_volume: ScoreBreakdownItem;
-}
-
-export interface RepScores {
-  activity_score: number | null;
-  bill_progress_rate: number | null;
-  topic_focus: string;
-  notable_bills: NotableBill[];
-  legislative_style: string;
-  summary: string;
-  bipartisan_potential: number | null;
-  key_issues: string[];
-  impact_rating: string;
-  constituent_relevance: string;
-  strengths: string;
-  gaps: string;
-  score_breakdown?: ScoreBreakdown;
-  formula_breakdown?: string;
-}
-
-export interface ScoredRep {
-  id: string;
-  name: string;
-  scores: RepScores;
 }
 
 export interface ZipToReps {
@@ -76,7 +64,6 @@ export async function getAllReps(): Promise<Rep[]> {
   if (repsCache) return repsCache;
   const res = await fetch("/data/az_reps_final.json");
   const all: Rep[] = await res.json();
-  // Filter out executive officials (e.g. Secretary of State) who don't sponsor bills
   repsCache = all.filter((r) => r.chamber !== "executive" && r.bills.length > 0);
   return repsCache;
 }
@@ -100,10 +87,9 @@ export async function getScores(): Promise<ScoredRep[]> {
   }
 }
 
-export async function getScoreForRep(repId: string): Promise<RepScores | null> {
+export async function getScoreForRep(repId: string): Promise<ScoredRep | null> {
   const scores = await getScores();
-  const found = scores.find((s) => s.id === repId);
-  return found?.scores || null;
+  return scores.find((s) => s.id === repId) || null;
 }
 
 export async function getRepsByZip(zip: string): Promise<Rep[]> {
@@ -117,15 +103,10 @@ export async function getRepById(id: string): Promise<Rep | undefined> {
   return reps.find((r) => r.id === id);
 }
 
-export async function getRepByName(name: string): Promise<Rep | undefined> {
-  const reps = await getAllReps();
-  return reps.find((r) => r.name === name);
-}
-
 export function getTopicBreakdown(bills: Bill[]): { topic: string; count: number; pct: number }[] {
   const counts: Record<string, number> = {};
   bills.forEach((b) => {
-    counts[b.topic] = (counts[b.topic] || 0) + 1;
+    if (b.topic) counts[b.topic] = (counts[b.topic] || 0) + 1;
   });
   const total = bills.length || 1;
   return Object.entries(counts)
@@ -133,22 +114,10 @@ export function getTopicBreakdown(bills: Bill[]): { topic: string; count: number
     .sort((a, b) => b.count - a.count);
 }
 
-export function getBillProgressRate(bills: Bill[]): number {
-  const advanced = bills.filter((b) => {
-    const action = b.latest_action.toLowerCase();
-    return (
-      action.includes("senate") ||
-      action.includes("house") ||
-      action.includes("governor") ||
-      action.includes("signed") ||
-      action.includes("passed") ||
-      action.includes("third reading") ||
-      action.includes("second reading") ||
-      action.includes("transmit") ||
-      action.includes("dpa")
-    );
-  });
-  return bills.length > 0 ? Math.round((advanced.length / bills.length) * 100) : 0;
+export function formatTopic(topic: string): string {
+  return topic
+    .replace(/_/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
 export function slugify(name: string): string {
@@ -165,24 +134,35 @@ export function getChamberLabel(chamber: string): string {
   return chamber === "lower" ? "House" : "Senate";
 }
 
+export function getScoreColor(score: number): string {
+  if (score >= 70) return "#22c55e";
+  if (score >= 40) return "#f59e0b";
+  return "#ef4444";
+}
+
+export function getScoreLabel(score: number): string {
+  if (score >= 80) return "Strong Follow-Through";
+  if (score >= 60) return "Mostly Aligned";
+  if (score >= 40) return "Mixed Record";
+  if (score >= 20) return "Weak Alignment";
+  return "All Talk";
+}
+
 export const TOPIC_COLORS: Record<string, string> = {
   education: "#8b5cf6",
   healthcare: "#ec4899",
-  "public safety": "#f59e0b",
-  taxes: "#22c55e",
-  environment: "#06b6d4",
-  "government operations": "#6366f1",
+  public_safety: "#f59e0b",
+  budget_and_finance: "#22c55e",
+  civil_rights_and_elections: "#a855f7",
   economy: "#f97316",
-  "civil rights": "#a855f7",
-  transportation: "#14b8a6",
-  housing: "#eab308",
-  technology: "#0ea5e9",
-  immigration: "#d946ef",
-  agriculture: "#84cc16",
-  water: "#38bdf8",
-  elections: "#fb923c",
+  environment_and_water: "#06b6d4",
+  government_operations: "#6366f1",
+  immigration_and_borders: "#d946ef",
+  infrastructure: "#14b8a6",
+  local_government: "#eab308",
+  social_services: "#fb923c",
 };
 
 export function getTopicColor(topic: string): string {
-  return TOPIC_COLORS[topic.toLowerCase()] || "#64748b";
+  return TOPIC_COLORS[topic] || "#64748b";
 }

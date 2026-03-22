@@ -10,6 +10,7 @@ import {
   ResponsiveContainer,
   Tooltip,
 } from "recharts";
+import { formatTopic } from "@/lib/data";
 
 interface TopicRadarProps {
   data: { topic: string; count: number; pct: number }[];
@@ -19,7 +20,7 @@ interface TopicRadarProps {
 export default function TopicRadar({ data, partyColor }: TopicRadarProps) {
   // Take top 8 topics for readability
   const chartData = data.slice(0, 8).map((d) => ({
-    subject: d.topic.charAt(0).toUpperCase() + d.topic.slice(1),
+    subject: formatTopic(d.topic),
     value: d.pct,
     fullMark: 100,
   }));

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Rep, RepScores, getPartyColor, getChamberLabel, getBillProgressRate, getScoreForRep } from "@/lib/data";
+import { Rep, ScoredRep, getPartyColor, getChamberLabel, getScoreColor, getScoreForRep } from "@/lib/data";
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 
@@ -11,34 +11,27 @@ interface RepCardProps {
   index: number;
 }
 
-function getScoreColor(score: number): string {
-  if (score >= 70) return "#22c55e";
-  if (score >= 40) return "#f59e0b";
-  return "#ef4444";
-}
-
 export default function RepCard({ rep, index }: RepCardProps) {
-  const [scores, setScores] = useState<RepScores | null>(null);
+  const [scored, setScored] = useState<ScoredRep | null>(null);
   const partyColor = getPartyColor(rep.party);
   const partyShort = rep.party.toLowerCase().includes("democrat") ? "D" : "R";
-  const progress = getBillProgressRate(rep.bills);
 
   useEffect(() => {
-    getScoreForRep(rep.id).then(setScores);
+    getScoreForRep(rep.id).then(setScored);
   }, [rep.id]);
 
-  const score = scores?.activity_score;
+  const score = scored?.score;
 
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4, delay: index * 0.1 }}
+      transition={{ duration: 0.4, delay: index * 0.05 }}
     >
       <Link href={`/rep/${encodeURIComponent(rep.id)}`}>
         <div className="glass-card rounded-xl p-5 hover:border-slate-600 transition-all duration-300 hover:scale-[1.02] cursor-pointer group">
           <div className="flex items-start gap-4">
-            {/* Photo */}
+            {/* Photo with score ring */}
             <div className="relative flex-shrink-0">
               <div
                 className="w-16 h-16 rounded-full overflow-hidden border-2"
@@ -60,7 +53,15 @@ export default function RepCard({ rep, index }: RepCardProps) {
                   </div>
                 )}
               </div>
-              {/* Score badge - will show Say vs Do score once statements arrive */}
+              {/* Score badge */}
+              {score != null && (
+                <div
+                  className="absolute -bottom-1 -right-1 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold text-white border-2 border-slate-800"
+                  style={{ backgroundColor: getScoreColor(score) }}
+                >
+                  {score}
+                </div>
+              )}
             </div>
 
             {/* Info */}
@@ -81,22 +82,21 @@ export default function RepCard({ rep, index }: RepCardProps) {
               </p>
               <div className="flex items-center gap-3 mt-2">
                 <div className="text-xs text-slate-500">
-                  <span className="text-slate-300 font-medium">{rep.bills.length}</span> bills
+                  <span className="text-slate-300 font-medium">{scored?.total_bills ?? rep.bills.length}</span> bills
                 </div>
                 <div className="text-xs text-slate-500">
-                  <span className="text-slate-300 font-medium">{progress}%</span> advanced
+                  <span className="text-slate-300 font-medium">{scored?.primary_bills ?? 0}</span> primary
                 </div>
-                {scores?.impact_rating && (
-                  <div className="text-xs text-slate-500">
-                    <span className={`font-medium ${scores.impact_rating === "High Impact" ? "text-green-400" : scores.impact_rating === "Moderate Impact" ? "text-amber-400" : "text-slate-400"}`}>
-                      {scores.impact_rating}
+                {score != null && (
+                  <div className="text-xs">
+                    <span className="font-medium" style={{ color: getScoreColor(score) }}>
+                      Say vs Do: {score}%
                     </span>
                   </div>
                 )}
               </div>
             </div>
 
-            {/* Arrow */}
             <ChevronRight className="w-5 h-5 text-slate-600 group-hover:text-blue-400 transition-colors flex-shrink-0 mt-2" />
           </div>
         </div>
