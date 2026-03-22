@@ -4,6 +4,8 @@
 
 Built at ASU Claude Builder Club Hackathon 2026.
 
+![RateMyRep Landing Page](frontend/public/screenshots/landing.png)
+
 ## How It Works
 
 1. **Enter your zip code** → see your Arizona representatives
