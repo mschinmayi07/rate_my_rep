@@ -24,8 +24,8 @@ Score = (sum of topic weights) / (number of stated topics) × 100
 **Weight per topic:**
 | Match Type | Weight | Meaning |
 |---|---|---|
-| Primary bill on topic | 1.0 | They authored legislation — full follow-through |
-| Co-sponsor only | 0.3 | They signed onto someone else's bill — partial credit |
+| Primary bill on topic | 1.0 | They authored legislation —> full follow-through |
+| Co-sponsor only | 0.3 | They signed onto someone else's bill —> partial credit |
 | No bills | 0.0 | They promised but didn't act |
 
 **Example:** A rep states 4 priorities. They have primary bills on 2, co-sponsor only on 1, and nothing on 1.
