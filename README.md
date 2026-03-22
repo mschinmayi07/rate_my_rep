@@ -39,7 +39,7 @@ Score = (sum of topic weights) / (number of stated topics) × 100
 |---|---|---|
 | [OpenStates API](https://openstates.org/) | Bills, sponsors, actions | `scripts/fetch_reps.py`, `scripts/fetch_bills.py` |
 | [Ballotpedia](https://ballotpedia.org/) | Campaign statements | `scripts/scrape_statements.py` |
-| [AZ Clean Elections Voter Guide](https://www.azcleanelections.gov/voter-education-guide) | Official candidate statements |  Parsed via Claude PDF extraction and merged using Claude |
+| [AZ Clean Elections Voter Guide](https://www.azcleanelections.gov/voter-education-guide) | Official candidate statements | ` Parsed via Claude PDF extraction and merged using Claude ` |
 | [Google Gemini 2.5 Flash](https://ai.google.dev/) | Topic tagging, summaries | `scripts/tag_smart.py`, `scripts/generate_summaries.py` |
 
 ## Tech Stack
