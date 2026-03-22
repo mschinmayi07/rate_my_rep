@@ -85,6 +85,10 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000)
 
+## Publically accesible
+
+Open https://ratemyrep.vercel.app?_vercel_share=iXoVbb4AJJMgaNiRoH8Grwsh04nMBffS
+
 ## Team
 
 Built at HackASU 2026 — Arizona State University
