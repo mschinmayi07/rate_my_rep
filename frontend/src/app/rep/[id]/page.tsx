@@ -143,6 +143,18 @@ export default function RepPage() {
                 </span>
               </div>
 
+              {/* Plain English Summary */}
+              {scored?.plain_english_summary && (
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.3 }}
+                  className="mt-4 p-3 bg-slate-800/50 rounded-lg border border-slate-700/50"
+                >
+                  <p className="text-sm text-slate-300 leading-relaxed">{scored.plain_english_summary}</p>
+                </motion.div>
+              )}
+
               {/* Quick stats */}
               <div className="flex flex-wrap gap-4 mt-4">
                 <div className="glass-card rounded-lg px-4 py-2">

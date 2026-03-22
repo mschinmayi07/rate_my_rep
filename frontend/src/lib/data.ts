@@ -39,6 +39,7 @@ export interface ScoredRep {
   bills_by_topic: Record<string, { primary: number; cosponsor: number }>;
   statements: string[];
   has_data: boolean;
+  plain_english_summary?: string;
 }
 
 export interface Rep {
